@@ -1,0 +1,1357 @@
+{
+  "hello": {
+    "word": "hallo",
+    "pronunciation": "HAH-loh",
+    "native": "hallo"
+  },
+  "goodbye": {
+    "word": "auf Wiedersehen",
+    "pronunciation": "owf VEE-der-zay-en",
+    "native": "auf Wiedersehen"
+  },
+  "please": {
+    "word": "bitte",
+    "pronunciation": "BIT-teh",
+    "native": "bitte"
+  },
+  "thank you": {
+    "word": "danke",
+    "pronunciation": "DAHN-keh",
+    "native": "danke"
+  },
+  "excuse me": {
+    "word": "entschuldigung",
+    "pronunciation": "ent-SHOOL-dee-goong",
+    "native": "Entschuldigung"
+  },
+  "sorry": {
+    "word": "es tut mir leid",
+    "pronunciation": "es toot meer LYDE",
+    "native": "es tut mir leid"
+  },
+  "good morning": {
+    "word": "guten Morgen",
+    "pronunciation": "GOO-ten MOR-gen",
+    "native": "guten Morgen"
+  },
+  "good evening": {
+    "word": "guten Abend",
+    "pronunciation": "GOO-ten AH-bent",
+    "native": "guten Abend"
+  },
+  "good night": {
+    "word": "gute Nacht",
+    "pronunciation": "GOO-teh NAHKHT",
+    "native": "gute Nacht"
+  },
+  "how are you": {
+    "word": "wie geht es Ihnen",
+    "pronunciation": "vee GAYT es EE-nen",
+    "native": "wie geht es Ihnen"
+  },
+  "welcome": {
+    "word": "willkommen",
+    "pronunciation": "vill-KOM-men",
+    "native": "willkommen"
+  },
+  "yes": {
+    "word": "ja",
+    "pronunciation": "YAH",
+    "native": "ja"
+  },
+  "no": {
+    "word": "nein",
+    "pronunciation": "NINE",
+    "native": "nein"
+  },
+  "one": {
+    "word": "eins",
+    "pronunciation": "EYENTS",
+    "native": "eins"
+  },
+  "two": {
+    "word": "zwei",
+    "pronunciation": "TSVYE",
+    "native": "zwei"
+  },
+  "three": {
+    "word": "drei",
+    "pronunciation": "DRY",
+    "native": "drei"
+  },
+  "four": {
+    "word": "vier",
+    "pronunciation": "FEER",
+    "native": "vier"
+  },
+  "five": {
+    "word": "fünf",
+    "pronunciation": "FUUNF",
+    "native": "fünf"
+  },
+  "six": {
+    "word": "sechs",
+    "pronunciation": "ZEKS",
+    "native": "sechs"
+  },
+  "seven": {
+    "word": "sieben",
+    "pronunciation": "ZEE-ben",
+    "native": "sieben"
+  },
+  "eight": {
+    "word": "acht",
+    "pronunciation": "AHKHT",
+    "native": "acht"
+  },
+  "nine": {
+    "word": "neun",
+    "pronunciation": "NOYN",
+    "native": "neun"
+  },
+  "ten": {
+    "word": "zehn",
+    "pronunciation": "TSAYN",
+    "native": "zehn"
+  },
+  "eleven": {
+    "word": "elf",
+    "pronunciation": "ELF",
+    "native": "elf"
+  },
+  "twelve": {
+    "word": "zwölf",
+    "pronunciation": "TSVUULF",
+    "native": "zwölf"
+  },
+  "thirteen": {
+    "word": "dreizehn",
+    "pronunciation": "DRY-tsayn",
+    "native": "dreizehn"
+  },
+  "fourteen": {
+    "word": "vierzehn",
+    "pronunciation": "FEER-tsayn",
+    "native": "vierzehn"
+  },
+  "fifteen": {
+    "word": "fünfzehn",
+    "pronunciation": "FUUNF-tsayn",
+    "native": "fünfzehn"
+  },
+  "sixteen": {
+    "word": "sechzehn",
+    "pronunciation": "ZEKH-tsayn",
+    "native": "sechzehn"
+  },
+  "seventeen": {
+    "word": "siebzehn",
+    "pronunciation": "ZEEP-tsayn",
+    "native": "siebzehn"
+  },
+  "eighteen": {
+    "word": "achtzehn",
+    "pronunciation": "AHKHT-tsayn",
+    "native": "achtzehn"
+  },
+  "nineteen": {
+    "word": "neunzehn",
+    "pronunciation": "NOYN-tsayn",
+    "native": "neunzehn"
+  },
+  "twenty": {
+    "word": "zwanzig",
+    "pronunciation": "TSVAHN-tsig",
+    "native": "zwanzig"
+  },
+  "thirty": {
+    "word": "dreißig",
+    "pronunciation": "DRY-sig",
+    "native": "dreißig"
+  },
+  "forty": {
+    "word": "vierzig",
+    "pronunciation": "FEER-tsig",
+    "native": "vierzig"
+  },
+  "fifty": {
+    "word": "fünfzig",
+    "pronunciation": "FUUNF-tsig",
+    "native": "fünfzig"
+  },
+  "sixty": {
+    "word": "sechzig",
+    "pronunciation": "ZEKH-tsig",
+    "native": "sechzig"
+  },
+  "seventy": {
+    "word": "siebzig",
+    "pronunciation": "ZEEP-tsig",
+    "native": "siebzig"
+  },
+  "eighty": {
+    "word": "achtzig",
+    "pronunciation": "AHKHT-tsig",
+    "native": "achtzig"
+  },
+  "ninety": {
+    "word": "neunzig",
+    "pronunciation": "NOYN-tsig",
+    "native": "neunzig"
+  },
+  "hundred": {
+    "word": "hundert",
+    "pronunciation": "HOON-dert",
+    "native": "hundert"
+  },
+  "monday": {
+    "word": "Montag",
+    "pronunciation": "MOHN-tahg",
+    "native": "Montag"
+  },
+  "tuesday": {
+    "word": "Dienstag",
+    "pronunciation": "DEENS-tahg",
+    "native": "Dienstag"
+  },
+  "wednesday": {
+    "word": "Mittwoch",
+    "pronunciation": "MIT-vokh",
+    "native": "Mittwoch"
+  },
+  "thursday": {
+    "word": "Donnerstag",
+    "pronunciation": "DON-ners-tahg",
+    "native": "Donnerstag"
+  },
+  "friday": {
+    "word": "Freitag",
+    "pronunciation": "FRY-tahg",
+    "native": "Freitag"
+  },
+  "saturday": {
+    "word": "Samstag",
+    "pronunciation": "ZAHMS-tahg",
+    "native": "Samstag"
+  },
+  "sunday": {
+    "word": "Sonntag",
+    "pronunciation": "ZON-tahg",
+    "native": "Sonntag"
+  },
+  "january": {
+    "word": "Januar",
+    "pronunciation": "YAH-noo-ar",
+    "native": "Januar"
+  },
+  "february": {
+    "word": "Februar",
+    "pronunciation": "FAY-broo-ar",
+    "native": "Februar"
+  },
+  "march": {
+    "word": "März",
+    "pronunciation": "MERTS",
+    "native": "März"
+  },
+  "april": {
+    "word": "April",
+    "pronunciation": "ah-PRIL",
+    "native": "April"
+  },
+  "may": {
+    "word": "Mai",
+    "pronunciation": "MY",
+    "native": "Mai"
+  },
+  "june": {
+    "word": "Juni",
+    "pronunciation": "YOO-nee",
+    "native": "Juni"
+  },
+  "july": {
+    "word": "Juli",
+    "pronunciation": "YOO-lee",
+    "native": "Juli"
+  },
+  "august": {
+    "word": "August",
+    "pronunciation": "ow-GOOST",
+    "native": "August"
+  },
+  "september": {
+    "word": "September",
+    "pronunciation": "zep-TEM-ber",
+    "native": "September"
+  },
+  "october": {
+    "word": "Oktober",
+    "pronunciation": "ok-TOH-ber",
+    "native": "Oktober"
+  },
+  "november": {
+    "word": "November",
+    "pronunciation": "noh-VEM-ber",
+    "native": "November"
+  },
+  "december": {
+    "word": "Dezember",
+    "pronunciation": "day-TSEM-ber",
+    "native": "Dezember"
+  },
+  "today": {
+    "word": "heute",
+    "pronunciation": "HOY-teh",
+    "native": "heute"
+  },
+  "tomorrow": {
+    "word": "morgen",
+    "pronunciation": "MOR-gen",
+    "native": "morgen"
+  },
+  "yesterday": {
+    "word": "gestern",
+    "pronunciation": "GES-tern",
+    "native": "gestern"
+  },
+  "morning": {
+    "word": "Morgen",
+    "pronunciation": "MOR-gen",
+    "native": "Morgen"
+  },
+  "afternoon": {
+    "word": "Nachmittag",
+    "pronunciation": "NAHKH-mit-tahg",
+    "native": "Nachmittag"
+  },
+  "evening": {
+    "word": "Abend",
+    "pronunciation": "AH-bent",
+    "native": "Abend"
+  },
+  "night": {
+    "word": "Nacht",
+    "pronunciation": "NAHKHT",
+    "native": "Nacht"
+  },
+  "now": {
+    "word": "jetzt",
+    "pronunciation": "YETST",
+    "native": "jetzt"
+  },
+  "later": {
+    "word": "später",
+    "pronunciation": "SHPAY-ter",
+    "native": "später"
+  },
+  "soon": {
+    "word": "bald",
+    "pronunciation": "BAHLT",
+    "native": "bald"
+  },
+  "always": {
+    "word": "immer",
+    "pronunciation": "IM-mer",
+    "native": "immer"
+  },
+  "never": {
+    "word": "nie",
+    "pronunciation": "NEE",
+    "native": "nie"
+  },
+  "sometimes": {
+    "word": "manchmal",
+    "pronunciation": "MAHNKH-mahl",
+    "native": "manchmal"
+  },
+  "early": {
+    "word": "früh",
+    "pronunciation": "FRUU",
+    "native": "früh"
+  },
+  "late": {
+    "word": "spät",
+    "pronunciation": "SHPAYT",
+    "native": "spät"
+  },
+  "water": {
+    "word": "Wasser",
+    "pronunciation": "VAH-ser",
+    "native": "Wasser"
+  },
+  "bread": {
+    "word": "Brot",
+    "pronunciation": "BROHT",
+    "native": "Brot"
+  },
+  "wine": {
+    "word": "Wein",
+    "pronunciation": "VINE",
+    "native": "Wein"
+  },
+  "coffee": {
+    "word": "Kaffee",
+    "pronunciation": "KAH-fay",
+    "native": "Kaffee"
+  },
+  "milk": {
+    "word": "Milch",
+    "pronunciation": "MILKH",
+    "native": "Milch"
+  },
+  "cheese": {
+    "word": "Käse",
+    "pronunciation": "KAY-zeh",
+    "native": "Käse"
+  },
+  "meat": {
+    "word": "Fleisch",
+    "pronunciation": "FLYSH",
+    "native": "Fleisch"
+  },
+  "fish": {
+    "word": "Fisch",
+    "pronunciation": "FISH",
+    "native": "Fisch"
+  },
+  "fruit": {
+    "word": "Obst",
+    "pronunciation": "OHBST",
+    "native": "Obst"
+  },
+  "rice": {
+    "word": "Reis",
+    "pronunciation": "RICE",
+    "native": "Reis"
+  },
+  "chicken": {
+    "word": "Hähnchen",
+    "pronunciation": "HAYN-khen",
+    "native": "Hähnchen"
+  },
+  "egg": {
+    "word": "Ei",
+    "pronunciation": "EYE",
+    "native": "Ei"
+  },
+  "salt": {
+    "word": "Salz",
+    "pronunciation": "ZAHLTS",
+    "native": "Salz"
+  },
+  "sugar": {
+    "word": "Zucker",
+    "pronunciation": "TSOO-ker",
+    "native": "Zucker"
+  },
+  "beer": {
+    "word": "Bier",
+    "pronunciation": "BEER",
+    "native": "Bier"
+  },
+  "tea": {
+    "word": "Tee",
+    "pronunciation": "TAY",
+    "native": "Tee"
+  },
+  "vegetable": {
+    "word": "Gemüse",
+    "pronunciation": "geh-MUU-zeh",
+    "native": "Gemüse"
+  },
+  "soup": {
+    "word": "Suppe",
+    "pronunciation": "ZOO-peh",
+    "native": "Suppe"
+  },
+  "cake": {
+    "word": "Kuchen",
+    "pronunciation": "KOO-khen",
+    "native": "Kuchen"
+  },
+  "butter": {
+    "word": "Butter",
+    "pronunciation": "BOO-ter",
+    "native": "Butter"
+  },
+  "left": {
+    "word": "links",
+    "pronunciation": "LINKS",
+    "native": "links"
+  },
+  "right": {
+    "word": "rechts",
+    "pronunciation": "REKHTS",
+    "native": "rechts"
+  },
+  "north": {
+    "word": "Norden",
+    "pronunciation": "NOR-den",
+    "native": "Norden"
+  },
+  "south": {
+    "word": "Süden",
+    "pronunciation": "ZUU-den",
+    "native": "Süden"
+  },
+  "east": {
+    "word": "Osten",
+    "pronunciation": "OS-ten",
+    "native": "Osten"
+  },
+  "west": {
+    "word": "Westen",
+    "pronunciation": "VES-ten",
+    "native": "Westen"
+  },
+  "map": {
+    "word": "Karte",
+    "pronunciation": "KAR-teh",
+    "native": "Karte"
+  },
+  "airport": {
+    "word": "Flughafen",
+    "pronunciation": "FLOOG-hah-fen",
+    "native": "Flughafen"
+  },
+  "hotel": {
+    "word": "Hotel",
+    "pronunciation": "hoh-TEL",
+    "native": "Hotel"
+  },
+  "train": {
+    "word": "Zug",
+    "pronunciation": "TSOOG",
+    "native": "Zug"
+  },
+  "bus": {
+    "word": "Bus",
+    "pronunciation": "BOOS",
+    "native": "Bus"
+  },
+  "car": {
+    "word": "Auto",
+    "pronunciation": "OW-toh",
+    "native": "Auto"
+  },
+  "ticket": {
+    "word": "Fahrkarte",
+    "pronunciation": "FAR-kar-teh",
+    "native": "Fahrkarte"
+  },
+  "station": {
+    "word": "Bahnhof",
+    "pronunciation": "BAHN-hohf",
+    "native": "Bahnhof"
+  },
+  "restaurant": {
+    "word": "Restaurant",
+    "pronunciation": "res-toh-RAHNG",
+    "native": "Restaurant"
+  },
+  "bank": {
+    "word": "Bank",
+    "pronunciation": "BAHNK",
+    "native": "Bank"
+  },
+  "hospital": {
+    "word": "Krankenhaus",
+    "pronunciation": "KRAHN-ken-house",
+    "native": "Krankenhaus"
+  },
+  "pharmacy": {
+    "word": "Apotheke",
+    "pronunciation": "ah-poh-TAY-keh",
+    "native": "Apotheke"
+  },
+  "beach": {
+    "word": "Strand",
+    "pronunciation": "SHTRAHNT",
+    "native": "Strand"
+  },
+  "museum": {
+    "word": "Museum",
+    "pronunciation": "moo-ZAY-oom",
+    "native": "Museum"
+  },
+  "be": {
+    "word": "sein",
+    "pronunciation": "ZINE",
+    "native": "sein"
+  },
+  "have": {
+    "word": "haben",
+    "pronunciation": "HAH-ben",
+    "native": "haben"
+  },
+  "go": {
+    "word": "gehen",
+    "pronunciation": "GAY-en",
+    "native": "gehen"
+  },
+  "come": {
+    "word": "kommen",
+    "pronunciation": "KOM-men",
+    "native": "kommen"
+  },
+  "eat": {
+    "word": "essen",
+    "pronunciation": "ES-sen",
+    "native": "essen"
+  },
+  "drink": {
+    "word": "trinken",
+    "pronunciation": "TRIN-ken",
+    "native": "trinken"
+  },
+  "want": {
+    "word": "wollen",
+    "pronunciation": "VOL-len",
+    "native": "wollen"
+  },
+  "need": {
+    "word": "brauchen",
+    "pronunciation": "BROW-khen",
+    "native": "brauchen"
+  },
+  "can": {
+    "word": "können",
+    "pronunciation": "KUH-nen",
+    "native": "können"
+  },
+  "do": {
+    "word": "tun",
+    "pronunciation": "TOON",
+    "native": "tun"
+  },
+  "make": {
+    "word": "machen",
+    "pronunciation": "MAH-khen",
+    "native": "machen"
+  },
+  "see": {
+    "word": "sehen",
+    "pronunciation": "ZAY-en",
+    "native": "sehen"
+  },
+  "look": {
+    "word": "schauen",
+    "pronunciation": "SHOW-en",
+    "native": "schauen"
+  },
+  "know": {
+    "word": "wissen",
+    "pronunciation": "VIS-sen",
+    "native": "wissen"
+  },
+  "think": {
+    "word": "denken",
+    "pronunciation": "DEN-ken",
+    "native": "denken"
+  },
+  "say": {
+    "word": "sagen",
+    "pronunciation": "ZAH-gen",
+    "native": "sagen"
+  },
+  "tell": {
+    "word": "erzählen",
+    "pronunciation": "er-TSAY-len",
+    "native": "erzählen"
+  },
+  "speak": {
+    "word": "sprechen",
+    "pronunciation": "SHPRE-khen",
+    "native": "sprechen"
+  },
+  "give": {
+    "word": "geben",
+    "pronunciation": "GAY-ben",
+    "native": "geben"
+  },
+  "take": {
+    "word": "nehmen",
+    "pronunciation": "NAY-men",
+    "native": "nehmen"
+  },
+  "find": {
+    "word": "finden",
+    "pronunciation": "FIN-den",
+    "native": "finden"
+  },
+  "put": {
+    "word": "setzen",
+    "pronunciation": "ZET-sen",
+    "native": "setzen"
+  },
+  "read": {
+    "word": "lesen",
+    "pronunciation": "LAY-zen",
+    "native": "lesen"
+  },
+  "write": {
+    "word": "schreiben",
+    "pronunciation": "SHRY-ben",
+    "native": "schreiben"
+  },
+  "buy": {
+    "word": "kaufen",
+    "pronunciation": "KOW-fen",
+    "native": "kaufen"
+  },
+  "sell": {
+    "word": "verkaufen",
+    "pronunciation": "fer-KOW-fen",
+    "native": "verkaufen"
+  },
+  "open": {
+    "word": "öffnen",
+    "pronunciation": "UFF-nen",
+    "native": "öffnen"
+  },
+  "close": {
+    "word": "schließen",
+    "pronunciation": "SHLEE-sen",
+    "native": "schließen"
+  },
+  "start": {
+    "word": "anfangen",
+    "pronunciation": "AHN-fahng-en",
+    "native": "anfangen"
+  },
+  "stop": {
+    "word": "aufhören",
+    "pronunciation": "OWF-huh-ren",
+    "native": "aufhören"
+  },
+  "sleep": {
+    "word": "schlafen",
+    "pronunciation": "SHLAH-fen",
+    "native": "schlafen"
+  },
+  "wake": {
+    "word": "aufwachen",
+    "pronunciation": "OWF-vah-khen",
+    "native": "aufwachen"
+  },
+  "run": {
+    "word": "laufen",
+    "pronunciation": "LOW-fen",
+    "native": "laufen"
+  },
+  "walk": {
+    "word": "spazieren",
+    "pronunciation": "shpah-TSEE-ren",
+    "native": "spazieren"
+  },
+  "wait": {
+    "word": "warten",
+    "pronunciation": "VAR-ten",
+    "native": "warten"
+  },
+  "help": {
+    "word": "helfen",
+    "pronunciation": "HEL-fen",
+    "native": "helfen"
+  },
+  "learn": {
+    "word": "lernen",
+    "pronunciation": "LER-nen",
+    "native": "lernen"
+  },
+  "teach": {
+    "word": "lehren",
+    "pronunciation": "LAY-ren",
+    "native": "lehren"
+  },
+  "like": {
+    "word": "mögen",
+    "pronunciation": "MUH-gen",
+    "native": "mögen"
+  },
+  "love": {
+    "word": "lieben",
+    "pronunciation": "LEE-ben",
+    "native": "lieben"
+  },
+  "good": {
+    "word": "gut",
+    "pronunciation": "GOOT",
+    "native": "gut"
+  },
+  "bad": {
+    "word": "schlecht",
+    "pronunciation": "SHLEKHT",
+    "native": "schlecht"
+  },
+  "big": {
+    "word": "groß",
+    "pronunciation": "GROHS",
+    "native": "groß"
+  },
+  "small": {
+    "word": "klein",
+    "pronunciation": "KLINE",
+    "native": "klein"
+  },
+  "new": {
+    "word": "neu",
+    "pronunciation": "NOY",
+    "native": "neu"
+  },
+  "old": {
+    "word": "alt",
+    "pronunciation": "AHLT",
+    "native": "alt"
+  },
+  "beautiful": {
+    "word": "schön",
+    "pronunciation": "SHUHN",
+    "native": "schön"
+  },
+  "ugly": {
+    "word": "hässlich",
+    "pronunciation": "HESS-likh",
+    "native": "hässlich"
+  },
+  "hot": {
+    "word": "heiß",
+    "pronunciation": "HICE",
+    "native": "heiß"
+  },
+  "cold": {
+    "word": "kalt",
+    "pronunciation": "KAHLT",
+    "native": "kalt"
+  },
+  "fast": {
+    "word": "schnell",
+    "pronunciation": "SHNELL",
+    "native": "schnell"
+  },
+  "slow": {
+    "word": "langsam",
+    "pronunciation": "LAHNG-zahm",
+    "native": "langsam"
+  },
+  "easy": {
+    "word": "einfach",
+    "pronunciation": "INE-fahkh",
+    "native": "einfach"
+  },
+  "hard": {
+    "word": "schwer",
+    "pronunciation": "SHVAIR",
+    "native": "schwer"
+  },
+  "happy": {
+    "word": "glücklich",
+    "pronunciation": "GLUK-likh",
+    "native": "glücklich"
+  },
+  "sad": {
+    "word": "traurig",
+    "pronunciation": "TROW-rig",
+    "native": "traurig"
+  },
+  "rich": {
+    "word": "reich",
+    "pronunciation": "RYEKH",
+    "native": "reich"
+  },
+  "poor": {
+    "word": "arm",
+    "pronunciation": "AHRM",
+    "native": "arm"
+  },
+  "young": {
+    "word": "jung",
+    "pronunciation": "YOONG",
+    "native": "jung"
+  },
+  "long": {
+    "word": "lang",
+    "pronunciation": "LAHNG",
+    "native": "lang"
+  },
+  "short": {
+    "word": "kurz",
+    "pronunciation": "KOORTS",
+    "native": "kurz"
+  },
+  "tall": {
+    "word": "hoch",
+    "pronunciation": "HOHKH",
+    "native": "hoch"
+  },
+  "full": {
+    "word": "voll",
+    "pronunciation": "FOLL",
+    "native": "voll"
+  },
+  "empty": {
+    "word": "leer",
+    "pronunciation": "LAIR",
+    "native": "leer"
+  },
+  "clean": {
+    "word": "sauber",
+    "pronunciation": "ZOW-ber",
+    "native": "sauber"
+  },
+  "dirty": {
+    "word": "schmutzig",
+    "pronunciation": "SHMOO-tsig",
+    "native": "schmutzig"
+  },
+  "quiet": {
+    "word": "ruhig",
+    "pronunciation": "ROO-ig",
+    "native": "ruhig"
+  },
+  "loud": {
+    "word": "laut",
+    "pronunciation": "LOWT",
+    "native": "laut"
+  },
+  "dark": {
+    "word": "dunkel",
+    "pronunciation": "DOON-kel",
+    "native": "dunkel"
+  },
+  "light": {
+    "word": "hell",
+    "pronunciation": "HELL",
+    "native": "hell"
+  },
+  "house": {
+    "word": "Haus",
+    "pronunciation": "HOUSE",
+    "native": "Haus"
+  },
+  "food": {
+    "word": "Essen",
+    "pronunciation": "ES-sen",
+    "native": "Essen"
+  },
+  "person": {
+    "word": "Person",
+    "pronunciation": "per-ZOHN",
+    "native": "Person"
+  },
+  "city": {
+    "word": "Stadt",
+    "pronunciation": "SHTAHT",
+    "native": "Stadt"
+  },
+  "street": {
+    "word": "Straße",
+    "pronunciation": "SHTRAH-seh",
+    "native": "Straße"
+  },
+  "man": {
+    "word": "Mann",
+    "pronunciation": "MAHN",
+    "native": "Mann"
+  },
+  "woman": {
+    "word": "Frau",
+    "pronunciation": "FROW",
+    "native": "Frau"
+  },
+  "child": {
+    "word": "Kind",
+    "pronunciation": "KINT",
+    "native": "Kind"
+  },
+  "book": {
+    "word": "Buch",
+    "pronunciation": "BOOKH",
+    "native": "Buch"
+  },
+  "music": {
+    "word": "Musik",
+    "pronunciation": "moo-ZEEK",
+    "native": "Musik"
+  },
+  "world": {
+    "word": "Welt",
+    "pronunciation": "VELT",
+    "native": "Welt"
+  },
+  "life": {
+    "word": "Leben",
+    "pronunciation": "LAY-ben",
+    "native": "Leben"
+  },
+  "friend": {
+    "word": "Freund",
+    "pronunciation": "FROYNT",
+    "native": "Freund"
+  },
+  "family": {
+    "word": "Familie",
+    "pronunciation": "fah-MEE-lee-eh",
+    "native": "Familie"
+  },
+  "money": {
+    "word": "Geld",
+    "pronunciation": "GELT",
+    "native": "Geld"
+  },
+  "work": {
+    "word": "Arbeit",
+    "pronunciation": "AR-byte",
+    "native": "Arbeit"
+  },
+  "time": {
+    "word": "Zeit",
+    "pronunciation": "TSITE",
+    "native": "Zeit"
+  },
+  "day": {
+    "word": "Tag",
+    "pronunciation": "TAHG",
+    "native": "Tag"
+  },
+  "year": {
+    "word": "Jahr",
+    "pronunciation": "YAHR",
+    "native": "Jahr"
+  },
+  "school": {
+    "word": "Schule",
+    "pronunciation": "SHOO-leh",
+    "native": "Schule"
+  },
+  "door": {
+    "word": "Tür",
+    "pronunciation": "TUUR",
+    "native": "Tür"
+  },
+  "window": {
+    "word": "Fenster",
+    "pronunciation": "FEN-ster",
+    "native": "Fenster"
+  },
+  "table": {
+    "word": "Tisch",
+    "pronunciation": "TISH",
+    "native": "Tisch"
+  },
+  "phone": {
+    "word": "Telefon",
+    "pronunciation": "tay-leh-FOHN",
+    "native": "Telefon"
+  },
+  "name": {
+    "word": "Name",
+    "pronunciation": "NAH-meh",
+    "native": "Name"
+  },
+  "number": {
+    "word": "Nummer",
+    "pronunciation": "NOO-mer",
+    "native": "Nummer"
+  },
+  "country": {
+    "word": "Land",
+    "pronunciation": "LAHNT",
+    "native": "Land"
+  },
+  "language": {
+    "word": "Sprache",
+    "pronunciation": "SHPRAH-kheh",
+    "native": "Sprache"
+  },
+  "way": {
+    "word": "Weg",
+    "pronunciation": "VAYK",
+    "native": "Weg"
+  },
+  "thing": {
+    "word": "Ding",
+    "pronunciation": "DING",
+    "native": "Ding"
+  },
+  "place": {
+    "word": "Platz",
+    "pronunciation": "PLAHTS",
+    "native": "Platz"
+  },
+  "hand": {
+    "word": "Hand",
+    "pronunciation": "HAHNT",
+    "native": "Hand"
+  },
+  "head": {
+    "word": "Kopf",
+    "pronunciation": "KOPF",
+    "native": "Kopf"
+  },
+  "eye": {
+    "word": "Auge",
+    "pronunciation": "OW-geh",
+    "native": "Auge"
+  },
+  "word": {
+    "word": "Wort",
+    "pronunciation": "VORT",
+    "native": "Wort"
+  },
+  "story": {
+    "word": "Geschichte",
+    "pronunciation": "geh-SHIKH-teh",
+    "native": "Geschichte"
+  },
+  "problem": {
+    "word": "Problem",
+    "pronunciation": "proh-BLAYM",
+    "native": "Problem"
+  },
+  "heart": {
+    "word": "Herz",
+    "pronunciation": "HERTS",
+    "native": "Herz"
+  },
+  "king": {
+    "word": "König",
+    "pronunciation": "KUH-nig",
+    "native": "König"
+  },
+  "love (noun)": {
+    "word": "Liebe",
+    "pronunciation": "LEE-beh",
+    "native": "Liebe"
+  },
+  "who": {
+    "word": "wer",
+    "pronunciation": "VAIR",
+    "native": "wer"
+  },
+  "what": {
+    "word": "was",
+    "pronunciation": "VAHS",
+    "native": "was"
+  },
+  "where": {
+    "word": "wo",
+    "pronunciation": "VOH",
+    "native": "wo"
+  },
+  "when": {
+    "word": "wann",
+    "pronunciation": "VAHN",
+    "native": "wann"
+  },
+  "why": {
+    "word": "warum",
+    "pronunciation": "vah-ROOM",
+    "native": "warum"
+  },
+  "how": {
+    "word": "wie",
+    "pronunciation": "VEE",
+    "native": "wie"
+  },
+  "which": {
+    "word": "welcher",
+    "pronunciation": "VEL-kher",
+    "native": "welcher"
+  },
+  "how much": {
+    "word": "wie viel",
+    "pronunciation": "vee FEEL",
+    "native": "wie viel"
+  },
+  "how many": {
+    "word": "wie viele",
+    "pronunciation": "vee FEE-leh",
+    "native": "wie viele"
+  },
+  "I": {
+    "word": "ich",
+    "pronunciation": "IKKH",
+    "native": "ich"
+  },
+  "you": {
+    "word": "du",
+    "pronunciation": "DOO",
+    "native": "du"
+  },
+  "he": {
+    "word": "er",
+    "pronunciation": "AIR",
+    "native": "er"
+  },
+  "she": {
+    "word": "sie",
+    "pronunciation": "ZEE",
+    "native": "sie"
+  },
+  "it": {
+    "word": "es",
+    "pronunciation": "ES",
+    "native": "es"
+  },
+  "we": {
+    "word": "wir",
+    "pronunciation": "VEER",
+    "native": "wir"
+  },
+  "they": {
+    "word": "sie",
+    "pronunciation": "ZEE",
+    "native": "sie"
+  },
+  "me": {
+    "word": "mich",
+    "pronunciation": "MIKH",
+    "native": "mich"
+  },
+  "him": {
+    "word": "ihn",
+    "pronunciation": "EEN",
+    "native": "ihn"
+  },
+  "her": {
+    "word": "ihr",
+    "pronunciation": "EER",
+    "native": "ihr"
+  },
+  "us": {
+    "word": "uns",
+    "pronunciation": "OONS",
+    "native": "uns"
+  },
+  "them": {
+    "word": "ihnen",
+    "pronunciation": "EE-nen",
+    "native": "ihnen"
+  },
+  "my": {
+    "word": "mein",
+    "pronunciation": "MINE",
+    "native": "mein"
+  },
+  "your": {
+    "word": "dein",
+    "pronunciation": "DINE",
+    "native": "dein"
+  },
+  "his": {
+    "word": "sein",
+    "pronunciation": "ZINE",
+    "native": "sein"
+  },
+  "this": {
+    "word": "dies",
+    "pronunciation": "DEES",
+    "native": "dies"
+  },
+  "that": {
+    "word": "das",
+    "pronunciation": "DAHS",
+    "native": "das"
+  },
+  "in": {
+    "word": "in",
+    "pronunciation": "IN",
+    "native": "in"
+  },
+  "on": {
+    "word": "auf",
+    "pronunciation": "OWF",
+    "native": "auf"
+  },
+  "at": {
+    "word": "an",
+    "pronunciation": "AHN",
+    "native": "an"
+  },
+  "to": {
+    "word": "zu",
+    "pronunciation": "TSOO",
+    "native": "zu"
+  },
+  "from": {
+    "word": "von",
+    "pronunciation": "FON",
+    "native": "von"
+  },
+  "with": {
+    "word": "mit",
+    "pronunciation": "MIT",
+    "native": "mit"
+  },
+  "without": {
+    "word": "ohne",
+    "pronunciation": "OH-neh",
+    "native": "ohne"
+  },
+  "for": {
+    "word": "für",
+    "pronunciation": "FUUR",
+    "native": "für"
+  },
+  "about": {
+    "word": "über",
+    "pronunciation": "UU-ber",
+    "native": "über"
+  },
+  "between": {
+    "word": "zwischen",
+    "pronunciation": "TSVI-shen",
+    "native": "zwischen"
+  },
+  "before": {
+    "word": "vor",
+    "pronunciation": "FOR",
+    "native": "vor"
+  },
+  "after": {
+    "word": "nach",
+    "pronunciation": "NAHKH",
+    "native": "nach"
+  },
+  "during": {
+    "word": "während",
+    "pronunciation": "VAY-rent",
+    "native": "während"
+  },
+  "and": {
+    "word": "und",
+    "pronunciation": "OONT",
+    "native": "und"
+  },
+  "but": {
+    "word": "aber",
+    "pronunciation": "AH-ber",
+    "native": "aber"
+  },
+  "or": {
+    "word": "oder",
+    "pronunciation": "OH-der",
+    "native": "oder"
+  },
+  "because": {
+    "word": "weil",
+    "pronunciation": "VILE",
+    "native": "weil"
+  },
+  "if": {
+    "word": "wenn",
+    "pronunciation": "VEN",
+    "native": "wenn"
+  },
+  "than": {
+    "word": "als",
+    "pronunciation": "AHLS",
+    "native": "als"
+  },
+  "also": {
+    "word": "auch",
+    "pronunciation": "OWKH",
+    "native": "auch"
+  }
+}

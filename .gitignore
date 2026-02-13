@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Rust / Tauri build
+src-tauri/target/
+
+# Generated icon preview
+src-tauri/icons/preview_512.png
+
+# Icon generator script (development tool)
+src-tauri/generate_icon.py
+
+# OS files
+.DS_Store
+
+# Environment
+.env
+.env.*

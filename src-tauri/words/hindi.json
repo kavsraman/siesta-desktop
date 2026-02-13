@@ -1,0 +1,1337 @@
+{
+  "hello": {
+    "word": "namaste",
+    "pronunciation": "nuh-MUS-tay",
+    "native": "नमस्ते"
+  },
+  "goodbye": {
+    "word": "alvida",
+    "pronunciation": "al-vee-DAH",
+    "native": "अलविदा"
+  },
+  "please": {
+    "word": "kripaya",
+    "pronunciation": "KRIP-ah-yah",
+    "native": "कृपया"
+  },
+  "thank you": {
+    "word": "dhanyavaad",
+    "pronunciation": "dhun-yah-VAHD",
+    "native": "धन्यवाद"
+  },
+  "excuse me": {
+    "word": "maaf kijiye",
+    "pronunciation": "MAHF kee-jee-yay",
+    "native": "माफ कीजिये"
+  },
+  "sorry": {
+    "word": "maafi",
+    "pronunciation": "mah-FEE",
+    "native": "माफी"
+  },
+  "good morning": {
+    "word": "suprabhat",
+    "pronunciation": "soo-pruh-BHAHT",
+    "native": "सुप्रभात"
+  },
+  "good evening": {
+    "word": "shubh sandhya",
+    "pronunciation": "shoobh SUN-dhyah",
+    "native": "शुभ संध्या"
+  },
+  "good night": {
+    "word": "shubh ratri",
+    "pronunciation": "shoobh RAH-tree",
+    "native": "शुभ रात्रि"
+  },
+  "how are you": {
+    "word": "aap kaise hain",
+    "pronunciation": "AHP KAY-say hayn",
+    "native": "आप कैसे हैं"
+  },
+  "welcome": {
+    "word": "svaagat",
+    "pronunciation": "svah-GUHT",
+    "native": "स्वागत"
+  },
+  "yes": {
+    "word": "haan",
+    "pronunciation": "HAHN",
+    "native": "हाँ"
+  },
+  "one": {
+    "word": "ek",
+    "pronunciation": "EK",
+    "native": "एक"
+  },
+  "two": {
+    "word": "do",
+    "pronunciation": "DOH",
+    "native": "दो"
+  },
+  "three": {
+    "word": "teen",
+    "pronunciation": "TEEN",
+    "native": "तीन"
+  },
+  "four": {
+    "word": "chaar",
+    "pronunciation": "CHAHR",
+    "native": "चार"
+  },
+  "five": {
+    "word": "paanch",
+    "pronunciation": "PAHNCH",
+    "native": "पाँच"
+  },
+  "six": {
+    "word": "chhah",
+    "pronunciation": "CHHUH",
+    "native": "छह"
+  },
+  "seven": {
+    "word": "saat",
+    "pronunciation": "SAHT",
+    "native": "सात"
+  },
+  "eight": {
+    "word": "aath",
+    "pronunciation": "AHTH",
+    "native": "आठ"
+  },
+  "nine": {
+    "word": "nau",
+    "pronunciation": "NOW",
+    "native": "नौ"
+  },
+  "ten": {
+    "word": "das",
+    "pronunciation": "DUS",
+    "native": "दस"
+  },
+  "eleven": {
+    "word": "gyaarah",
+    "pronunciation": "GYAH-ruh",
+    "native": "ग्यारह"
+  },
+  "twelve": {
+    "word": "baarah",
+    "pronunciation": "BAH-ruh",
+    "native": "बारह"
+  },
+  "thirteen": {
+    "word": "terah",
+    "pronunciation": "TAY-ruh",
+    "native": "तेरह"
+  },
+  "fourteen": {
+    "word": "chaudah",
+    "pronunciation": "CHOW-duh",
+    "native": "चौदह"
+  },
+  "fifteen": {
+    "word": "pandrah",
+    "pronunciation": "PUN-druh",
+    "native": "पंद्रह"
+  },
+  "sixteen": {
+    "word": "solah",
+    "pronunciation": "SOH-luh",
+    "native": "सोलह"
+  },
+  "seventeen": {
+    "word": "satrah",
+    "pronunciation": "SUT-ruh",
+    "native": "सत्रह"
+  },
+  "eighteen": {
+    "word": "athaarah",
+    "pronunciation": "uh-THAH-ruh",
+    "native": "अठारह"
+  },
+  "nineteen": {
+    "word": "unnis",
+    "pronunciation": "oon-NEES",
+    "native": "उन्नीस"
+  },
+  "twenty": {
+    "word": "bees",
+    "pronunciation": "BEES",
+    "native": "बीस"
+  },
+  "thirty": {
+    "word": "tees",
+    "pronunciation": "TEES",
+    "native": "तीस"
+  },
+  "forty": {
+    "word": "chaalis",
+    "pronunciation": "chah-LEES",
+    "native": "चालीस"
+  },
+  "fifty": {
+    "word": "pachaas",
+    "pronunciation": "puh-CHAHS",
+    "native": "पचास"
+  },
+  "sixty": {
+    "word": "saath",
+    "pronunciation": "SAHTH",
+    "native": "साठ"
+  },
+  "seventy": {
+    "word": "sattar",
+    "pronunciation": "SUT-tur",
+    "native": "सत्तर"
+  },
+  "eighty": {
+    "word": "assi",
+    "pronunciation": "US-see",
+    "native": "अस्सी"
+  },
+  "ninety": {
+    "word": "nabbe",
+    "pronunciation": "NUB-bay",
+    "native": "नब्बे"
+  },
+  "hundred": {
+    "word": "sau",
+    "pronunciation": "SOW",
+    "native": "सौ"
+  },
+  "monday": {
+    "word": "somvaar",
+    "pronunciation": "SOHM-vahr",
+    "native": "सोमवार"
+  },
+  "tuesday": {
+    "word": "mangalvaar",
+    "pronunciation": "MUN-gul-vahr",
+    "native": "मंगलवार"
+  },
+  "wednesday": {
+    "word": "budhvaar",
+    "pronunciation": "BOODH-vahr",
+    "native": "बुधवार"
+  },
+  "thursday": {
+    "word": "guruvaar",
+    "pronunciation": "GOO-roo-vahr",
+    "native": "गुरुवार"
+  },
+  "friday": {
+    "word": "shukravaar",
+    "pronunciation": "SHOOK-ruh-vahr",
+    "native": "शुक्रवार"
+  },
+  "saturday": {
+    "word": "shanivaar",
+    "pronunciation": "SHUN-ee-vahr",
+    "native": "शनिवार"
+  },
+  "sunday": {
+    "word": "ravivaar",
+    "pronunciation": "RUH-vee-vahr",
+    "native": "रविवार"
+  },
+  "january": {
+    "word": "janvari",
+    "pronunciation": "JUN-vuh-ree",
+    "native": "जनवरी"
+  },
+  "february": {
+    "word": "farvari",
+    "pronunciation": "FUR-vuh-ree",
+    "native": "फरवरी"
+  },
+  "march": {
+    "word": "maarch",
+    "pronunciation": "MAHRCH",
+    "native": "मार्च"
+  },
+  "april": {
+    "word": "aprail",
+    "pronunciation": "up-RAIL",
+    "native": "अप्रैल"
+  },
+  "may": {
+    "word": "mai",
+    "pronunciation": "MY",
+    "native": "मई"
+  },
+  "june": {
+    "word": "joon",
+    "pronunciation": "JOON",
+    "native": "जून"
+  },
+  "july": {
+    "word": "julai",
+    "pronunciation": "joo-LY",
+    "native": "जुलाई"
+  },
+  "august": {
+    "word": "agast",
+    "pronunciation": "uh-GUST",
+    "native": "अगस्त"
+  },
+  "september": {
+    "word": "sitambar",
+    "pronunciation": "si-TUM-bur",
+    "native": "सितंबर"
+  },
+  "october": {
+    "word": "aktubar",
+    "pronunciation": "uk-TOO-bur",
+    "native": "अक्तूबर"
+  },
+  "november": {
+    "word": "navambar",
+    "pronunciation": "nuh-VUM-bur",
+    "native": "नवंबर"
+  },
+  "december": {
+    "word": "disambar",
+    "pronunciation": "dee-SUM-bur",
+    "native": "दिसंबर"
+  },
+  "today": {
+    "word": "aaj",
+    "pronunciation": "AHJ",
+    "native": "आज"
+  },
+  "tomorrow": {
+    "word": "kal",
+    "pronunciation": "KUL",
+    "native": "कल"
+  },
+  "yesterday": {
+    "word": "kal",
+    "pronunciation": "KUL",
+    "native": "कल"
+  },
+  "morning": {
+    "word": "subah",
+    "pronunciation": "soo-BUH",
+    "native": "सुबह"
+  },
+  "afternoon": {
+    "word": "dopahar",
+    "pronunciation": "doh-PUH-hur",
+    "native": "दोपहर"
+  },
+  "evening": {
+    "word": "shaam",
+    "pronunciation": "SHAHM",
+    "native": "शाम"
+  },
+  "night": {
+    "word": "raat",
+    "pronunciation": "RAHT",
+    "native": "रात"
+  },
+  "now": {
+    "word": "ab",
+    "pronunciation": "UB",
+    "native": "अब"
+  },
+  "later": {
+    "word": "baad mein",
+    "pronunciation": "BAHD mayn",
+    "native": "बाद में"
+  },
+  "soon": {
+    "word": "jaldi",
+    "pronunciation": "JUL-dee",
+    "native": "जल्दी"
+  },
+  "always": {
+    "word": "hamesha",
+    "pronunciation": "huh-MAY-shah",
+    "native": "हमेशा"
+  },
+  "never": {
+    "word": "kabhi nahi",
+    "pronunciation": "KUB-hee nuh-HEE",
+    "native": "कभी नहीं"
+  },
+  "sometimes": {
+    "word": "kabhi kabhi",
+    "pronunciation": "KUB-hee KUB-hee",
+    "native": "कभी कभी"
+  },
+  "early": {
+    "word": "jaldi",
+    "pronunciation": "JUL-dee",
+    "native": "जल्दी"
+  },
+  "late": {
+    "word": "der",
+    "pronunciation": "DARE",
+    "native": "देर"
+  },
+  "water": {
+    "word": "paani",
+    "pronunciation": "PAH-nee",
+    "native": "पानी"
+  },
+  "bread": {
+    "word": "roti",
+    "pronunciation": "ROH-tee",
+    "native": "रोटी"
+  },
+  "wine": {
+    "word": "sharaab",
+    "pronunciation": "shuh-RAHB",
+    "native": "शराब"
+  },
+  "coffee": {
+    "word": "coffee",
+    "pronunciation": "KOF-ee",
+    "native": "कॉफी"
+  },
+  "milk": {
+    "word": "doodh",
+    "pronunciation": "DOODH",
+    "native": "दूध"
+  },
+  "cheese": {
+    "word": "paneer",
+    "pronunciation": "puh-NEER",
+    "native": "पनीर"
+  },
+  "meat": {
+    "word": "maas",
+    "pronunciation": "MAHS",
+    "native": "मांस"
+  },
+  "fish": {
+    "word": "machli",
+    "pronunciation": "MUCH-lee",
+    "native": "मछली"
+  },
+  "fruit": {
+    "word": "phal",
+    "pronunciation": "PHUL",
+    "native": "फल"
+  },
+  "rice": {
+    "word": "chaval",
+    "pronunciation": "CHAH-vul",
+    "native": "चावल"
+  },
+  "chicken": {
+    "word": "murghi",
+    "pronunciation": "MOOR-ghee",
+    "native": "मुर्गी"
+  },
+  "egg": {
+    "word": "anda",
+    "pronunciation": "UN-dah",
+    "native": "अंडा"
+  },
+  "salt": {
+    "word": "namak",
+    "pronunciation": "NUH-muk",
+    "native": "नमक"
+  },
+  "sugar": {
+    "word": "cheeni",
+    "pronunciation": "CHEE-nee",
+    "native": "चीनी"
+  },
+  "beer": {
+    "word": "biyar",
+    "pronunciation": "BEE-yar",
+    "native": "बियर"
+  },
+  "tea": {
+    "word": "chaay",
+    "pronunciation": "CHAH-ee",
+    "native": "चाय"
+  },
+  "vegetable": {
+    "word": "sabzi",
+    "pronunciation": "SUB-zee",
+    "native": "सब्ज़ी"
+  },
+  "soup": {
+    "word": "shorba",
+    "pronunciation": "SHOR-bah",
+    "native": "शोरबा"
+  },
+  "cake": {
+    "word": "kek",
+    "pronunciation": "CAKE",
+    "native": "केक"
+  },
+  "butter": {
+    "word": "makhan",
+    "pronunciation": "MUK-khun",
+    "native": "मक्खन"
+  },
+  "left": {
+    "word": "baayein",
+    "pronunciation": "BAH-yayn",
+    "native": "बाएँ"
+  },
+  "right": {
+    "word": "daayein",
+    "pronunciation": "DAH-yayn",
+    "native": "दाएँ"
+  },
+  "north": {
+    "word": "uttar",
+    "pronunciation": "OOT-tur",
+    "native": "उत्तर"
+  },
+  "south": {
+    "word": "dakshin",
+    "pronunciation": "DUK-shin",
+    "native": "दक्षिण"
+  },
+  "east": {
+    "word": "poorv",
+    "pronunciation": "POORV",
+    "native": "पूर्व"
+  },
+  "west": {
+    "word": "pashchim",
+    "pronunciation": "PUSH-chim",
+    "native": "पश्चिम"
+  },
+  "map": {
+    "word": "naksha",
+    "pronunciation": "NUK-shah",
+    "native": "नक्शा"
+  },
+  "airport": {
+    "word": "havai adda",
+    "pronunciation": "huh-VY UD-dah",
+    "native": "हवाई अड्डा"
+  },
+  "hotel": {
+    "word": "hotel",
+    "pronunciation": "hoh-TEL",
+    "native": "होटल"
+  },
+  "train": {
+    "word": "rail gaadi",
+    "pronunciation": "RAIL GAH-dee",
+    "native": "रेल गाड़ी"
+  },
+  "bus": {
+    "word": "bas",
+    "pronunciation": "BUS",
+    "native": "बस"
+  },
+  "car": {
+    "word": "gaadi",
+    "pronunciation": "GAH-dee",
+    "native": "गाड़ी"
+  },
+  "ticket": {
+    "word": "tikat",
+    "pronunciation": "TIK-ut",
+    "native": "टिकट"
+  },
+  "station": {
+    "word": "steshan",
+    "pronunciation": "STAY-shun",
+    "native": "स्टेशन"
+  },
+  "restaurant": {
+    "word": "restoraint",
+    "pronunciation": "REST-oh-raynt",
+    "native": "रेस्तरां"
+  },
+  "bank": {
+    "word": "baink",
+    "pronunciation": "BAYNK",
+    "native": "बैंक"
+  },
+  "hospital": {
+    "word": "aspataal",
+    "pronunciation": "us-puh-TAHL",
+    "native": "अस्पताल"
+  },
+  "pharmacy": {
+    "word": "davakhaana",
+    "pronunciation": "duh-vah-KHAH-nah",
+    "native": "दवाखाना"
+  },
+  "beach": {
+    "word": "samudra tat",
+    "pronunciation": "suh-MOOD-ruh TUT",
+    "native": "समुद्र तट"
+  },
+  "museum": {
+    "word": "sangrahalay",
+    "pronunciation": "sun-GRUH-huh-lay",
+    "native": "संग्रहालय"
+  },
+  "be": {
+    "word": "hona",
+    "pronunciation": "HOH-nah",
+    "native": "होना"
+  },
+  "have": {
+    "word": "rakhna",
+    "pronunciation": "RUKH-nah",
+    "native": "रखना"
+  },
+  "go": {
+    "word": "jaana",
+    "pronunciation": "JAH-nah",
+    "native": "जाना"
+  },
+  "come": {
+    "word": "aana",
+    "pronunciation": "AH-nah",
+    "native": "आना"
+  },
+  "eat": {
+    "word": "khaana",
+    "pronunciation": "KHAH-nah",
+    "native": "खाना"
+  },
+  "drink": {
+    "word": "peena",
+    "pronunciation": "PEE-nah",
+    "native": "पीना"
+  },
+  "want": {
+    "word": "chaahna",
+    "pronunciation": "CHAHH-nah",
+    "native": "चाहना"
+  },
+  "need": {
+    "word": "zaroorat hona",
+    "pronunciation": "zuh-ROO-rut HOH-nah",
+    "native": "ज़रूरत होना"
+  },
+  "can": {
+    "word": "sakna",
+    "pronunciation": "SUK-nah",
+    "native": "सकना"
+  },
+  "do": {
+    "word": "karna",
+    "pronunciation": "KUR-nah",
+    "native": "करना"
+  },
+  "make": {
+    "word": "banana",
+    "pronunciation": "buh-NAH-nah",
+    "native": "बनाना"
+  },
+  "see": {
+    "word": "dekhna",
+    "pronunciation": "DEKH-nah",
+    "native": "देखना"
+  },
+  "look": {
+    "word": "dekhna",
+    "pronunciation": "DEKH-nah",
+    "native": "देखना"
+  },
+  "know": {
+    "word": "jaanna",
+    "pronunciation": "JAHN-nah",
+    "native": "जानना"
+  },
+  "think": {
+    "word": "sochna",
+    "pronunciation": "SOHCH-nah",
+    "native": "सोचना"
+  },
+  "say": {
+    "word": "kehna",
+    "pronunciation": "KEH-nah",
+    "native": "कहना"
+  },
+  "tell": {
+    "word": "batana",
+    "pronunciation": "buh-TAH-nah",
+    "native": "बताना"
+  },
+  "speak": {
+    "word": "bolna",
+    "pronunciation": "BOHL-nah",
+    "native": "बोलना"
+  },
+  "give": {
+    "word": "dena",
+    "pronunciation": "DAY-nah",
+    "native": "देना"
+  },
+  "take": {
+    "word": "lena",
+    "pronunciation": "LAY-nah",
+    "native": "लेना"
+  },
+  "find": {
+    "word": "dhoondna",
+    "pronunciation": "DHOOND-nah",
+    "native": "ढूँढना"
+  },
+  "put": {
+    "word": "rakhna",
+    "pronunciation": "RUKH-nah",
+    "native": "रखना"
+  },
+  "read": {
+    "word": "padhna",
+    "pronunciation": "PUDH-nah",
+    "native": "पढ़ना"
+  },
+  "write": {
+    "word": "likhna",
+    "pronunciation": "LIKH-nah",
+    "native": "लिखना"
+  },
+  "buy": {
+    "word": "khareedna",
+    "pronunciation": "khuh-REED-nah",
+    "native": "खरीदना"
+  },
+  "sell": {
+    "word": "bechna",
+    "pronunciation": "BAYCH-nah",
+    "native": "बेचना"
+  },
+  "open": {
+    "word": "kholna",
+    "pronunciation": "KHOHL-nah",
+    "native": "खोलना"
+  },
+  "close": {
+    "word": "band karna",
+    "pronunciation": "BUND KUR-nah",
+    "native": "बंद करना"
+  },
+  "start": {
+    "word": "shuru karna",
+    "pronunciation": "shoo-ROO KUR-nah",
+    "native": "शुरू करना"
+  },
+  "stop": {
+    "word": "rukna",
+    "pronunciation": "ROOK-nah",
+    "native": "रुकना"
+  },
+  "sleep": {
+    "word": "sona",
+    "pronunciation": "SOH-nah",
+    "native": "सोना"
+  },
+  "wake": {
+    "word": "jaagna",
+    "pronunciation": "JAHG-nah",
+    "native": "जागना"
+  },
+  "run": {
+    "word": "daudna",
+    "pronunciation": "DOWD-nah",
+    "native": "दौड़ना"
+  },
+  "walk": {
+    "word": "chalna",
+    "pronunciation": "CHUL-nah",
+    "native": "चलना"
+  },
+  "wait": {
+    "word": "intezaar karna",
+    "pronunciation": "in-tay-ZAHR KUR-nah",
+    "native": "इंतेज़ार करना"
+  },
+  "help": {
+    "word": "madad karna",
+    "pronunciation": "MUH-dud KUR-nah",
+    "native": "मदद करना"
+  },
+  "learn": {
+    "word": "seekhna",
+    "pronunciation": "SEEKH-nah",
+    "native": "सीखना"
+  },
+  "teach": {
+    "word": "sikhaana",
+    "pronunciation": "si-KHAH-nah",
+    "native": "सिखाना"
+  },
+  "like": {
+    "word": "pasand karna",
+    "pronunciation": "puh-SUND KUR-nah",
+    "native": "पसंद करना"
+  },
+  "love": {
+    "word": "pyaar karna",
+    "pronunciation": "PYAHR KUR-nah",
+    "native": "प्यार करना"
+  },
+  "good": {
+    "word": "accha",
+    "pronunciation": "UCH-chah",
+    "native": "अच्छा"
+  },
+  "bad": {
+    "word": "bura",
+    "pronunciation": "BOO-rah",
+    "native": "बुरा"
+  },
+  "big": {
+    "word": "bada",
+    "pronunciation": "BUH-dah",
+    "native": "बड़ा"
+  },
+  "small": {
+    "word": "chhota",
+    "pronunciation": "CHOH-tah",
+    "native": "छोटा"
+  },
+  "new": {
+    "word": "naya",
+    "pronunciation": "NUH-yah",
+    "native": "नया"
+  },
+  "old": {
+    "word": "purana",
+    "pronunciation": "poo-RAH-nah",
+    "native": "पुराना"
+  },
+  "beautiful": {
+    "word": "sundar",
+    "pronunciation": "SOON-dur",
+    "native": "सुंदर"
+  },
+  "ugly": {
+    "word": "badsurat",
+    "pronunciation": "bud-SOO-rut",
+    "native": "बदसूरत"
+  },
+  "hot": {
+    "word": "garam",
+    "pronunciation": "GUH-rum",
+    "native": "गरम"
+  },
+  "cold": {
+    "word": "thanda",
+    "pronunciation": "THUN-dah",
+    "native": "ठंडा"
+  },
+  "fast": {
+    "word": "tez",
+    "pronunciation": "TAYZ",
+    "native": "तेज़"
+  },
+  "slow": {
+    "word": "dheema",
+    "pronunciation": "DHEE-mah",
+    "native": "धीमा"
+  },
+  "easy": {
+    "word": "aasan",
+    "pronunciation": "AH-sahn",
+    "native": "आसान"
+  },
+  "hard": {
+    "word": "kathin",
+    "pronunciation": "KUH-thin",
+    "native": "कठिन"
+  },
+  "happy": {
+    "word": "khush",
+    "pronunciation": "KHOOSH",
+    "native": "खुश"
+  },
+  "sad": {
+    "word": "udaas",
+    "pronunciation": "oo-DAHS",
+    "native": "उदास"
+  },
+  "rich": {
+    "word": "ameer",
+    "pronunciation": "uh-MEER",
+    "native": "अमीर"
+  },
+  "poor": {
+    "word": "gareeb",
+    "pronunciation": "guh-REEB",
+    "native": "गरीब"
+  },
+  "young": {
+    "word": "javaan",
+    "pronunciation": "juh-VAHN",
+    "native": "जवान"
+  },
+  "long": {
+    "word": "lamba",
+    "pronunciation": "LUM-bah",
+    "native": "लंबा"
+  },
+  "short": {
+    "word": "chhota",
+    "pronunciation": "CHOH-tah",
+    "native": "छोटा"
+  },
+  "tall": {
+    "word": "lamba",
+    "pronunciation": "LUM-bah",
+    "native": "लंबा"
+  },
+  "full": {
+    "word": "bhara hua",
+    "pronunciation": "BHUH-rah HOO-ah",
+    "native": "भरा हुआ"
+  },
+  "empty": {
+    "word": "khaali",
+    "pronunciation": "KHAH-lee",
+    "native": "खाली"
+  },
+  "clean": {
+    "word": "saaf",
+    "pronunciation": "SAHF",
+    "native": "साफ"
+  },
+  "dirty": {
+    "word": "ganda",
+    "pronunciation": "GUN-dah",
+    "native": "गंदा"
+  },
+  "quiet": {
+    "word": "shaant",
+    "pronunciation": "SHAHNT",
+    "native": "शांत"
+  },
+  "loud": {
+    "word": "tez",
+    "pronunciation": "TAYZ",
+    "native": "तेज़"
+  },
+  "dark": {
+    "word": "andhera",
+    "pronunciation": "un-DHAY-rah",
+    "native": "अँधेरा"
+  },
+  "light": {
+    "word": "halka",
+    "pronunciation": "HUL-kah",
+    "native": "हल्का"
+  },
+  "house": {
+    "word": "ghar",
+    "pronunciation": "GHUR",
+    "native": "घर"
+  },
+  "food": {
+    "word": "khaana",
+    "pronunciation": "KHAH-nah",
+    "native": "खाना"
+  },
+  "person": {
+    "word": "vyakti",
+    "pronunciation": "VYUK-tee",
+    "native": "व्यक्ति"
+  },
+  "city": {
+    "word": "shahar",
+    "pronunciation": "shuh-HUR",
+    "native": "शहर"
+  },
+  "street": {
+    "word": "sadak",
+    "pronunciation": "SUH-duk",
+    "native": "सड़क"
+  },
+  "man": {
+    "word": "aadmi",
+    "pronunciation": "AHD-mee",
+    "native": "आदमी"
+  },
+  "woman": {
+    "word": "aurat",
+    "pronunciation": "OW-rut",
+    "native": "औरत"
+  },
+  "child": {
+    "word": "bachcha",
+    "pronunciation": "BUCH-chah",
+    "native": "बच्चा"
+  },
+  "book": {
+    "word": "kitaab",
+    "pronunciation": "ki-TAHB",
+    "native": "किताब"
+  },
+  "music": {
+    "word": "sangeet",
+    "pronunciation": "sun-GEET",
+    "native": "संगीत"
+  },
+  "world": {
+    "word": "duniya",
+    "pronunciation": "DOON-yah",
+    "native": "दुनिया"
+  },
+  "life": {
+    "word": "zindagi",
+    "pronunciation": "zin-DUH-gee",
+    "native": "ज़िंदगी"
+  },
+  "friend": {
+    "word": "dost",
+    "pronunciation": "DOHST",
+    "native": "दोस्त"
+  },
+  "family": {
+    "word": "parivaar",
+    "pronunciation": "puh-ree-VAHR",
+    "native": "परिवार"
+  },
+  "money": {
+    "word": "paisa",
+    "pronunciation": "PAY-sah",
+    "native": "पैसा"
+  },
+  "work": {
+    "word": "kaam",
+    "pronunciation": "KAHM",
+    "native": "काम"
+  },
+  "time": {
+    "word": "samay",
+    "pronunciation": "suh-MAY",
+    "native": "समय"
+  },
+  "day": {
+    "word": "din",
+    "pronunciation": "DIN",
+    "native": "दिन"
+  },
+  "year": {
+    "word": "saal",
+    "pronunciation": "SAHL",
+    "native": "साल"
+  },
+  "school": {
+    "word": "vidyalay",
+    "pronunciation": "vid-YAH-lay",
+    "native": "विद्यालय"
+  },
+  "door": {
+    "word": "darvaaza",
+    "pronunciation": "dur-VAH-zah",
+    "native": "दरवाज़ा"
+  },
+  "window": {
+    "word": "khidki",
+    "pronunciation": "KHID-kee",
+    "native": "खिड़की"
+  },
+  "table": {
+    "word": "mez",
+    "pronunciation": "MAYZ",
+    "native": "मेज़"
+  },
+  "phone": {
+    "word": "phone",
+    "pronunciation": "FOHN",
+    "native": "फोन"
+  },
+  "name": {
+    "word": "naam",
+    "pronunciation": "NAHM",
+    "native": "नाम"
+  },
+  "number": {
+    "word": "sankhya",
+    "pronunciation": "SUN-khyah",
+    "native": "संख्या"
+  },
+  "country": {
+    "word": "desh",
+    "pronunciation": "DAYSH",
+    "native": "देश"
+  },
+  "language": {
+    "word": "bhaasha",
+    "pronunciation": "BHAH-shah",
+    "native": "भाषा"
+  },
+  "way": {
+    "word": "raasta",
+    "pronunciation": "RAHS-tah",
+    "native": "रास्ता"
+  },
+  "thing": {
+    "word": "cheez",
+    "pronunciation": "CHEEZ",
+    "native": "चीज़"
+  },
+  "place": {
+    "word": "jagah",
+    "pronunciation": "JUH-guh",
+    "native": "जगह"
+  },
+  "hand": {
+    "word": "haath",
+    "pronunciation": "HAHTH",
+    "native": "हाथ"
+  },
+  "head": {
+    "word": "sir",
+    "pronunciation": "SIR",
+    "native": "सिर"
+  },
+  "eye": {
+    "word": "aankh",
+    "pronunciation": "AHNKH",
+    "native": "आँख"
+  },
+  "word": {
+    "word": "shabd",
+    "pronunciation": "SHUB-duh",
+    "native": "शब्द"
+  },
+  "story": {
+    "word": "kahaani",
+    "pronunciation": "kuh-HAH-nee",
+    "native": "कहानी"
+  },
+  "problem": {
+    "word": "samasya",
+    "pronunciation": "suh-MUS-yah",
+    "native": "समस्या"
+  },
+  "who": {
+    "word": "kaun",
+    "pronunciation": "KOWN",
+    "native": "कौन"
+  },
+  "what": {
+    "word": "kya",
+    "pronunciation": "KYAH",
+    "native": "क्या"
+  },
+  "where": {
+    "word": "kahaan",
+    "pronunciation": "kuh-HAHN",
+    "native": "कहाँ"
+  },
+  "when": {
+    "word": "kab",
+    "pronunciation": "KUB",
+    "native": "कब"
+  },
+  "why": {
+    "word": "kyon",
+    "pronunciation": "KYOHN",
+    "native": "क्यों"
+  },
+  "how": {
+    "word": "kaise",
+    "pronunciation": "KAY-say",
+    "native": "कैसे"
+  },
+  "which": {
+    "word": "kaun sa",
+    "pronunciation": "KOWN sah",
+    "native": "कौन सा"
+  },
+  "how much": {
+    "word": "kitna",
+    "pronunciation": "KIT-nah",
+    "native": "कितना"
+  },
+  "how many": {
+    "word": "kitne",
+    "pronunciation": "KIT-nay",
+    "native": "कितने"
+  },
+  "I": {
+    "word": "main",
+    "pronunciation": "MAYN",
+    "native": "मैं"
+  },
+  "you": {
+    "word": "tum",
+    "pronunciation": "TOOM",
+    "native": "तुम"
+  },
+  "he": {
+    "word": "voh",
+    "pronunciation": "VOH",
+    "native": "वह"
+  },
+  "she": {
+    "word": "voh",
+    "pronunciation": "VOH",
+    "native": "वह"
+  },
+  "it": {
+    "word": "yah",
+    "pronunciation": "YUH",
+    "native": "यह"
+  },
+  "we": {
+    "word": "hum",
+    "pronunciation": "HUM",
+    "native": "हम"
+  },
+  "they": {
+    "word": "ve",
+    "pronunciation": "VAY",
+    "native": "वे"
+  },
+  "me": {
+    "word": "mujhe",
+    "pronunciation": "MOOJ-hay",
+    "native": "मुझे"
+  },
+  "him": {
+    "word": "use",
+    "pronunciation": "OO-say",
+    "native": "उसे"
+  },
+  "her": {
+    "word": "use",
+    "pronunciation": "OO-say",
+    "native": "उसे"
+  },
+  "us": {
+    "word": "humein",
+    "pronunciation": "huh-MAYN",
+    "native": "हमें"
+  },
+  "them": {
+    "word": "unhe",
+    "pronunciation": "OON-hay",
+    "native": "उन्हें"
+  },
+  "my": {
+    "word": "mera",
+    "pronunciation": "MAY-rah",
+    "native": "मेरा"
+  },
+  "your": {
+    "word": "tumhara",
+    "pronunciation": "toom-HAH-rah",
+    "native": "तुम्हारा"
+  },
+  "his": {
+    "word": "uska",
+    "pronunciation": "OOS-kah",
+    "native": "उसका"
+  },
+  "this": {
+    "word": "yah",
+    "pronunciation": "YUH",
+    "native": "यह"
+  },
+  "that": {
+    "word": "voh",
+    "pronunciation": "VOH",
+    "native": "वह"
+  },
+  "in": {
+    "word": "mein",
+    "pronunciation": "MAYN",
+    "native": "में"
+  },
+  "on": {
+    "word": "par",
+    "pronunciation": "PUR",
+    "native": "पर"
+  },
+  "at": {
+    "word": "par",
+    "pronunciation": "PUR",
+    "native": "पर"
+  },
+  "to": {
+    "word": "ko",
+    "pronunciation": "KOH",
+    "native": "को"
+  },
+  "from": {
+    "word": "se",
+    "pronunciation": "SAY",
+    "native": "से"
+  },
+  "with": {
+    "word": "ke saath",
+    "pronunciation": "kay SAHTH",
+    "native": "के साथ"
+  },
+  "without": {
+    "word": "ke bina",
+    "pronunciation": "kay BEE-nah",
+    "native": "के बिना"
+  },
+  "for": {
+    "word": "ke liye",
+    "pronunciation": "kay LEE-yay",
+    "native": "के लिए"
+  },
+  "about": {
+    "word": "ke baare mein",
+    "pronunciation": "kay BAH-ray mayn",
+    "native": "के बारे में"
+  },
+  "between": {
+    "word": "ke beech",
+    "pronunciation": "kay BEECH",
+    "native": "के बीच"
+  },
+  "before": {
+    "word": "pehle",
+    "pronunciation": "PEH-lay",
+    "native": "पहले"
+  },
+  "after": {
+    "word": "ke baad",
+    "pronunciation": "kay BAHD",
+    "native": "के बाद"
+  },
+  "during": {
+    "word": "ke dauraan",
+    "pronunciation": "kay dow-RAHN",
+    "native": "के दौरान"
+  },
+  "and": {
+    "word": "aur",
+    "pronunciation": "OWR",
+    "native": "और"
+  },
+  "but": {
+    "word": "lekin",
+    "pronunciation": "LAY-kin",
+    "native": "लेकिन"
+  },
+  "or": {
+    "word": "ya",
+    "pronunciation": "YAH",
+    "native": "या"
+  },
+  "because": {
+    "word": "kyonki",
+    "pronunciation": "KYOHN-kee",
+    "native": "क्योंकि"
+  },
+  "if": {
+    "word": "agar",
+    "pronunciation": "UH-gur",
+    "native": "अगर"
+  },
+  "than": {
+    "word": "se",
+    "pronunciation": "SAY",
+    "native": "से"
+  },
+  "also": {
+    "word": "bhi",
+    "pronunciation": "BHEE",
+    "native": "भी"
+  }
+}

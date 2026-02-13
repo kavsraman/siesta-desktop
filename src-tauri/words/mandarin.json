@@ -1,0 +1,1342 @@
+{
+  "hello": {
+    "word": "nǐ hǎo",
+    "pronunciation": "nee HOW",
+    "native": "你好"
+  },
+  "goodbye": {
+    "word": "zàijiàn",
+    "pronunciation": "dzai-JEE-en",
+    "native": "再见"
+  },
+  "please": {
+    "word": "qǐng",
+    "pronunciation": "ching",
+    "native": "请"
+  },
+  "thank you": {
+    "word": "xièxie",
+    "pronunciation": "syeh-SYEH",
+    "native": "谢谢"
+  },
+  "excuse me": {
+    "word": "duìbuqǐ",
+    "pronunciation": "dway-boo-CHEE",
+    "native": "对不起"
+  },
+  "sorry": {
+    "word": "bàoqiàn",
+    "pronunciation": "bow-CHEE-en",
+    "native": "抱歉"
+  },
+  "good morning": {
+    "word": "zǎo shang hǎo",
+    "pronunciation": "dzow shahng HOW",
+    "native": "早上好"
+  },
+  "good evening": {
+    "word": "wǎnshang hǎo",
+    "pronunciation": "wahn-shahng HOW",
+    "native": "晚上好"
+  },
+  "good night": {
+    "word": "wǎn ān",
+    "pronunciation": "wahn AHN",
+    "native": "晚安"
+  },
+  "how are you": {
+    "word": "nǐ hǎo ma",
+    "pronunciation": "nee HOW mah",
+    "native": "你好吗"
+  },
+  "welcome": {
+    "word": "huānyíng",
+    "pronunciation": "hwahn-YING",
+    "native": "欢迎"
+  },
+  "yes": {
+    "word": "shì",
+    "pronunciation": "shuh",
+    "native": "是"
+  },
+  "no": {
+    "word": "bù",
+    "pronunciation": "boo",
+    "native": "不"
+  },
+  "one": {
+    "word": "yī",
+    "pronunciation": "ee",
+    "native": "一"
+  },
+  "two": {
+    "word": "èr",
+    "pronunciation": "arr",
+    "native": "二"
+  },
+  "three": {
+    "word": "sān",
+    "pronunciation": "sahn",
+    "native": "三"
+  },
+  "four": {
+    "word": "sì",
+    "pronunciation": "suh",
+    "native": "四"
+  },
+  "five": {
+    "word": "wǔ",
+    "pronunciation": "woo",
+    "native": "五"
+  },
+  "six": {
+    "word": "liù",
+    "pronunciation": "lee-OH",
+    "native": "六"
+  },
+  "seven": {
+    "word": "qī",
+    "pronunciation": "chee",
+    "native": "七"
+  },
+  "eight": {
+    "word": "bā",
+    "pronunciation": "bah",
+    "native": "八"
+  },
+  "nine": {
+    "word": "jiǔ",
+    "pronunciation": "jee-OH",
+    "native": "九"
+  },
+  "ten": {
+    "word": "shí",
+    "pronunciation": "shuh",
+    "native": "十"
+  },
+  "eleven": {
+    "word": "shíyī",
+    "pronunciation": "shuh-EE",
+    "native": "十一"
+  },
+  "twelve": {
+    "word": "shí'èr",
+    "pronunciation": "shuh-ARR",
+    "native": "十二"
+  },
+  "thirteen": {
+    "word": "shísān",
+    "pronunciation": "shuh-SAHN",
+    "native": "十三"
+  },
+  "fourteen": {
+    "word": "shísì",
+    "pronunciation": "shuh-SUH",
+    "native": "十四"
+  },
+  "fifteen": {
+    "word": "shíwǔ",
+    "pronunciation": "shuh-WOO",
+    "native": "十五"
+  },
+  "sixteen": {
+    "word": "shíliù",
+    "pronunciation": "shuh-lee-OH",
+    "native": "十六"
+  },
+  "seventeen": {
+    "word": "shíqī",
+    "pronunciation": "shuh-CHEE",
+    "native": "十七"
+  },
+  "eighteen": {
+    "word": "shíbā",
+    "pronunciation": "shuh-BAH",
+    "native": "十八"
+  },
+  "nineteen": {
+    "word": "shíjiǔ",
+    "pronunciation": "shuh-jee-OH",
+    "native": "十九"
+  },
+  "twenty": {
+    "word": "èrshí",
+    "pronunciation": "arr-SHUH",
+    "native": "二十"
+  },
+  "thirty": {
+    "word": "sānshí",
+    "pronunciation": "sahn-SHUH",
+    "native": "三十"
+  },
+  "forty": {
+    "word": "sìshí",
+    "pronunciation": "suh-SHUH",
+    "native": "四十"
+  },
+  "fifty": {
+    "word": "wǔshí",
+    "pronunciation": "woo-SHUH",
+    "native": "五十"
+  },
+  "sixty": {
+    "word": "liùshí",
+    "pronunciation": "lee-oh-SHUH",
+    "native": "六十"
+  },
+  "seventy": {
+    "word": "qīshí",
+    "pronunciation": "chee-SHUH",
+    "native": "七十"
+  },
+  "eighty": {
+    "word": "bāshí",
+    "pronunciation": "bah-SHUH",
+    "native": "八十"
+  },
+  "ninety": {
+    "word": "jiǔshí",
+    "pronunciation": "jee-oh-SHUH",
+    "native": "九十"
+  },
+  "hundred": {
+    "word": "bǎi",
+    "pronunciation": "bye",
+    "native": "百"
+  },
+  "monday": {
+    "word": "xīngqī yī",
+    "pronunciation": "shing-chee EE",
+    "native": "星期一"
+  },
+  "tuesday": {
+    "word": "xīngqī èr",
+    "pronunciation": "shing-chee ARR",
+    "native": "星期二"
+  },
+  "wednesday": {
+    "word": "xīngqī sān",
+    "pronunciation": "shing-chee SAHN",
+    "native": "星期三"
+  },
+  "thursday": {
+    "word": "xīngqī sì",
+    "pronunciation": "shing-chee SUH",
+    "native": "星期四"
+  },
+  "friday": {
+    "word": "xīngqī wǔ",
+    "pronunciation": "shing-chee WOO",
+    "native": "星期五"
+  },
+  "saturday": {
+    "word": "xīngqī liù",
+    "pronunciation": "shing-chee lee-OH",
+    "native": "星期六"
+  },
+  "sunday": {
+    "word": "xīngqī tiān",
+    "pronunciation": "shing-chee TEE-en",
+    "native": "星期天"
+  },
+  "january": {
+    "word": "yī yuè",
+    "pronunciation": "ee YWEH",
+    "native": "一月"
+  },
+  "february": {
+    "word": "èr yuè",
+    "pronunciation": "arr YWEH",
+    "native": "二月"
+  },
+  "march": {
+    "word": "sān yuè",
+    "pronunciation": "sahn YWEH",
+    "native": "三月"
+  },
+  "april": {
+    "word": "sì yuè",
+    "pronunciation": "suh YWEH",
+    "native": "四月"
+  },
+  "may": {
+    "word": "wǔ yuè",
+    "pronunciation": "woo YWEH",
+    "native": "五月"
+  },
+  "june": {
+    "word": "liù yuè",
+    "pronunciation": "lee-oh YWEH",
+    "native": "六月"
+  },
+  "july": {
+    "word": "qī yuè",
+    "pronunciation": "chee YWEH",
+    "native": "七月"
+  },
+  "august": {
+    "word": "bā yuè",
+    "pronunciation": "bah YWEH",
+    "native": "八月"
+  },
+  "september": {
+    "word": "jiǔ yuè",
+    "pronunciation": "jee-oh YWEH",
+    "native": "九月"
+  },
+  "october": {
+    "word": "shí yuè",
+    "pronunciation": "shuh YWEH",
+    "native": "十月"
+  },
+  "november": {
+    "word": "shíyī yuè",
+    "pronunciation": "shuh-ee YWEH",
+    "native": "十一月"
+  },
+  "december": {
+    "word": "shí'èr yuè",
+    "pronunciation": "shuh-arr YWEH",
+    "native": "十二月"
+  },
+  "today": {
+    "word": "jīntiān",
+    "pronunciation": "jin-TEE-en",
+    "native": "今天"
+  },
+  "tomorrow": {
+    "word": "míngtiān",
+    "pronunciation": "ming-TEE-en",
+    "native": "明天"
+  },
+  "yesterday": {
+    "word": "zuótiān",
+    "pronunciation": "dzwoh-TEE-en",
+    "native": "昨天"
+  },
+  "morning": {
+    "word": "zǎoshang",
+    "pronunciation": "dzow-SHAHNG",
+    "native": "早上"
+  },
+  "afternoon": {
+    "word": "xiàwǔ",
+    "pronunciation": "syah-WOO",
+    "native": "下午"
+  },
+  "evening": {
+    "word": "wǎnshang",
+    "pronunciation": "wahn-SHAHNG",
+    "native": "晚上"
+  },
+  "night": {
+    "word": "yèwǎn",
+    "pronunciation": "yeh-WAHN",
+    "native": "夜晚"
+  },
+  "now": {
+    "word": "xiànzài",
+    "pronunciation": "syen-DZAI",
+    "native": "现在"
+  },
+  "later": {
+    "word": "yǐhòu",
+    "pronunciation": "ee-HOH",
+    "native": "以后"
+  },
+  "soon": {
+    "word": "kuài",
+    "pronunciation": "kwai",
+    "native": "快"
+  },
+  "always": {
+    "word": "zǒngshì",
+    "pronunciation": "dzoong-SHUH",
+    "native": "总是"
+  },
+  "never": {
+    "word": "cónglái bù",
+    "pronunciation": "tsoong-lai BOO",
+    "native": "从来不"
+  },
+  "sometimes": {
+    "word": "yǒushíhou",
+    "pronunciation": "yoh-SHUH-hoh",
+    "native": "有时候"
+  },
+  "early": {
+    "word": "zǎo",
+    "pronunciation": "dzow",
+    "native": "早"
+  },
+  "late": {
+    "word": "wǎn",
+    "pronunciation": "wahn",
+    "native": "晚"
+  },
+  "water": {
+    "word": "shuǐ",
+    "pronunciation": "shway",
+    "native": "水"
+  },
+  "bread": {
+    "word": "miànbāo",
+    "pronunciation": "mee-en-BOW",
+    "native": "面包"
+  },
+  "wine": {
+    "word": "pútaojiǔ",
+    "pronunciation": "poo-tow-JEE-oh",
+    "native": "葡萄酒"
+  },
+  "coffee": {
+    "word": "kāfēi",
+    "pronunciation": "kah-FAY",
+    "native": "咖啡"
+  },
+  "milk": {
+    "word": "niúnǎi",
+    "pronunciation": "nee-oh-NYE",
+    "native": "牛奶"
+  },
+  "cheese": {
+    "word": "nǎilào",
+    "pronunciation": "nye-LOW",
+    "native": "奶酪"
+  },
+  "meat": {
+    "word": "ròu",
+    "pronunciation": "roh",
+    "native": "肉"
+  },
+  "fish": {
+    "word": "yú",
+    "pronunciation": "yoo",
+    "native": "鱼"
+  },
+  "fruit": {
+    "word": "shuǐguǒ",
+    "pronunciation": "shway-GWOH",
+    "native": "水果"
+  },
+  "rice": {
+    "word": "mǐfàn",
+    "pronunciation": "mee-FAHN",
+    "native": "米饭"
+  },
+  "chicken": {
+    "word": "jī",
+    "pronunciation": "jee",
+    "native": "鸡"
+  },
+  "egg": {
+    "word": "jīdàn",
+    "pronunciation": "jee-DAHN",
+    "native": "鸡蛋"
+  },
+  "salt": {
+    "word": "yán",
+    "pronunciation": "yen",
+    "native": "盐"
+  },
+  "sugar": {
+    "word": "táng",
+    "pronunciation": "tahng",
+    "native": "糖"
+  },
+  "beer": {
+    "word": "píjiǔ",
+    "pronunciation": "pee-JEE-oh",
+    "native": "啤酒"
+  },
+  "tea": {
+    "word": "chá",
+    "pronunciation": "chah",
+    "native": "茶"
+  },
+  "vegetable": {
+    "word": "shūcài",
+    "pronunciation": "shoo-TSAI",
+    "native": "蔬菜"
+  },
+  "soup": {
+    "word": "tāng",
+    "pronunciation": "tahng",
+    "native": "汤"
+  },
+  "cake": {
+    "word": "dàngāo",
+    "pronunciation": "dahng-GOW",
+    "native": "蛋糕"
+  },
+  "butter": {
+    "word": "huángyóu",
+    "pronunciation": "hwahng-YOH",
+    "native": "黄油"
+  },
+  "left": {
+    "word": "zuǒ",
+    "pronunciation": "dzwoh",
+    "native": "左"
+  },
+  "right": {
+    "word": "yòu",
+    "pronunciation": "yoh",
+    "native": "右"
+  },
+  "north": {
+    "word": "běi",
+    "pronunciation": "bay",
+    "native": "北"
+  },
+  "south": {
+    "word": "nán",
+    "pronunciation": "nahn",
+    "native": "南"
+  },
+  "east": {
+    "word": "dōng",
+    "pronunciation": "doong",
+    "native": "东"
+  },
+  "west": {
+    "word": "xī",
+    "pronunciation": "shee",
+    "native": "西"
+  },
+  "map": {
+    "word": "dìtú",
+    "pronunciation": "dee-TOO",
+    "native": "地图"
+  },
+  "airport": {
+    "word": "jīchǎng",
+    "pronunciation": "jee-CHAHNG",
+    "native": "机场"
+  },
+  "hotel": {
+    "word": "jiǔdiàn",
+    "pronunciation": "jee-oh-DEE-en",
+    "native": "酒店"
+  },
+  "train": {
+    "word": "huǒchē",
+    "pronunciation": "hwoh-CHUH",
+    "native": "火车"
+  },
+  "bus": {
+    "word": "gōnggòng qìchē",
+    "pronunciation": "goong-goong chee-CHUH",
+    "native": "公共汽车"
+  },
+  "car": {
+    "word": "chē",
+    "pronunciation": "chuh",
+    "native": "车"
+  },
+  "ticket": {
+    "word": "piào",
+    "pronunciation": "pee-OW",
+    "native": "票"
+  },
+  "station": {
+    "word": "zhàn",
+    "pronunciation": "jahn",
+    "native": "站"
+  },
+  "restaurant": {
+    "word": "fànguǎn",
+    "pronunciation": "fahn-GWAHN",
+    "native": "饭馆"
+  },
+  "bank": {
+    "word": "yínháng",
+    "pronunciation": "yin-HAHNG",
+    "native": "银行"
+  },
+  "hospital": {
+    "word": "yīyuàn",
+    "pronunciation": "ee-YWEN",
+    "native": "医院"
+  },
+  "pharmacy": {
+    "word": "yàodiàn",
+    "pronunciation": "yow-DEE-en",
+    "native": "药店"
+  },
+  "beach": {
+    "word": "hǎitān",
+    "pronunciation": "hai-TAHN",
+    "native": "海滩"
+  },
+  "museum": {
+    "word": "bówùguǎn",
+    "pronunciation": "boh-woo-GWAHN",
+    "native": "博物馆"
+  },
+  "be": {
+    "word": "shì",
+    "pronunciation": "shuh",
+    "native": "是"
+  },
+  "have": {
+    "word": "yǒu",
+    "pronunciation": "yoh",
+    "native": "有"
+  },
+  "go": {
+    "word": "qù",
+    "pronunciation": "choo",
+    "native": "去"
+  },
+  "come": {
+    "word": "lái",
+    "pronunciation": "lai",
+    "native": "来"
+  },
+  "eat": {
+    "word": "chī",
+    "pronunciation": "chuh",
+    "native": "吃"
+  },
+  "drink": {
+    "word": "hē",
+    "pronunciation": "huh",
+    "native": "喝"
+  },
+  "want": {
+    "word": "yào",
+    "pronunciation": "yow",
+    "native": "要"
+  },
+  "need": {
+    "word": "xūyào",
+    "pronunciation": "shoo-YOW",
+    "native": "需要"
+  },
+  "can": {
+    "word": "néng",
+    "pronunciation": "nung",
+    "native": "能"
+  },
+  "do": {
+    "word": "zuò",
+    "pronunciation": "dzwoh",
+    "native": "做"
+  },
+  "make": {
+    "word": "zhìzuò",
+    "pronunciation": "juh-DZWOH",
+    "native": "制作"
+  },
+  "see": {
+    "word": "kàn",
+    "pronunciation": "kahn",
+    "native": "看"
+  },
+  "look": {
+    "word": "kàn",
+    "pronunciation": "kahn",
+    "native": "看"
+  },
+  "know": {
+    "word": "zhīdào",
+    "pronunciation": "juh-DOW",
+    "native": "知道"
+  },
+  "think": {
+    "word": "xiǎng",
+    "pronunciation": "syahng",
+    "native": "想"
+  },
+  "say": {
+    "word": "shuō",
+    "pronunciation": "shwoh",
+    "native": "说"
+  },
+  "tell": {
+    "word": "gàosu",
+    "pronunciation": "gow-SOO",
+    "native": "告诉"
+  },
+  "speak": {
+    "word": "shuōhuà",
+    "pronunciation": "shwoh-HWAH",
+    "native": "说话"
+  },
+  "give": {
+    "word": "gěi",
+    "pronunciation": "gay",
+    "native": "给"
+  },
+  "take": {
+    "word": "ná",
+    "pronunciation": "nah",
+    "native": "拿"
+  },
+  "find": {
+    "word": "zhǎo",
+    "pronunciation": "jow",
+    "native": "找"
+  },
+  "put": {
+    "word": "fàng",
+    "pronunciation": "fahng",
+    "native": "放"
+  },
+  "read": {
+    "word": "dú",
+    "pronunciation": "doo",
+    "native": "读"
+  },
+  "write": {
+    "word": "xiě",
+    "pronunciation": "syeh",
+    "native": "写"
+  },
+  "buy": {
+    "word": "mǎi",
+    "pronunciation": "my",
+    "native": "买"
+  },
+  "sell": {
+    "word": "mài",
+    "pronunciation": "mai",
+    "native": "卖"
+  },
+  "open": {
+    "word": "kāi",
+    "pronunciation": "kai",
+    "native": "开"
+  },
+  "close": {
+    "word": "guān",
+    "pronunciation": "gwahn",
+    "native": "关"
+  },
+  "start": {
+    "word": "kāishǐ",
+    "pronunciation": "kai-SHUH",
+    "native": "开始"
+  },
+  "stop": {
+    "word": "tíng",
+    "pronunciation": "ting",
+    "native": "停"
+  },
+  "sleep": {
+    "word": "shuìjiào",
+    "pronunciation": "shway-JEE-ow",
+    "native": "睡觉"
+  },
+  "wake": {
+    "word": "xǐng",
+    "pronunciation": "shing",
+    "native": "醒"
+  },
+  "run": {
+    "word": "pǎo",
+    "pronunciation": "pow",
+    "native": "跑"
+  },
+  "walk": {
+    "word": "zǒu",
+    "pronunciation": "dzoh",
+    "native": "走"
+  },
+  "wait": {
+    "word": "děng",
+    "pronunciation": "dung",
+    "native": "等"
+  },
+  "help": {
+    "word": "bāngzhù",
+    "pronunciation": "bahng-JOO",
+    "native": "帮助"
+  },
+  "learn": {
+    "word": "xué",
+    "pronunciation": "shweh",
+    "native": "学"
+  },
+  "teach": {
+    "word": "jiāo",
+    "pronunciation": "jee-OW",
+    "native": "教"
+  },
+  "like": {
+    "word": "xǐhuan",
+    "pronunciation": "shee-HWAHN",
+    "native": "喜欢"
+  },
+  "love": {
+    "word": "ài",
+    "pronunciation": "ai",
+    "native": "爱"
+  },
+  "good": {
+    "word": "hǎo",
+    "pronunciation": "how",
+    "native": "好"
+  },
+  "bad": {
+    "word": "huài",
+    "pronunciation": "hwai",
+    "native": "坏"
+  },
+  "big": {
+    "word": "dà",
+    "pronunciation": "dah",
+    "native": "大"
+  },
+  "small": {
+    "word": "xiǎo",
+    "pronunciation": "syow",
+    "native": "小"
+  },
+  "new": {
+    "word": "xīn",
+    "pronunciation": "shin",
+    "native": "新"
+  },
+  "old": {
+    "word": "jiù",
+    "pronunciation": "jee-oh",
+    "native": "旧"
+  },
+  "beautiful": {
+    "word": "měilì",
+    "pronunciation": "may-LEE",
+    "native": "美丽"
+  },
+  "ugly": {
+    "word": "chǒu",
+    "pronunciation": "choh",
+    "native": "丑"
+  },
+  "hot": {
+    "word": "rè",
+    "pronunciation": "ruh",
+    "native": "热"
+  },
+  "cold": {
+    "word": "lěng",
+    "pronunciation": "lung",
+    "native": "冷"
+  },
+  "fast": {
+    "word": "kuài",
+    "pronunciation": "kwai",
+    "native": "快"
+  },
+  "slow": {
+    "word": "màn",
+    "pronunciation": "mahn",
+    "native": "慢"
+  },
+  "easy": {
+    "word": "róngyì",
+    "pronunciation": "roong-EE",
+    "native": "容易"
+  },
+  "hard": {
+    "word": "nán",
+    "pronunciation": "nahn",
+    "native": "难"
+  },
+  "happy": {
+    "word": "gāoxìng",
+    "pronunciation": "gow-SHING",
+    "native": "高兴"
+  },
+  "sad": {
+    "word": "nánguò",
+    "pronunciation": "nahn-GWOH",
+    "native": "难过"
+  },
+  "rich": {
+    "word": "fùyǒu",
+    "pronunciation": "foo-YOH",
+    "native": "富有"
+  },
+  "poor": {
+    "word": "qióng",
+    "pronunciation": "chee-OONG",
+    "native": "穷"
+  },
+  "young": {
+    "word": "niánqīng",
+    "pronunciation": "nee-en-CHING",
+    "native": "年轻"
+  },
+  "long": {
+    "word": "cháng",
+    "pronunciation": "chahng",
+    "native": "长"
+  },
+  "short": {
+    "word": "duǎn",
+    "pronunciation": "dwahn",
+    "native": "短"
+  },
+  "tall": {
+    "word": "gāo",
+    "pronunciation": "gow",
+    "native": "高"
+  },
+  "full": {
+    "word": "mǎn",
+    "pronunciation": "mahn",
+    "native": "满"
+  },
+  "empty": {
+    "word": "kōng",
+    "pronunciation": "koong",
+    "native": "空"
+  },
+  "clean": {
+    "word": "gānjìng",
+    "pronunciation": "gahn-JING",
+    "native": "干净"
+  },
+  "dirty": {
+    "word": "zāng",
+    "pronunciation": "dzahng",
+    "native": "脏"
+  },
+  "quiet": {
+    "word": "ānjìng",
+    "pronunciation": "ahn-JING",
+    "native": "安静"
+  },
+  "loud": {
+    "word": "dàshēng",
+    "pronunciation": "dah-SHUNG",
+    "native": "大声"
+  },
+  "dark": {
+    "word": "hēi'àn",
+    "pronunciation": "hay-AHN",
+    "native": "黑暗"
+  },
+  "light": {
+    "word": "liàng",
+    "pronunciation": "lee-AHNG",
+    "native": "亮"
+  },
+  "house": {
+    "word": "fángzi",
+    "pronunciation": "fahng-DZUH",
+    "native": "房子"
+  },
+  "food": {
+    "word": "shíwù",
+    "pronunciation": "shuh-WOO",
+    "native": "食物"
+  },
+  "person": {
+    "word": "rén",
+    "pronunciation": "run",
+    "native": "人"
+  },
+  "city": {
+    "word": "chéngshì",
+    "pronunciation": "chung-SHUH",
+    "native": "城市"
+  },
+  "street": {
+    "word": "jiē",
+    "pronunciation": "jee-eh",
+    "native": "街"
+  },
+  "man": {
+    "word": "nánrén",
+    "pronunciation": "nahn-RUN",
+    "native": "男人"
+  },
+  "woman": {
+    "word": "nǚrén",
+    "pronunciation": "noo-RUN",
+    "native": "女人"
+  },
+  "child": {
+    "word": "háizi",
+    "pronunciation": "hai-DZUH",
+    "native": "孩子"
+  },
+  "book": {
+    "word": "shū",
+    "pronunciation": "shoo",
+    "native": "书"
+  },
+  "music": {
+    "word": "yīnyuè",
+    "pronunciation": "yin-YWEH",
+    "native": "音乐"
+  },
+  "world": {
+    "word": "shìjiè",
+    "pronunciation": "shuh-JEE-eh",
+    "native": "世界"
+  },
+  "life": {
+    "word": "shēnghuó",
+    "pronunciation": "shung-HWOH",
+    "native": "生活"
+  },
+  "friend": {
+    "word": "péngyou",
+    "pronunciation": "pung-YOH",
+    "native": "朋友"
+  },
+  "family": {
+    "word": "jiārén",
+    "pronunciation": "jee-ah-RUN",
+    "native": "家人"
+  },
+  "money": {
+    "word": "qián",
+    "pronunciation": "chee-EN",
+    "native": "钱"
+  },
+  "work": {
+    "word": "gōngzuò",
+    "pronunciation": "goong-DZWOH",
+    "native": "工作"
+  },
+  "time": {
+    "word": "shíjiān",
+    "pronunciation": "shuh-JEE-en",
+    "native": "时间"
+  },
+  "day": {
+    "word": "tiān",
+    "pronunciation": "tee-EN",
+    "native": "天"
+  },
+  "year": {
+    "word": "nián",
+    "pronunciation": "nee-EN",
+    "native": "年"
+  },
+  "school": {
+    "word": "xuéxiào",
+    "pronunciation": "shweh-SYOW",
+    "native": "学校"
+  },
+  "door": {
+    "word": "mén",
+    "pronunciation": "mun",
+    "native": "门"
+  },
+  "window": {
+    "word": "chuānghù",
+    "pronunciation": "chwahng-HOO",
+    "native": "窗户"
+  },
+  "table": {
+    "word": "zhuōzi",
+    "pronunciation": "jwoh-DZUH",
+    "native": "桌子"
+  },
+  "phone": {
+    "word": "diànhuà",
+    "pronunciation": "dee-en-HWAH",
+    "native": "电话"
+  },
+  "name": {
+    "word": "míngzi",
+    "pronunciation": "ming-DZUH",
+    "native": "名字"
+  },
+  "number": {
+    "word": "hàomǎ",
+    "pronunciation": "how-MAH",
+    "native": "号码"
+  },
+  "country": {
+    "word": "guójiā",
+    "pronunciation": "gwoh-JEE-ah",
+    "native": "国家"
+  },
+  "language": {
+    "word": "yǔyán",
+    "pronunciation": "yoo-YEN",
+    "native": "语言"
+  },
+  "way": {
+    "word": "lù",
+    "pronunciation": "loo",
+    "native": "路"
+  },
+  "thing": {
+    "word": "dōngxi",
+    "pronunciation": "doong-SHEE",
+    "native": "东西"
+  },
+  "place": {
+    "word": "dìfang",
+    "pronunciation": "dee-FAHNG",
+    "native": "地方"
+  },
+  "hand": {
+    "word": "shǒu",
+    "pronunciation": "shoh",
+    "native": "手"
+  },
+  "head": {
+    "word": "tóu",
+    "pronunciation": "toh",
+    "native": "头"
+  },
+  "eye": {
+    "word": "yǎnjīng",
+    "pronunciation": "yen-JING",
+    "native": "眼睛"
+  },
+  "word": {
+    "word": "cí",
+    "pronunciation": "tsuh",
+    "native": "词"
+  },
+  "story": {
+    "word": "gùshi",
+    "pronunciation": "goo-SHUH",
+    "native": "故事"
+  },
+  "problem": {
+    "word": "wèntí",
+    "pronunciation": "wun-TEE",
+    "native": "问题"
+  },
+  "who": {
+    "word": "shéi",
+    "pronunciation": "shay",
+    "native": "谁"
+  },
+  "what": {
+    "word": "shénme",
+    "pronunciation": "SHUN-muh",
+    "native": "什么"
+  },
+  "where": {
+    "word": "nǎlǐ",
+    "pronunciation": "NAH-lee",
+    "native": "哪里"
+  },
+  "when": {
+    "word": "shénme shíhou",
+    "pronunciation": "SHUN-muh shuh-hoh",
+    "native": "什么时候"
+  },
+  "why": {
+    "word": "wèishénme",
+    "pronunciation": "way-SHUN-muh",
+    "native": "为什么"
+  },
+  "how": {
+    "word": "zěnme",
+    "pronunciation": "DZUN-muh",
+    "native": "怎么"
+  },
+  "which": {
+    "word": "nǎge",
+    "pronunciation": "NAH-guh",
+    "native": "哪个"
+  },
+  "how much": {
+    "word": "duōshao qián",
+    "pronunciation": "dwoh-show CHEE-en",
+    "native": "多少钱"
+  },
+  "how many": {
+    "word": "duōshao",
+    "pronunciation": "dwoh-SHOW",
+    "native": "多少"
+  },
+  "I": {
+    "word": "wǒ",
+    "pronunciation": "woh",
+    "native": "我"
+  },
+  "you": {
+    "word": "nǐ",
+    "pronunciation": "nee",
+    "native": "你"
+  },
+  "he": {
+    "word": "tā",
+    "pronunciation": "tah",
+    "native": "他"
+  },
+  "she": {
+    "word": "tā",
+    "pronunciation": "tah",
+    "native": "她"
+  },
+  "it": {
+    "word": "tā",
+    "pronunciation": "tah",
+    "native": "它"
+  },
+  "we": {
+    "word": "wǒmen",
+    "pronunciation": "woh-MUN",
+    "native": "我们"
+  },
+  "they": {
+    "word": "tāmen",
+    "pronunciation": "tah-MUN",
+    "native": "他们"
+  },
+  "me": {
+    "word": "wǒ",
+    "pronunciation": "woh",
+    "native": "我"
+  },
+  "him": {
+    "word": "tā",
+    "pronunciation": "tah",
+    "native": "他"
+  },
+  "her": {
+    "word": "tā",
+    "pronunciation": "tah",
+    "native": "她"
+  },
+  "us": {
+    "word": "wǒmen",
+    "pronunciation": "woh-MUN",
+    "native": "我们"
+  },
+  "them": {
+    "word": "tāmen",
+    "pronunciation": "tah-MUN",
+    "native": "他们"
+  },
+  "my": {
+    "word": "wǒ de",
+    "pronunciation": "woh DUH",
+    "native": "我的"
+  },
+  "your": {
+    "word": "nǐ de",
+    "pronunciation": "nee DUH",
+    "native": "你的"
+  },
+  "his": {
+    "word": "tā de",
+    "pronunciation": "tah DUH",
+    "native": "他的"
+  },
+  "this": {
+    "word": "zhège",
+    "pronunciation": "JUH-guh",
+    "native": "这个"
+  },
+  "that": {
+    "word": "nàge",
+    "pronunciation": "NAH-guh",
+    "native": "那个"
+  },
+  "in": {
+    "word": "zài...lǐ",
+    "pronunciation": "dzai...LEE",
+    "native": "在...里"
+  },
+  "on": {
+    "word": "zài...shàng",
+    "pronunciation": "dzai...SHAHNG",
+    "native": "在...上"
+  },
+  "at": {
+    "word": "zài",
+    "pronunciation": "dzai",
+    "native": "在"
+  },
+  "to": {
+    "word": "dào",
+    "pronunciation": "dow",
+    "native": "到"
+  },
+  "from": {
+    "word": "cóng",
+    "pronunciation": "tsoong",
+    "native": "从"
+  },
+  "with": {
+    "word": "hé",
+    "pronunciation": "huh",
+    "native": "和"
+  },
+  "without": {
+    "word": "méiyǒu",
+    "pronunciation": "may-YOH",
+    "native": "没有"
+  },
+  "for": {
+    "word": "wèile",
+    "pronunciation": "way-LUH",
+    "native": "为了"
+  },
+  "about": {
+    "word": "guānyú",
+    "pronunciation": "gwahn-YOO",
+    "native": "关于"
+  },
+  "between": {
+    "word": "zhījiān",
+    "pronunciation": "juh-JEE-en",
+    "native": "之间"
+  },
+  "before": {
+    "word": "zhīqián",
+    "pronunciation": "juh-CHEE-en",
+    "native": "之前"
+  },
+  "after": {
+    "word": "zhīhòu",
+    "pronunciation": "juh-HOH",
+    "native": "之后"
+  },
+  "during": {
+    "word": "zài...qījiān",
+    "pronunciation": "dzai...chee-JEE-en",
+    "native": "在...期间"
+  },
+  "and": {
+    "word": "hé",
+    "pronunciation": "huh",
+    "native": "和"
+  },
+  "but": {
+    "word": "dànshì",
+    "pronunciation": "dahn-SHUH",
+    "native": "但是"
+  },
+  "or": {
+    "word": "huòzhě",
+    "pronunciation": "hwoh-JUH",
+    "native": "或者"
+  },
+  "because": {
+    "word": "yīnwèi",
+    "pronunciation": "yin-WAY",
+    "native": "因为"
+  },
+  "if": {
+    "word": "rúguǒ",
+    "pronunciation": "roo-GWOH",
+    "native": "如果"
+  },
+  "than": {
+    "word": "bǐ",
+    "pronunciation": "bee",
+    "native": "比"
+  },
+  "also": {
+    "word": "yě",
+    "pronunciation": "yeh",
+    "native": "也"
+  }
+}

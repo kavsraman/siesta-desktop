@@ -1,0 +1,1342 @@
+{
+  "hello": {
+    "word": "vanakkam",
+    "pronunciation": "vah-NAHK-kahm",
+    "native": "வணக்கம்"
+  },
+  "goodbye": {
+    "word": "poitu varein",
+    "pronunciation": "POY-too vah-RAYN",
+    "native": "போய்ட்டு வரேன்"
+  },
+  "please": {
+    "word": "thayavu seithu",
+    "pronunciation": "THAH-yah-voo SAYT-hoo",
+    "native": "தயவு செய்து"
+  },
+  "thank you": {
+    "word": "nandri",
+    "pronunciation": "NAHN-dree",
+    "native": "நன்றி"
+  },
+  "excuse me": {
+    "word": "mannikavum",
+    "pronunciation": "MAHN-nee-kah-voom",
+    "native": "மன்னிக்கவும்"
+  },
+  "sorry": {
+    "word": "mannikkavum",
+    "pronunciation": "MAHN-nik-kah-voom",
+    "native": "மன்னிக்கவும்"
+  },
+  "good morning": {
+    "word": "kaalai vanakkam",
+    "pronunciation": "KAH-lai vah-NAHK-kahm",
+    "native": "காலை வணக்கம்"
+  },
+  "good evening": {
+    "word": "maalai vanakkam",
+    "pronunciation": "MAH-lai vah-NAHK-kahm",
+    "native": "மாலை வணக்கம்"
+  },
+  "good night": {
+    "word": "iravu vanakkam",
+    "pronunciation": "ee-RAH-voo vah-NAHK-kahm",
+    "native": "இரவு வணக்கம்"
+  },
+  "how are you": {
+    "word": "eppadi irukkeenga",
+    "pronunciation": "EP-pah-dee ee-ROOK-keen-gah",
+    "native": "எப்படி இருக்கீங்க"
+  },
+  "welcome": {
+    "word": "varaverppu",
+    "pronunciation": "VAH-rah-VAIRP-poo",
+    "native": "வரவேற்பு"
+  },
+  "yes": {
+    "word": "aamaa",
+    "pronunciation": "AH-mah",
+    "native": "ஆமா"
+  },
+  "one": {
+    "word": "ondru",
+    "pronunciation": "OHN-droo",
+    "native": "ஒன்று"
+  },
+  "two": {
+    "word": "irandu",
+    "pronunciation": "ee-RAHN-doo",
+    "native": "இரண்டு"
+  },
+  "three": {
+    "word": "moondru",
+    "pronunciation": "MOON-droo",
+    "native": "மூன்று"
+  },
+  "four": {
+    "word": "naangu",
+    "pronunciation": "NAHN-goo",
+    "native": "நான்கு"
+  },
+  "five": {
+    "word": "ainthu",
+    "pronunciation": "AYIN-thoo",
+    "native": "ஐந்து"
+  },
+  "six": {
+    "word": "aaru",
+    "pronunciation": "AH-roo",
+    "native": "ஆறு"
+  },
+  "seven": {
+    "word": "ezhu",
+    "pronunciation": "AY-zhoo",
+    "native": "ஏழு"
+  },
+  "eight": {
+    "word": "ettu",
+    "pronunciation": "ET-too",
+    "native": "எட்டு"
+  },
+  "nine": {
+    "word": "onpathu",
+    "pronunciation": "OHN-pah-thoo",
+    "native": "ஒன்பது"
+  },
+  "ten": {
+    "word": "paththu",
+    "pronunciation": "PAHT-thoo",
+    "native": "பத்து"
+  },
+  "eleven": {
+    "word": "pathinondru",
+    "pronunciation": "pah-thin-OHN-droo",
+    "native": "பதினொன்று"
+  },
+  "twelve": {
+    "word": "pannirandu",
+    "pronunciation": "pahn-nee-RAHN-doo",
+    "native": "பன்னிரண்டு"
+  },
+  "thirteen": {
+    "word": "pathimoondru",
+    "pronunciation": "pah-thee-MOON-droo",
+    "native": "பதிமூன்று"
+  },
+  "fourteen": {
+    "word": "pathinaangu",
+    "pronunciation": "pah-thee-NAHN-goo",
+    "native": "பதினான்கு"
+  },
+  "fifteen": {
+    "word": "pathinainthu",
+    "pronunciation": "pah-thee-NAYIN-thoo",
+    "native": "பதினைந்து"
+  },
+  "sixteen": {
+    "word": "pathinaaru",
+    "pronunciation": "pah-thee-NAH-roo",
+    "native": "பதினாறு"
+  },
+  "seventeen": {
+    "word": "pathinezhu",
+    "pronunciation": "pah-thee-NAY-zhoo",
+    "native": "பதினேழு"
+  },
+  "eighteen": {
+    "word": "pathinettu",
+    "pronunciation": "pah-thee-NET-too",
+    "native": "பதினெட்டு"
+  },
+  "nineteen": {
+    "word": "paththonpathu",
+    "pronunciation": "paht-THOHN-pah-thoo",
+    "native": "பத்தொன்பது"
+  },
+  "twenty": {
+    "word": "irupathu",
+    "pronunciation": "ee-ROO-pah-thoo",
+    "native": "இருபது"
+  },
+  "thirty": {
+    "word": "muppathu",
+    "pronunciation": "MOOP-pah-thoo",
+    "native": "முப்பது"
+  },
+  "forty": {
+    "word": "naarpathu",
+    "pronunciation": "NAHR-pah-thoo",
+    "native": "நாற்பது"
+  },
+  "fifty": {
+    "word": "aimpathu",
+    "pronunciation": "AYM-pah-thoo",
+    "native": "ஐம்பது"
+  },
+  "sixty": {
+    "word": "arupathu",
+    "pronunciation": "ah-ROO-pah-thoo",
+    "native": "அறுபது"
+  },
+  "seventy": {
+    "word": "ezhupathu",
+    "pronunciation": "ay-ZHOO-pah-thoo",
+    "native": "எழுபது"
+  },
+  "eighty": {
+    "word": "enpathu",
+    "pronunciation": "EN-pah-thoo",
+    "native": "எண்பது"
+  },
+  "ninety": {
+    "word": "thonnooru",
+    "pronunciation": "thohn-NOO-roo",
+    "native": "தொண்ணூறு"
+  },
+  "hundred": {
+    "word": "nooru",
+    "pronunciation": "NOO-roo",
+    "native": "நூறு"
+  },
+  "monday": {
+    "word": "thingal",
+    "pronunciation": "THING-gahl",
+    "native": "திங்கள்"
+  },
+  "tuesday": {
+    "word": "sevvaai",
+    "pronunciation": "SEV-vai",
+    "native": "செவ்வாய்"
+  },
+  "wednesday": {
+    "word": "budhan",
+    "pronunciation": "BOO-dhahn",
+    "native": "புதன்"
+  },
+  "thursday": {
+    "word": "viyaazhan",
+    "pronunciation": "vee-YAH-zhahn",
+    "native": "வியாழன்"
+  },
+  "friday": {
+    "word": "velli",
+    "pronunciation": "VEL-lee",
+    "native": "வெள்ளி"
+  },
+  "saturday": {
+    "word": "sani",
+    "pronunciation": "SAH-nee",
+    "native": "சனி"
+  },
+  "sunday": {
+    "word": "nyaayiru",
+    "pronunciation": "NYAH-yee-roo",
+    "native": "ஞாயிறு"
+  },
+  "january": {
+    "word": "janavari",
+    "pronunciation": "JAH-nah-vah-ree",
+    "native": "ஜனவரி"
+  },
+  "february": {
+    "word": "pibravari",
+    "pronunciation": "PIB-rah-vah-ree",
+    "native": "பிப்ரவரி"
+  },
+  "march": {
+    "word": "maarch",
+    "pronunciation": "MAHRCH",
+    "native": "மார்ச்"
+  },
+  "april": {
+    "word": "eipral",
+    "pronunciation": "AYP-rahl",
+    "native": "ஏப்ரல்"
+  },
+  "may": {
+    "word": "mei",
+    "pronunciation": "MAY",
+    "native": "மே"
+  },
+  "june": {
+    "word": "joon",
+    "pronunciation": "JOON",
+    "native": "ஜூன்"
+  },
+  "july": {
+    "word": "julai",
+    "pronunciation": "JOO-lai",
+    "native": "ஜூலை"
+  },
+  "august": {
+    "word": "aagast",
+    "pronunciation": "AH-gahst",
+    "native": "ஆகஸ்ட்"
+  },
+  "september": {
+    "word": "septembar",
+    "pronunciation": "sep-TEM-bahr",
+    "native": "செப்டம்பர்"
+  },
+  "october": {
+    "word": "aktobar",
+    "pronunciation": "ahk-TOH-bahr",
+    "native": "அக்டோபர்"
+  },
+  "november": {
+    "word": "novembar",
+    "pronunciation": "noh-VEM-bahr",
+    "native": "நவம்பர்"
+  },
+  "december": {
+    "word": "disambar",
+    "pronunciation": "dee-SEM-bahr",
+    "native": "டிசம்பர்"
+  },
+  "today": {
+    "word": "indru",
+    "pronunciation": "IN-droo",
+    "native": "இன்று"
+  },
+  "tomorrow": {
+    "word": "naalai",
+    "pronunciation": "NAH-lai",
+    "native": "நாளை"
+  },
+  "yesterday": {
+    "word": "netru",
+    "pronunciation": "NET-roo",
+    "native": "நேற்று"
+  },
+  "morning": {
+    "word": "kaalai",
+    "pronunciation": "KAH-lai",
+    "native": "காலை"
+  },
+  "afternoon": {
+    "word": "matiyam",
+    "pronunciation": "MAH-thee-yahm",
+    "native": "மதியம்"
+  },
+  "evening": {
+    "word": "maalai",
+    "pronunciation": "MAH-lai",
+    "native": "மாலை"
+  },
+  "night": {
+    "word": "iravu",
+    "pronunciation": "ee-RAH-voo",
+    "native": "இரவு"
+  },
+  "now": {
+    "word": "ippozhuthu",
+    "pronunciation": "IP-poh-zhoo-thoo",
+    "native": "இப்போழுது"
+  },
+  "later": {
+    "word": "piragu",
+    "pronunciation": "PIR-ah-goo",
+    "native": "பிறகு"
+  },
+  "soon": {
+    "word": "viraivil",
+    "pronunciation": "vee-RAI-vil",
+    "native": "விரைவில்"
+  },
+  "always": {
+    "word": "eppothum",
+    "pronunciation": "EP-poh-thoom",
+    "native": "எப்போதும்"
+  },
+  "never": {
+    "word": "eppothum illai",
+    "pronunciation": "EP-poh-thoom IL-lai",
+    "native": "எப்போதும் இல்லை"
+  },
+  "sometimes": {
+    "word": "sila samayam",
+    "pronunciation": "SIH-lah SAH-mah-yahm",
+    "native": "சில சமயம்"
+  },
+  "early": {
+    "word": "seekkiram",
+    "pronunciation": "SEEK-kee-rahm",
+    "native": "சீக்கிரம்"
+  },
+  "late": {
+    "word": "thaamatham",
+    "pronunciation": "THAH-mah-thahm",
+    "native": "தாமதம்"
+  },
+  "water": {
+    "word": "thanni",
+    "pronunciation": "THAHN-nee",
+    "native": "தண்ணீர்"
+  },
+  "bread": {
+    "word": "rotty",
+    "pronunciation": "ROHT-tee",
+    "native": "ரொட்டி"
+  },
+  "wine": {
+    "word": "thiratcha rasam",
+    "pronunciation": "thee-RAHT-chah RAH-sahm",
+    "native": "திராட்சை ரசம்"
+  },
+  "coffee": {
+    "word": "kaapi",
+    "pronunciation": "KAH-pee",
+    "native": "காபி"
+  },
+  "milk": {
+    "word": "paal",
+    "pronunciation": "PAHL",
+    "native": "பால்"
+  },
+  "cheese": {
+    "word": "paaneer",
+    "pronunciation": "pah-NEER",
+    "native": "பனீர்"
+  },
+  "meat": {
+    "word": "iraichchi",
+    "pronunciation": "ee-RAICH-chee",
+    "native": "இறைச்சி"
+  },
+  "fish": {
+    "word": "meen",
+    "pronunciation": "MEEN",
+    "native": "மீன்"
+  },
+  "fruit": {
+    "word": "pazham",
+    "pronunciation": "PAH-zhahm",
+    "native": "பழம்"
+  },
+  "rice": {
+    "word": "saadam",
+    "pronunciation": "SAH-dahm",
+    "native": "சாதம்"
+  },
+  "chicken": {
+    "word": "kozhi",
+    "pronunciation": "KOH-zhee",
+    "native": "கோழி"
+  },
+  "egg": {
+    "word": "muttai",
+    "pronunciation": "MOOT-tai",
+    "native": "முட்டை"
+  },
+  "salt": {
+    "word": "uppu",
+    "pronunciation": "OOP-poo",
+    "native": "உப்பு"
+  },
+  "sugar": {
+    "word": "sakkarai",
+    "pronunciation": "SAHK-kah-rai",
+    "native": "சர்க்கரை"
+  },
+  "beer": {
+    "word": "beer",
+    "pronunciation": "BEER",
+    "native": "பீர்"
+  },
+  "tea": {
+    "word": "theneer",
+    "pronunciation": "THAY-neer",
+    "native": "தேநீர்"
+  },
+  "vegetable": {
+    "word": "kaaikari",
+    "pronunciation": "KAI-kah-ree",
+    "native": "காய்கறி"
+  },
+  "soup": {
+    "word": "soup",
+    "pronunciation": "SOOP",
+    "native": "சூப்"
+  },
+  "cake": {
+    "word": "cake",
+    "pronunciation": "KAYK",
+    "native": "கேக்"
+  },
+  "butter": {
+    "word": "vennai",
+    "pronunciation": "VEN-nai",
+    "native": "வெண்ணெய்"
+  },
+  "left": {
+    "word": "idathu",
+    "pronunciation": "ee-DAH-thoo",
+    "native": "இடது"
+  },
+  "right": {
+    "word": "valathu",
+    "pronunciation": "VAH-lah-thoo",
+    "native": "வலது"
+  },
+  "north": {
+    "word": "vadakku",
+    "pronunciation": "VAH-dahk-koo",
+    "native": "வடக்கு"
+  },
+  "south": {
+    "word": "therku",
+    "pronunciation": "THER-koo",
+    "native": "தெற்கு"
+  },
+  "east": {
+    "word": "kizhakku",
+    "pronunciation": "kee-ZHAHK-koo",
+    "native": "கிழக்கு"
+  },
+  "west": {
+    "word": "merkku",
+    "pronunciation": "MAIR-koo",
+    "native": "மேற்கு"
+  },
+  "map": {
+    "word": "varaippadam",
+    "pronunciation": "VAH-raip-pah-dahm",
+    "native": "வரைபடம்"
+  },
+  "airport": {
+    "word": "vimana nilaiyam",
+    "pronunciation": "vee-MAH-nah nee-LAI-yahm",
+    "native": "விமான நிலையம்"
+  },
+  "hotel": {
+    "word": "vidhuthi",
+    "pronunciation": "vee-DHOO-thee",
+    "native": "விடுதி"
+  },
+  "train": {
+    "word": "rayil",
+    "pronunciation": "RAH-yil",
+    "native": "ரயில்"
+  },
+  "bus": {
+    "word": "perundu",
+    "pronunciation": "PEH-roon-doo",
+    "native": "பேருந்து"
+  },
+  "car": {
+    "word": "kaar",
+    "pronunciation": "KAHR",
+    "native": "கார்"
+  },
+  "ticket": {
+    "word": "seetu",
+    "pronunciation": "SEE-too",
+    "native": "சீட்டு"
+  },
+  "station": {
+    "word": "nilaiyam",
+    "pronunciation": "nee-LAI-yahm",
+    "native": "நிலையம்"
+  },
+  "restaurant": {
+    "word": "unavagam",
+    "pronunciation": "OO-nah-vah-gahm",
+    "native": "உணவகம்"
+  },
+  "bank": {
+    "word": "vangi",
+    "pronunciation": "VAHN-gee",
+    "native": "வங்கி"
+  },
+  "hospital": {
+    "word": "maruthuvamanai",
+    "pronunciation": "mah-ROO-thoo-vah-mah-nai",
+    "native": "மருத்துவமனை"
+  },
+  "pharmacy": {
+    "word": "marundhu kadai",
+    "pronunciation": "mah-ROON-dhoo kah-DAI",
+    "native": "மருந்து கடை"
+  },
+  "beach": {
+    "word": "kadarkkarai",
+    "pronunciation": "kah-DAHR-kah-rai",
+    "native": "கடற்கரை"
+  },
+  "museum": {
+    "word": "aruangaatchiyagam",
+    "pronunciation": "ah-ROON-gaht-chee-yah-gahm",
+    "native": "அருங்காட்சியகம்"
+  },
+  "be": {
+    "word": "iru",
+    "pronunciation": "EE-roo",
+    "native": "இரு"
+  },
+  "have": {
+    "word": "vai",
+    "pronunciation": "VAI",
+    "native": "வை"
+  },
+  "go": {
+    "word": "po",
+    "pronunciation": "POH",
+    "native": "போ"
+  },
+  "come": {
+    "word": "vaa",
+    "pronunciation": "VAH",
+    "native": "வா"
+  },
+  "eat": {
+    "word": "saapidu",
+    "pronunciation": "SAH-pee-doo",
+    "native": "சாப்பிடு"
+  },
+  "drink": {
+    "word": "kudi",
+    "pronunciation": "KOO-dee",
+    "native": "குடி"
+  },
+  "want": {
+    "word": "venum",
+    "pronunciation": "VAY-noom",
+    "native": "வேணும்"
+  },
+  "need": {
+    "word": "thevai",
+    "pronunciation": "THAY-vai",
+    "native": "தேவை"
+  },
+  "can": {
+    "word": "mudiyum",
+    "pronunciation": "MOO-dee-yoom",
+    "native": "முடியும்"
+  },
+  "do": {
+    "word": "sei",
+    "pronunciation": "SAY",
+    "native": "செய்"
+  },
+  "make": {
+    "word": "seiyya",
+    "pronunciation": "SAY-yah",
+    "native": "செய்ய"
+  },
+  "see": {
+    "word": "paaru",
+    "pronunciation": "PAH-roo",
+    "native": "பாரு"
+  },
+  "look": {
+    "word": "paarkka",
+    "pronunciation": "PAHRK-kah",
+    "native": "பார்க்க"
+  },
+  "know": {
+    "word": "theri",
+    "pronunciation": "THEH-ree",
+    "native": "தெரி"
+  },
+  "think": {
+    "word": "ninai",
+    "pronunciation": "nee-NAI",
+    "native": "நினை"
+  },
+  "say": {
+    "word": "sollu",
+    "pronunciation": "SOHL-loo",
+    "native": "சொல்லு"
+  },
+  "tell": {
+    "word": "soll",
+    "pronunciation": "SOHL",
+    "native": "சொல்"
+  },
+  "speak": {
+    "word": "pesu",
+    "pronunciation": "PAY-soo",
+    "native": "பேசு"
+  },
+  "give": {
+    "word": "kudu",
+    "pronunciation": "KOO-doo",
+    "native": "குடு"
+  },
+  "take": {
+    "word": "edu",
+    "pronunciation": "EH-doo",
+    "native": "எடு"
+  },
+  "find": {
+    "word": "kandu pidi",
+    "pronunciation": "KAHN-doo PEE-dee",
+    "native": "கண்டுபிடி"
+  },
+  "put": {
+    "word": "podhu",
+    "pronunciation": "POH-dhoo",
+    "native": "போடு"
+  },
+  "read": {
+    "word": "padi",
+    "pronunciation": "PAH-dee",
+    "native": "படி"
+  },
+  "write": {
+    "word": "ezhudhu",
+    "pronunciation": "EH-zhoo-dhoo",
+    "native": "எழுது"
+  },
+  "buy": {
+    "word": "vaangu",
+    "pronunciation": "VAHN-goo",
+    "native": "வாங்கு"
+  },
+  "sell": {
+    "word": "vitru",
+    "pronunciation": "VIT-roo",
+    "native": "விற்று"
+  },
+  "open": {
+    "word": "thora",
+    "pronunciation": "THOH-rah",
+    "native": "திற"
+  },
+  "close": {
+    "word": "moodu",
+    "pronunciation": "MOO-doo",
+    "native": "மூடு"
+  },
+  "start": {
+    "word": "aarambhi",
+    "pronunciation": "AH-rahm-bhee",
+    "native": "ஆரம்பி"
+  },
+  "stop": {
+    "word": "nillu",
+    "pronunciation": "NIL-loo",
+    "native": "நில்லு"
+  },
+  "sleep": {
+    "word": "thoonggu",
+    "pronunciation": "THOONG-goo",
+    "native": "தூங்கு"
+  },
+  "wake": {
+    "word": "ezhundiru",
+    "pronunciation": "EH-zhoon-dee-roo",
+    "native": "எழுந்திரு"
+  },
+  "run": {
+    "word": "odu",
+    "pronunciation": "OH-doo",
+    "native": "ஓடு"
+  },
+  "walk": {
+    "word": "nada",
+    "pronunciation": "NAH-dah",
+    "native": "நட"
+  },
+  "wait": {
+    "word": "poruththiru",
+    "pronunciation": "poh-ROOTH-thee-roo",
+    "native": "பொறுத்திரு"
+  },
+  "help": {
+    "word": "udavi",
+    "pronunciation": "OO-dah-vee",
+    "native": "உதவி"
+  },
+  "learn": {
+    "word": "katrukkol",
+    "pronunciation": "KAHT-rook-kohl",
+    "native": "கற்றுக்கொள்"
+  },
+  "teach": {
+    "word": "katrukodu",
+    "pronunciation": "KAHT-roo-koh-doo",
+    "native": "கற்றுக்கொடு"
+  },
+  "like": {
+    "word": "pidikkum",
+    "pronunciation": "pee-DIK-koom",
+    "native": "பிடிக்கும்"
+  },
+  "love": {
+    "word": "kaadhal",
+    "pronunciation": "KAH-dhahl",
+    "native": "காதல்"
+  },
+  "good": {
+    "word": "nalla",
+    "pronunciation": "NAHL-lah",
+    "native": "நல்ல"
+  },
+  "bad": {
+    "word": "kettadhu",
+    "pronunciation": "KET-tah-dhoo",
+    "native": "கெட்டது"
+  },
+  "big": {
+    "word": "periya",
+    "pronunciation": "PEH-ree-yah",
+    "native": "பெரிய"
+  },
+  "small": {
+    "word": "siriya",
+    "pronunciation": "SIR-ee-yah",
+    "native": "சிறிய"
+  },
+  "new": {
+    "word": "pudhu",
+    "pronunciation": "POO-dhoo",
+    "native": "புது"
+  },
+  "old": {
+    "word": "pazhaiya",
+    "pronunciation": "pah-ZHAI-yah",
+    "native": "பழைய"
+  },
+  "beautiful": {
+    "word": "azhagaana",
+    "pronunciation": "ah-ZHAH-gah-nah",
+    "native": "அழகான"
+  },
+  "ugly": {
+    "word": "asingamaana",
+    "pronunciation": "ah-SING-gah-mah-nah",
+    "native": "அசிங்கமான"
+  },
+  "hot": {
+    "word": "soodu",
+    "pronunciation": "SOO-doo",
+    "native": "சூடு"
+  },
+  "cold": {
+    "word": "kulir",
+    "pronunciation": "KOO-lir",
+    "native": "குளிர்"
+  },
+  "fast": {
+    "word": "vegamaaga",
+    "pronunciation": "VAY-gah-mah-gah",
+    "native": "வேகமாக"
+  },
+  "slow": {
+    "word": "medhuvaa",
+    "pronunciation": "meh-DHOO-vah",
+    "native": "மெதுவா"
+  },
+  "easy": {
+    "word": "elithu",
+    "pronunciation": "eh-LEE-thoo",
+    "native": "எளிது"
+  },
+  "hard": {
+    "word": "kadinam",
+    "pronunciation": "KAH-dee-nahm",
+    "native": "கடினம்"
+  },
+  "happy": {
+    "word": "santhosham",
+    "pronunciation": "SAHN-thoh-shahm",
+    "native": "சந்தோஷம்"
+  },
+  "sad": {
+    "word": "varuththam",
+    "pronunciation": "VAH-root-thahm",
+    "native": "வருத்தம்"
+  },
+  "rich": {
+    "word": "panavaan",
+    "pronunciation": "PAH-nah-vahn",
+    "native": "பணவான்"
+  },
+  "poor": {
+    "word": "ezhmai",
+    "pronunciation": "EZHH-mai",
+    "native": "ஏழ்மை"
+  },
+  "young": {
+    "word": "ilamai",
+    "pronunciation": "ee-LAH-mai",
+    "native": "இளமை"
+  },
+  "long": {
+    "word": "neelam",
+    "pronunciation": "NEE-lahm",
+    "native": "நீளம்"
+  },
+  "short": {
+    "word": "kuttai",
+    "pronunciation": "KOOT-tai",
+    "native": "குட்டை"
+  },
+  "tall": {
+    "word": "uyaram",
+    "pronunciation": "OO-yah-rahm",
+    "native": "உயரம்"
+  },
+  "full": {
+    "word": "niraintha",
+    "pronunciation": "nee-RAIN-thah",
+    "native": "நிரைந்த"
+  },
+  "empty": {
+    "word": "verum",
+    "pronunciation": "VAY-room",
+    "native": "வெறும்"
+  },
+  "clean": {
+    "word": "suththam",
+    "pronunciation": "SOOTH-thahm",
+    "native": "சுத்தம்"
+  },
+  "dirty": {
+    "word": "azhukku",
+    "pronunciation": "ah-ZHOOK-koo",
+    "native": "அழுக்கு"
+  },
+  "quiet": {
+    "word": "amaithiyaana",
+    "pronunciation": "ah-MAI-thee-yah-nah",
+    "native": "அமைதியான"
+  },
+  "loud": {
+    "word": "saththam",
+    "pronunciation": "SAHT-thahm",
+    "native": "சத்தம்"
+  },
+  "dark": {
+    "word": "irul",
+    "pronunciation": "ee-ROOL",
+    "native": "இருள்"
+  },
+  "light": {
+    "word": "olhi",
+    "pronunciation": "OH-lee",
+    "native": "ஒளி"
+  },
+  "house": {
+    "word": "veedu",
+    "pronunciation": "VEE-doo",
+    "native": "வீடு"
+  },
+  "food": {
+    "word": "unavu",
+    "pronunciation": "OO-nah-voo",
+    "native": "உணவு"
+  },
+  "person": {
+    "word": "manithan",
+    "pronunciation": "MAH-nee-thahn",
+    "native": "மனிதன்"
+  },
+  "city": {
+    "word": "nagaram",
+    "pronunciation": "NAH-gah-rahm",
+    "native": "நகரம்"
+  },
+  "street": {
+    "word": "theru",
+    "pronunciation": "THEH-roo",
+    "native": "தெரு"
+  },
+  "man": {
+    "word": "aan",
+    "pronunciation": "AHN",
+    "native": "ஆண்"
+  },
+  "woman": {
+    "word": "pen",
+    "pronunciation": "PEN",
+    "native": "பெண்"
+  },
+  "child": {
+    "word": "kuzhanthai",
+    "pronunciation": "KOO-zhahn-thai",
+    "native": "குழந்தை"
+  },
+  "book": {
+    "word": "puththagam",
+    "pronunciation": "POOTH-thah-gahm",
+    "native": "புத்தகம்"
+  },
+  "music": {
+    "word": "isai",
+    "pronunciation": "ee-SAI",
+    "native": "இசை"
+  },
+  "world": {
+    "word": "ulagam",
+    "pronunciation": "OO-lah-gahm",
+    "native": "உலகம்"
+  },
+  "life": {
+    "word": "vazhkkai",
+    "pronunciation": "VAHZH-kai",
+    "native": "வாழ்க்கை"
+  },
+  "friend": {
+    "word": "nanban",
+    "pronunciation": "NAHN-bahn",
+    "native": "நண்பன்"
+  },
+  "family": {
+    "word": "kudumbam",
+    "pronunciation": "koo-DOOM-bahm",
+    "native": "குடும்பம்"
+  },
+  "money": {
+    "word": "panam",
+    "pronunciation": "PAH-nahm",
+    "native": "பணம்"
+  },
+  "work": {
+    "word": "velai",
+    "pronunciation": "VEH-lai",
+    "native": "வேலை"
+  },
+  "time": {
+    "word": "neram",
+    "pronunciation": "NEH-rahm",
+    "native": "நேரம்"
+  },
+  "day": {
+    "word": "naal",
+    "pronunciation": "NAHL",
+    "native": "நாள்"
+  },
+  "year": {
+    "word": "varudam",
+    "pronunciation": "VAH-roo-dahm",
+    "native": "வருடம்"
+  },
+  "school": {
+    "word": "palli",
+    "pronunciation": "PAHL-lee",
+    "native": "பள்ளி"
+  },
+  "door": {
+    "word": "kadhavu",
+    "pronunciation": "kah-DHAH-voo",
+    "native": "கதவு"
+  },
+  "window": {
+    "word": "jannal",
+    "pronunciation": "JAHN-nahl",
+    "native": "ஜன்னல்"
+  },
+  "table": {
+    "word": "maejai",
+    "pronunciation": "MAY-jai",
+    "native": "மேஜை"
+  },
+  "phone": {
+    "word": "tholaipaesi",
+    "pronunciation": "THOH-lai-PAY-see",
+    "native": "தொலைபேசி"
+  },
+  "name": {
+    "word": "peyar",
+    "pronunciation": "PAY-yahr",
+    "native": "பெயர்"
+  },
+  "number": {
+    "word": "enn",
+    "pronunciation": "ENN",
+    "native": "எண்"
+  },
+  "country": {
+    "word": "naadu",
+    "pronunciation": "NAH-doo",
+    "native": "நாடு"
+  },
+  "language": {
+    "word": "mozhi",
+    "pronunciation": "MOH-zhee",
+    "native": "மொழி"
+  },
+  "way": {
+    "word": "vazhi",
+    "pronunciation": "VAH-zhee",
+    "native": "வழி"
+  },
+  "thing": {
+    "word": "porul",
+    "pronunciation": "POH-rool",
+    "native": "பொருள்"
+  },
+  "place": {
+    "word": "idam",
+    "pronunciation": "ee-DAHM",
+    "native": "இடம்"
+  },
+  "hand": {
+    "word": "kai",
+    "pronunciation": "KAI",
+    "native": "கை"
+  },
+  "head": {
+    "word": "thalai",
+    "pronunciation": "THAH-lai",
+    "native": "தலை"
+  },
+  "eye": {
+    "word": "kann",
+    "pronunciation": "KAHN",
+    "native": "கண்"
+  },
+  "word": {
+    "word": "sol",
+    "pronunciation": "SOHL",
+    "native": "சொல்"
+  },
+  "story": {
+    "word": "kathai",
+    "pronunciation": "KAH-thai",
+    "native": "கதை"
+  },
+  "problem": {
+    "word": "pirachanai",
+    "pronunciation": "pee-RAHCH-ah-nai",
+    "native": "பிரச்சனை"
+  },
+  "love (noun)": {
+    "word": "anbu",
+    "pronunciation": "AHN-boo",
+    "native": "அன்பு"
+  },
+  "who": {
+    "word": "yaar",
+    "pronunciation": "YAHR",
+    "native": "யார்"
+  },
+  "what": {
+    "word": "enna",
+    "pronunciation": "EN-nah",
+    "native": "என்ன"
+  },
+  "where": {
+    "word": "engae",
+    "pronunciation": "EN-gay",
+    "native": "எங்கே"
+  },
+  "when": {
+    "word": "eppodhu",
+    "pronunciation": "EP-poh-dhoo",
+    "native": "எப்போது"
+  },
+  "why": {
+    "word": "een",
+    "pronunciation": "EEN",
+    "native": "ஏன்"
+  },
+  "how": {
+    "word": "eppadi",
+    "pronunciation": "EP-pah-dee",
+    "native": "எப்படி"
+  },
+  "which": {
+    "word": "endha",
+    "pronunciation": "EN-dhah",
+    "native": "எந்த"
+  },
+  "how much": {
+    "word": "evvalavu",
+    "pronunciation": "ev-VAH-lah-voo",
+    "native": "எவ்வளவு"
+  },
+  "how many": {
+    "word": "eththanai",
+    "pronunciation": "ETH-thah-nai",
+    "native": "எத்தனை"
+  },
+  "i": {
+    "word": "naan",
+    "pronunciation": "NAHN",
+    "native": "நான்"
+  },
+  "you": {
+    "word": "nee",
+    "pronunciation": "NEE",
+    "native": "நீ"
+  },
+  "he": {
+    "word": "avan",
+    "pronunciation": "AH-vahn",
+    "native": "அவன்"
+  },
+  "she": {
+    "word": "aval",
+    "pronunciation": "AH-vahl",
+    "native": "அவள்"
+  },
+  "it": {
+    "word": "adhu",
+    "pronunciation": "AH-dhoo",
+    "native": "அது"
+  },
+  "we": {
+    "word": "naangal",
+    "pronunciation": "NAHN-gahl",
+    "native": "நாங்கள்"
+  },
+  "they": {
+    "word": "avargal",
+    "pronunciation": "AH-vahr-gahl",
+    "native": "அவர்கள்"
+  },
+  "me": {
+    "word": "ennai",
+    "pronunciation": "EN-nai",
+    "native": "என்னை"
+  },
+  "him": {
+    "word": "avanai",
+    "pronunciation": "AH-vah-nai",
+    "native": "அவனை"
+  },
+  "her": {
+    "word": "avalai",
+    "pronunciation": "AH-vah-lai",
+    "native": "அவளை"
+  },
+  "us": {
+    "word": "engalai",
+    "pronunciation": "EN-gah-lai",
+    "native": "எங்களை"
+  },
+  "them": {
+    "word": "avargalai",
+    "pronunciation": "AH-vahr-gah-lai",
+    "native": "அவர்களை"
+  },
+  "my": {
+    "word": "en",
+    "pronunciation": "EN",
+    "native": "என்"
+  },
+  "your": {
+    "word": "un",
+    "pronunciation": "OON",
+    "native": "உன்"
+  },
+  "his": {
+    "word": "avanudaiya",
+    "pronunciation": "AH-vahn-oo-DAI-yah",
+    "native": "அவனுடைய"
+  },
+  "this": {
+    "word": "idhu",
+    "pronunciation": "EE-dhoo",
+    "native": "இது"
+  },
+  "that": {
+    "word": "adhu",
+    "pronunciation": "AH-dhoo",
+    "native": "அது"
+  },
+  "in": {
+    "word": "ul",
+    "pronunciation": "OOL",
+    "native": "உள்"
+  },
+  "on": {
+    "word": "mael",
+    "pronunciation": "MAIL",
+    "native": "மேல்"
+  },
+  "at": {
+    "word": "il",
+    "pronunciation": "IL",
+    "native": "இல்"
+  },
+  "to": {
+    "word": "ku",
+    "pronunciation": "KOO",
+    "native": "க்கு"
+  },
+  "from": {
+    "word": "ilirundhu",
+    "pronunciation": "il-ee-ROON-dhoo",
+    "native": "இலிருந்து"
+  },
+  "with": {
+    "word": "udan",
+    "pronunciation": "OO-dahn",
+    "native": "உடன்"
+  },
+  "without": {
+    "word": "illaamal",
+    "pronunciation": "il-LAH-mahl",
+    "native": "இல்லாமல்"
+  },
+  "for": {
+    "word": "ukkaaga",
+    "pronunciation": "ook-KAH-gah",
+    "native": "உக்காக"
+  },
+  "about": {
+    "word": "patri",
+    "pronunciation": "PAHT-ree",
+    "native": "பற்றி"
+  },
+  "between": {
+    "word": "idaiyil",
+    "pronunciation": "ee-DAI-yil",
+    "native": "இடையில்"
+  },
+  "before": {
+    "word": "munbu",
+    "pronunciation": "MOON-boo",
+    "native": "முன்பு"
+  },
+  "after": {
+    "word": "piragu",
+    "pronunciation": "PIR-ah-goo",
+    "native": "பிறகு"
+  },
+  "during": {
+    "word": "pozhudhu",
+    "pronunciation": "POH-zhoo-dhoo",
+    "native": "போழுது"
+  },
+  "and": {
+    "word": "mattrum",
+    "pronunciation": "MAHT-room",
+    "native": "மற்றும்"
+  },
+  "but": {
+    "word": "aanaal",
+    "pronunciation": "AH-nahl",
+    "native": "ஆனால்"
+  },
+  "or": {
+    "word": "alladhu",
+    "pronunciation": "AHL-lah-dhoo",
+    "native": "அல்லது"
+  },
+  "because": {
+    "word": "eenendral",
+    "pronunciation": "ee-NEN-drahl",
+    "native": "ஏனென்றால்"
+  },
+  "if": {
+    "word": "endraal",
+    "pronunciation": "en-DRAHL",
+    "native": "என்றால்"
+  },
+  "than": {
+    "word": "vida",
+    "pronunciation": "VEE-dah",
+    "native": "விட"
+  },
+  "also": {
+    "word": "um",
+    "pronunciation": "OOM",
+    "native": "உம்"
+  }
+}

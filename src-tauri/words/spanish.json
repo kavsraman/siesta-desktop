@@ -1,0 +1,1337 @@
+{
+  "hello": {
+    "word": "hola",
+    "pronunciation": "OH-lah",
+    "native": "hola"
+  },
+  "goodbye": {
+    "word": "adiós",
+    "pronunciation": "ah-dee-OHS",
+    "native": "adiós"
+  },
+  "please": {
+    "word": "por favor",
+    "pronunciation": "por fah-VOR",
+    "native": "por favor"
+  },
+  "thank you": {
+    "word": "gracias",
+    "pronunciation": "GRAH-see-ahs",
+    "native": "gracias"
+  },
+  "excuse me": {
+    "word": "disculpe",
+    "pronunciation": "dees-KOOL-peh",
+    "native": "disculpe"
+  },
+  "sorry": {
+    "word": "lo siento",
+    "pronunciation": "loh see-EN-toh",
+    "native": "lo siento"
+  },
+  "good morning": {
+    "word": "buenos días",
+    "pronunciation": "BWEH-nohs DEE-ahs",
+    "native": "buenos días"
+  },
+  "good afternoon": {
+    "word": "buenas tardes",
+    "pronunciation": "BWEH-nahs TAR-dehs",
+    "native": "buenas tardes"
+  },
+  "good evening": {
+    "word": "buenas noches",
+    "pronunciation": "BWEH-nahs NOH-chehs",
+    "native": "buenas noches"
+  },
+  "good night": {
+    "word": "buenas noches",
+    "pronunciation": "BWEH-nahs NOH-chehs",
+    "native": "buenas noches"
+  },
+  "how are you": {
+    "word": "cómo estás",
+    "pronunciation": "KOH-moh ehs-TAHS",
+    "native": "cómo estás"
+  },
+  "welcome": {
+    "word": "bienvenido",
+    "pronunciation": "bee-en-veh-NEE-doh",
+    "native": "bienvenido"
+  },
+  "one": {
+    "word": "uno",
+    "pronunciation": "OO-noh",
+    "native": "uno"
+  },
+  "two": {
+    "word": "dos",
+    "pronunciation": "dohs",
+    "native": "dos"
+  },
+  "three": {
+    "word": "tres",
+    "pronunciation": "trehs",
+    "native": "tres"
+  },
+  "four": {
+    "word": "cuatro",
+    "pronunciation": "KWAH-troh",
+    "native": "cuatro"
+  },
+  "five": {
+    "word": "cinco",
+    "pronunciation": "SEEN-koh",
+    "native": "cinco"
+  },
+  "six": {
+    "word": "seis",
+    "pronunciation": "says",
+    "native": "seis"
+  },
+  "seven": {
+    "word": "siete",
+    "pronunciation": "see-EH-teh",
+    "native": "siete"
+  },
+  "eight": {
+    "word": "ocho",
+    "pronunciation": "OH-choh",
+    "native": "ocho"
+  },
+  "nine": {
+    "word": "nueve",
+    "pronunciation": "NWEH-veh",
+    "native": "nueve"
+  },
+  "ten": {
+    "word": "diez",
+    "pronunciation": "dee-EHS",
+    "native": "diez"
+  },
+  "eleven": {
+    "word": "once",
+    "pronunciation": "OHN-seh",
+    "native": "once"
+  },
+  "twelve": {
+    "word": "doce",
+    "pronunciation": "DOH-seh",
+    "native": "doce"
+  },
+  "thirteen": {
+    "word": "trece",
+    "pronunciation": "TREH-seh",
+    "native": "trece"
+  },
+  "fourteen": {
+    "word": "catorce",
+    "pronunciation": "kah-TOR-seh",
+    "native": "catorce"
+  },
+  "fifteen": {
+    "word": "quince",
+    "pronunciation": "KEEN-seh",
+    "native": "quince"
+  },
+  "sixteen": {
+    "word": "dieciséis",
+    "pronunciation": "dee-eh-see-SAYS",
+    "native": "dieciséis"
+  },
+  "seventeen": {
+    "word": "diecisiete",
+    "pronunciation": "dee-eh-see-see-EH-teh",
+    "native": "diecisiete"
+  },
+  "eighteen": {
+    "word": "dieciocho",
+    "pronunciation": "dee-eh-see-OH-choh",
+    "native": "dieciocho"
+  },
+  "nineteen": {
+    "word": "diecinueve",
+    "pronunciation": "dee-eh-see-NWEH-veh",
+    "native": "diecinueve"
+  },
+  "twenty": {
+    "word": "veinte",
+    "pronunciation": "VAYN-teh",
+    "native": "veinte"
+  },
+  "thirty": {
+    "word": "treinta",
+    "pronunciation": "TRAYN-tah",
+    "native": "treinta"
+  },
+  "forty": {
+    "word": "cuarenta",
+    "pronunciation": "kwah-REN-tah",
+    "native": "cuarenta"
+  },
+  "fifty": {
+    "word": "cincuenta",
+    "pronunciation": "seen-KWEN-tah",
+    "native": "cincuenta"
+  },
+  "sixty": {
+    "word": "sesenta",
+    "pronunciation": "seh-SEN-tah",
+    "native": "sesenta"
+  },
+  "seventy": {
+    "word": "setenta",
+    "pronunciation": "seh-TEN-tah",
+    "native": "setenta"
+  },
+  "eighty": {
+    "word": "ochenta",
+    "pronunciation": "oh-CHEN-tah",
+    "native": "ochenta"
+  },
+  "ninety": {
+    "word": "noventa",
+    "pronunciation": "noh-VEN-tah",
+    "native": "noventa"
+  },
+  "hundred": {
+    "word": "cien",
+    "pronunciation": "see-EN",
+    "native": "cien"
+  },
+  "monday": {
+    "word": "lunes",
+    "pronunciation": "LOO-nehs",
+    "native": "lunes"
+  },
+  "tuesday": {
+    "word": "martes",
+    "pronunciation": "MAR-tehs",
+    "native": "martes"
+  },
+  "wednesday": {
+    "word": "miércoles",
+    "pronunciation": "mee-AIR-koh-lehs",
+    "native": "miércoles"
+  },
+  "thursday": {
+    "word": "jueves",
+    "pronunciation": "HWEH-vehs",
+    "native": "jueves"
+  },
+  "friday": {
+    "word": "viernes",
+    "pronunciation": "vee-AIR-nehs",
+    "native": "viernes"
+  },
+  "saturday": {
+    "word": "sábado",
+    "pronunciation": "SAH-bah-doh",
+    "native": "sábado"
+  },
+  "sunday": {
+    "word": "domingo",
+    "pronunciation": "doh-MEEN-goh",
+    "native": "domingo"
+  },
+  "january": {
+    "word": "enero",
+    "pronunciation": "eh-NEH-roh",
+    "native": "enero"
+  },
+  "february": {
+    "word": "febrero",
+    "pronunciation": "feh-BREH-roh",
+    "native": "febrero"
+  },
+  "march": {
+    "word": "marzo",
+    "pronunciation": "MAR-soh",
+    "native": "marzo"
+  },
+  "april": {
+    "word": "abril",
+    "pronunciation": "ah-BREEL",
+    "native": "abril"
+  },
+  "may": {
+    "word": "mayo",
+    "pronunciation": "MAH-yoh",
+    "native": "mayo"
+  },
+  "june": {
+    "word": "junio",
+    "pronunciation": "HOO-nee-oh",
+    "native": "junio"
+  },
+  "july": {
+    "word": "julio",
+    "pronunciation": "HOO-lee-oh",
+    "native": "julio"
+  },
+  "august": {
+    "word": "agosto",
+    "pronunciation": "ah-GOHS-toh",
+    "native": "agosto"
+  },
+  "september": {
+    "word": "septiembre",
+    "pronunciation": "sep-tee-EM-breh",
+    "native": "septiembre"
+  },
+  "october": {
+    "word": "octubre",
+    "pronunciation": "ok-TOO-breh",
+    "native": "octubre"
+  },
+  "november": {
+    "word": "noviembre",
+    "pronunciation": "noh-vee-EM-breh",
+    "native": "noviembre"
+  },
+  "december": {
+    "word": "diciembre",
+    "pronunciation": "dee-see-EM-breh",
+    "native": "diciembre"
+  },
+  "today": {
+    "word": "hoy",
+    "pronunciation": "oy",
+    "native": "hoy"
+  },
+  "tomorrow": {
+    "word": "mañana",
+    "pronunciation": "mah-NYAH-nah",
+    "native": "mañana"
+  },
+  "yesterday": {
+    "word": "ayer",
+    "pronunciation": "ah-YAIR",
+    "native": "ayer"
+  },
+  "morning": {
+    "word": "mañana",
+    "pronunciation": "mah-NYAH-nah",
+    "native": "mañana"
+  },
+  "afternoon": {
+    "word": "tarde",
+    "pronunciation": "TAR-deh",
+    "native": "tarde"
+  },
+  "evening": {
+    "word": "noche",
+    "pronunciation": "NOH-cheh",
+    "native": "noche"
+  },
+  "night": {
+    "word": "noche",
+    "pronunciation": "NOH-cheh",
+    "native": "noche"
+  },
+  "now": {
+    "word": "ahora",
+    "pronunciation": "ah-OH-rah",
+    "native": "ahora"
+  },
+  "later": {
+    "word": "luego",
+    "pronunciation": "LWEH-goh",
+    "native": "luego"
+  },
+  "soon": {
+    "word": "pronto",
+    "pronunciation": "PROHN-toh",
+    "native": "pronto"
+  },
+  "always": {
+    "word": "siempre",
+    "pronunciation": "see-EM-preh",
+    "native": "siempre"
+  },
+  "never": {
+    "word": "nunca",
+    "pronunciation": "NOON-kah",
+    "native": "nunca"
+  },
+  "sometimes": {
+    "word": "a veces",
+    "pronunciation": "ah VEH-sehs",
+    "native": "a veces"
+  },
+  "early": {
+    "word": "temprano",
+    "pronunciation": "tem-PRAH-noh",
+    "native": "temprano"
+  },
+  "late": {
+    "word": "tarde",
+    "pronunciation": "TAR-deh",
+    "native": "tarde"
+  },
+  "water": {
+    "word": "agua",
+    "pronunciation": "AH-gwah",
+    "native": "agua"
+  },
+  "bread": {
+    "word": "pan",
+    "pronunciation": "pahn",
+    "native": "pan"
+  },
+  "wine": {
+    "word": "vino",
+    "pronunciation": "VEE-noh",
+    "native": "vino"
+  },
+  "coffee": {
+    "word": "café",
+    "pronunciation": "kah-FEH",
+    "native": "café"
+  },
+  "milk": {
+    "word": "leche",
+    "pronunciation": "LEH-cheh",
+    "native": "leche"
+  },
+  "cheese": {
+    "word": "queso",
+    "pronunciation": "KEH-soh",
+    "native": "queso"
+  },
+  "meat": {
+    "word": "carne",
+    "pronunciation": "KAR-neh",
+    "native": "carne"
+  },
+  "fish": {
+    "word": "pescado",
+    "pronunciation": "pehs-KAH-doh",
+    "native": "pescado"
+  },
+  "fruit": {
+    "word": "fruta",
+    "pronunciation": "FROO-tah",
+    "native": "fruta"
+  },
+  "rice": {
+    "word": "arroz",
+    "pronunciation": "ah-ROHS",
+    "native": "arroz"
+  },
+  "chicken": {
+    "word": "pollo",
+    "pronunciation": "POH-yoh",
+    "native": "pollo"
+  },
+  "egg": {
+    "word": "huevo",
+    "pronunciation": "WEH-voh",
+    "native": "huevo"
+  },
+  "salt": {
+    "word": "sal",
+    "pronunciation": "sahl",
+    "native": "sal"
+  },
+  "sugar": {
+    "word": "azúcar",
+    "pronunciation": "ah-SOO-kar",
+    "native": "azúcar"
+  },
+  "beer": {
+    "word": "cerveza",
+    "pronunciation": "ser-VEH-sah",
+    "native": "cerveza"
+  },
+  "tea": {
+    "word": "té",
+    "pronunciation": "teh",
+    "native": "té"
+  },
+  "vegetable": {
+    "word": "verdura",
+    "pronunciation": "ver-DOO-rah",
+    "native": "verdura"
+  },
+  "soup": {
+    "word": "sopa",
+    "pronunciation": "SOH-pah",
+    "native": "sopa"
+  },
+  "cake": {
+    "word": "pastel",
+    "pronunciation": "pahs-TEL",
+    "native": "pastel"
+  },
+  "butter": {
+    "word": "mantequilla",
+    "pronunciation": "mahn-teh-KEE-yah",
+    "native": "mantequilla"
+  },
+  "left": {
+    "word": "izquierda",
+    "pronunciation": "ees-kee-AIR-dah",
+    "native": "izquierda"
+  },
+  "right": {
+    "word": "derecha",
+    "pronunciation": "deh-REH-chah",
+    "native": "derecha"
+  },
+  "north": {
+    "word": "norte",
+    "pronunciation": "NOR-teh",
+    "native": "norte"
+  },
+  "south": {
+    "word": "sur",
+    "pronunciation": "soor",
+    "native": "sur"
+  },
+  "east": {
+    "word": "este",
+    "pronunciation": "EHS-teh",
+    "native": "este"
+  },
+  "west": {
+    "word": "oeste",
+    "pronunciation": "oh-EHS-teh",
+    "native": "oeste"
+  },
+  "map": {
+    "word": "mapa",
+    "pronunciation": "MAH-pah",
+    "native": "mapa"
+  },
+  "airport": {
+    "word": "aeropuerto",
+    "pronunciation": "ah-eh-roh-PWER-toh",
+    "native": "aeropuerto"
+  },
+  "hotel": {
+    "word": "hotel",
+    "pronunciation": "oh-TEL",
+    "native": "hotel"
+  },
+  "train": {
+    "word": "tren",
+    "pronunciation": "tren",
+    "native": "tren"
+  },
+  "bus": {
+    "word": "autobús",
+    "pronunciation": "ow-toh-BOOS",
+    "native": "autobús"
+  },
+  "car": {
+    "word": "coche",
+    "pronunciation": "KOH-cheh",
+    "native": "coche"
+  },
+  "ticket": {
+    "word": "boleto",
+    "pronunciation": "boh-LEH-toh",
+    "native": "boleto"
+  },
+  "station": {
+    "word": "estación",
+    "pronunciation": "ehs-tah-see-OHN",
+    "native": "estación"
+  },
+  "restaurant": {
+    "word": "restaurante",
+    "pronunciation": "rehs-tow-RAHN-teh",
+    "native": "restaurante"
+  },
+  "bank": {
+    "word": "banco",
+    "pronunciation": "BAHN-koh",
+    "native": "banco"
+  },
+  "hospital": {
+    "word": "hospital",
+    "pronunciation": "ohs-pee-TAHL",
+    "native": "hospital"
+  },
+  "pharmacy": {
+    "word": "farmacia",
+    "pronunciation": "far-MAH-see-ah",
+    "native": "farmacia"
+  },
+  "beach": {
+    "word": "playa",
+    "pronunciation": "PLAH-yah",
+    "native": "playa"
+  },
+  "museum": {
+    "word": "museo",
+    "pronunciation": "moo-SEH-oh",
+    "native": "museo"
+  },
+  "be": {
+    "word": "ser",
+    "pronunciation": "ser",
+    "native": "ser"
+  },
+  "have": {
+    "word": "tener",
+    "pronunciation": "teh-NAIR",
+    "native": "tener"
+  },
+  "go": {
+    "word": "ir",
+    "pronunciation": "eer",
+    "native": "ir"
+  },
+  "come": {
+    "word": "venir",
+    "pronunciation": "veh-NEER",
+    "native": "venir"
+  },
+  "eat": {
+    "word": "comer",
+    "pronunciation": "koh-MAIR",
+    "native": "comer"
+  },
+  "drink": {
+    "word": "beber",
+    "pronunciation": "beh-BAIR",
+    "native": "beber"
+  },
+  "want": {
+    "word": "querer",
+    "pronunciation": "keh-RAIR",
+    "native": "querer"
+  },
+  "need": {
+    "word": "necesitar",
+    "pronunciation": "neh-seh-see-TAR",
+    "native": "necesitar"
+  },
+  "can": {
+    "word": "poder",
+    "pronunciation": "poh-DAIR",
+    "native": "poder"
+  },
+  "do": {
+    "word": "hacer",
+    "pronunciation": "ah-SAIR",
+    "native": "hacer"
+  },
+  "make": {
+    "word": "hacer",
+    "pronunciation": "ah-SAIR",
+    "native": "hacer"
+  },
+  "see": {
+    "word": "ver",
+    "pronunciation": "ver",
+    "native": "ver"
+  },
+  "look": {
+    "word": "mirar",
+    "pronunciation": "mee-RAR",
+    "native": "mirar"
+  },
+  "know": {
+    "word": "saber",
+    "pronunciation": "sah-BAIR",
+    "native": "saber"
+  },
+  "think": {
+    "word": "pensar",
+    "pronunciation": "pen-SAR",
+    "native": "pensar"
+  },
+  "say": {
+    "word": "decir",
+    "pronunciation": "deh-SEER",
+    "native": "decir"
+  },
+  "tell": {
+    "word": "contar",
+    "pronunciation": "kohn-TAR",
+    "native": "contar"
+  },
+  "speak": {
+    "word": "hablar",
+    "pronunciation": "ah-BLAR",
+    "native": "hablar"
+  },
+  "give": {
+    "word": "dar",
+    "pronunciation": "dar",
+    "native": "dar"
+  },
+  "take": {
+    "word": "tomar",
+    "pronunciation": "toh-MAR",
+    "native": "tomar"
+  },
+  "find": {
+    "word": "encontrar",
+    "pronunciation": "en-kohn-TRAR",
+    "native": "encontrar"
+  },
+  "put": {
+    "word": "poner",
+    "pronunciation": "poh-NAIR",
+    "native": "poner"
+  },
+  "read": {
+    "word": "leer",
+    "pronunciation": "leh-AIR",
+    "native": "leer"
+  },
+  "write": {
+    "word": "escribir",
+    "pronunciation": "ehs-kree-BEER",
+    "native": "escribir"
+  },
+  "buy": {
+    "word": "comprar",
+    "pronunciation": "kohm-PRAR",
+    "native": "comprar"
+  },
+  "sell": {
+    "word": "vender",
+    "pronunciation": "ven-DAIR",
+    "native": "vender"
+  },
+  "open": {
+    "word": "abrir",
+    "pronunciation": "ah-BREER",
+    "native": "abrir"
+  },
+  "close": {
+    "word": "cerrar",
+    "pronunciation": "seh-RRAR",
+    "native": "cerrar"
+  },
+  "start": {
+    "word": "empezar",
+    "pronunciation": "em-peh-SAR",
+    "native": "empezar"
+  },
+  "stop": {
+    "word": "parar",
+    "pronunciation": "pah-RAR",
+    "native": "parar"
+  },
+  "sleep": {
+    "word": "dormir",
+    "pronunciation": "dor-MEER",
+    "native": "dormir"
+  },
+  "wake": {
+    "word": "despertar",
+    "pronunciation": "dehs-per-TAR",
+    "native": "despertar"
+  },
+  "run": {
+    "word": "correr",
+    "pronunciation": "koh-RRER",
+    "native": "correr"
+  },
+  "walk": {
+    "word": "caminar",
+    "pronunciation": "kah-mee-NAR",
+    "native": "caminar"
+  },
+  "wait": {
+    "word": "esperar",
+    "pronunciation": "ehs-peh-RAR",
+    "native": "esperar"
+  },
+  "help": {
+    "word": "ayudar",
+    "pronunciation": "ah-yoo-DAR",
+    "native": "ayudar"
+  },
+  "learn": {
+    "word": "aprender",
+    "pronunciation": "ah-pren-DAIR",
+    "native": "aprender"
+  },
+  "teach": {
+    "word": "enseñar",
+    "pronunciation": "en-seh-NYAR",
+    "native": "enseñar"
+  },
+  "like": {
+    "word": "gustar",
+    "pronunciation": "goos-TAR",
+    "native": "gustar"
+  },
+  "love": {
+    "word": "amar",
+    "pronunciation": "ah-MAR",
+    "native": "amar"
+  },
+  "good": {
+    "word": "bueno",
+    "pronunciation": "BWEH-noh",
+    "native": "bueno"
+  },
+  "bad": {
+    "word": "malo",
+    "pronunciation": "MAH-loh",
+    "native": "malo"
+  },
+  "big": {
+    "word": "grande",
+    "pronunciation": "GRAHN-deh",
+    "native": "grande"
+  },
+  "small": {
+    "word": "pequeño",
+    "pronunciation": "peh-KEH-nyoh",
+    "native": "pequeño"
+  },
+  "new": {
+    "word": "nuevo",
+    "pronunciation": "NWEH-voh",
+    "native": "nuevo"
+  },
+  "old": {
+    "word": "viejo",
+    "pronunciation": "vee-EH-hoh",
+    "native": "viejo"
+  },
+  "beautiful": {
+    "word": "hermoso",
+    "pronunciation": "er-MOH-soh",
+    "native": "hermoso"
+  },
+  "ugly": {
+    "word": "feo",
+    "pronunciation": "FEH-oh",
+    "native": "feo"
+  },
+  "hot": {
+    "word": "caliente",
+    "pronunciation": "kah-lee-EN-teh",
+    "native": "caliente"
+  },
+  "cold": {
+    "word": "frío",
+    "pronunciation": "FREE-oh",
+    "native": "frío"
+  },
+  "fast": {
+    "word": "rápido",
+    "pronunciation": "RAH-pee-doh",
+    "native": "rápido"
+  },
+  "slow": {
+    "word": "lento",
+    "pronunciation": "LEN-toh",
+    "native": "lento"
+  },
+  "easy": {
+    "word": "fácil",
+    "pronunciation": "FAH-seel",
+    "native": "fácil"
+  },
+  "hard": {
+    "word": "difícil",
+    "pronunciation": "dee-FEE-seel",
+    "native": "difícil"
+  },
+  "happy": {
+    "word": "feliz",
+    "pronunciation": "feh-LEES",
+    "native": "feliz"
+  },
+  "sad": {
+    "word": "triste",
+    "pronunciation": "TREES-teh",
+    "native": "triste"
+  },
+  "rich": {
+    "word": "rico",
+    "pronunciation": "REE-koh",
+    "native": "rico"
+  },
+  "poor": {
+    "word": "pobre",
+    "pronunciation": "POH-breh",
+    "native": "pobre"
+  },
+  "young": {
+    "word": "joven",
+    "pronunciation": "HOH-ven",
+    "native": "joven"
+  },
+  "long": {
+    "word": "largo",
+    "pronunciation": "LAR-goh",
+    "native": "largo"
+  },
+  "short": {
+    "word": "corto",
+    "pronunciation": "KOR-toh",
+    "native": "corto"
+  },
+  "tall": {
+    "word": "alto",
+    "pronunciation": "AHL-toh",
+    "native": "alto"
+  },
+  "full": {
+    "word": "lleno",
+    "pronunciation": "YEH-noh",
+    "native": "lleno"
+  },
+  "empty": {
+    "word": "vacío",
+    "pronunciation": "vah-SEE-oh",
+    "native": "vacío"
+  },
+  "clean": {
+    "word": "limpio",
+    "pronunciation": "LEEM-pee-oh",
+    "native": "limpio"
+  },
+  "dirty": {
+    "word": "sucio",
+    "pronunciation": "SOO-see-oh",
+    "native": "sucio"
+  },
+  "quiet": {
+    "word": "tranquilo",
+    "pronunciation": "trahn-KEE-loh",
+    "native": "tranquilo"
+  },
+  "loud": {
+    "word": "ruidoso",
+    "pronunciation": "rwee-DOH-soh",
+    "native": "ruidoso"
+  },
+  "dark": {
+    "word": "oscuro",
+    "pronunciation": "ohs-KOO-roh",
+    "native": "oscuro"
+  },
+  "light": {
+    "word": "claro",
+    "pronunciation": "KLAH-roh",
+    "native": "claro"
+  },
+  "house": {
+    "word": "casa",
+    "pronunciation": "KAH-sah",
+    "native": "casa"
+  },
+  "food": {
+    "word": "comida",
+    "pronunciation": "koh-MEE-dah",
+    "native": "comida"
+  },
+  "person": {
+    "word": "persona",
+    "pronunciation": "per-SOH-nah",
+    "native": "persona"
+  },
+  "city": {
+    "word": "ciudad",
+    "pronunciation": "see-oo-DAHD",
+    "native": "ciudad"
+  },
+  "street": {
+    "word": "calle",
+    "pronunciation": "KAH-yeh",
+    "native": "calle"
+  },
+  "man": {
+    "word": "hombre",
+    "pronunciation": "OHM-breh",
+    "native": "hombre"
+  },
+  "woman": {
+    "word": "mujer",
+    "pronunciation": "moo-HAIR",
+    "native": "mujer"
+  },
+  "child": {
+    "word": "niño",
+    "pronunciation": "NEE-nyoh",
+    "native": "niño"
+  },
+  "book": {
+    "word": "libro",
+    "pronunciation": "LEE-broh",
+    "native": "libro"
+  },
+  "music": {
+    "word": "música",
+    "pronunciation": "MOO-see-kah",
+    "native": "música"
+  },
+  "world": {
+    "word": "mundo",
+    "pronunciation": "MOON-doh",
+    "native": "mundo"
+  },
+  "life": {
+    "word": "vida",
+    "pronunciation": "VEE-dah",
+    "native": "vida"
+  },
+  "friend": {
+    "word": "amigo",
+    "pronunciation": "ah-MEE-goh",
+    "native": "amigo"
+  },
+  "family": {
+    "word": "familia",
+    "pronunciation": "fah-MEE-lee-ah",
+    "native": "familia"
+  },
+  "money": {
+    "word": "dinero",
+    "pronunciation": "dee-NEH-roh",
+    "native": "dinero"
+  },
+  "work": {
+    "word": "trabajo",
+    "pronunciation": "trah-BAH-hoh",
+    "native": "trabajo"
+  },
+  "time": {
+    "word": "tiempo",
+    "pronunciation": "tee-EM-poh",
+    "native": "tiempo"
+  },
+  "day": {
+    "word": "día",
+    "pronunciation": "DEE-ah",
+    "native": "día"
+  },
+  "year": {
+    "word": "año",
+    "pronunciation": "AH-nyoh",
+    "native": "año"
+  },
+  "school": {
+    "word": "escuela",
+    "pronunciation": "ehs-KWEH-lah",
+    "native": "escuela"
+  },
+  "door": {
+    "word": "puerta",
+    "pronunciation": "PWER-tah",
+    "native": "puerta"
+  },
+  "window": {
+    "word": "ventana",
+    "pronunciation": "ven-TAH-nah",
+    "native": "ventana"
+  },
+  "table": {
+    "word": "mesa",
+    "pronunciation": "MEH-sah",
+    "native": "mesa"
+  },
+  "phone": {
+    "word": "teléfono",
+    "pronunciation": "teh-LEH-foh-noh",
+    "native": "teléfono"
+  },
+  "name": {
+    "word": "nombre",
+    "pronunciation": "NOHM-breh",
+    "native": "nombre"
+  },
+  "number": {
+    "word": "número",
+    "pronunciation": "NOO-meh-roh",
+    "native": "número"
+  },
+  "country": {
+    "word": "país",
+    "pronunciation": "pah-EES",
+    "native": "país"
+  },
+  "language": {
+    "word": "idioma",
+    "pronunciation": "ee-dee-OH-mah",
+    "native": "idioma"
+  },
+  "way": {
+    "word": "camino",
+    "pronunciation": "kah-MEE-noh",
+    "native": "camino"
+  },
+  "thing": {
+    "word": "cosa",
+    "pronunciation": "KOH-sah",
+    "native": "cosa"
+  },
+  "place": {
+    "word": "lugar",
+    "pronunciation": "loo-GAR",
+    "native": "lugar"
+  },
+  "hand": {
+    "word": "mano",
+    "pronunciation": "MAH-noh",
+    "native": "mano"
+  },
+  "head": {
+    "word": "cabeza",
+    "pronunciation": "kah-BEH-sah",
+    "native": "cabeza"
+  },
+  "eye": {
+    "word": "ojo",
+    "pronunciation": "OH-hoh",
+    "native": "ojo"
+  },
+  "word": {
+    "word": "palabra",
+    "pronunciation": "pah-LAH-brah",
+    "native": "palabra"
+  },
+  "story": {
+    "word": "historia",
+    "pronunciation": "ees-TOH-ree-ah",
+    "native": "historia"
+  },
+  "problem": {
+    "word": "problema",
+    "pronunciation": "proh-BLEH-mah",
+    "native": "problema"
+  },
+  "who": {
+    "word": "quién",
+    "pronunciation": "kee-EN",
+    "native": "quién"
+  },
+  "what": {
+    "word": "qué",
+    "pronunciation": "keh",
+    "native": "qué"
+  },
+  "where": {
+    "word": "dónde",
+    "pronunciation": "DOHN-deh",
+    "native": "dónde"
+  },
+  "when": {
+    "word": "cuándo",
+    "pronunciation": "KWAHN-doh",
+    "native": "cuándo"
+  },
+  "why": {
+    "word": "por qué",
+    "pronunciation": "por KEH",
+    "native": "por qué"
+  },
+  "how": {
+    "word": "cómo",
+    "pronunciation": "KOH-moh",
+    "native": "cómo"
+  },
+  "which": {
+    "word": "cuál",
+    "pronunciation": "kwahl",
+    "native": "cuál"
+  },
+  "how much": {
+    "word": "cuánto",
+    "pronunciation": "KWAHN-toh",
+    "native": "cuánto"
+  },
+  "how many": {
+    "word": "cuántos",
+    "pronunciation": "KWAHN-tohs",
+    "native": "cuántos"
+  },
+  "i": {
+    "word": "yo",
+    "pronunciation": "yoh",
+    "native": "yo"
+  },
+  "you": {
+    "word": "tú",
+    "pronunciation": "too",
+    "native": "tú"
+  },
+  "he": {
+    "word": "él",
+    "pronunciation": "el",
+    "native": "él"
+  },
+  "she": {
+    "word": "ella",
+    "pronunciation": "EH-yah",
+    "native": "ella"
+  },
+  "it": {
+    "word": "ello",
+    "pronunciation": "EH-yoh",
+    "native": "ello"
+  },
+  "we": {
+    "word": "nosotros",
+    "pronunciation": "noh-SOH-trohs",
+    "native": "nosotros"
+  },
+  "they": {
+    "word": "ellos",
+    "pronunciation": "EH-yohs",
+    "native": "ellos"
+  },
+  "me": {
+    "word": "me",
+    "pronunciation": "meh",
+    "native": "me"
+  },
+  "him": {
+    "word": "él",
+    "pronunciation": "el",
+    "native": "él"
+  },
+  "her": {
+    "word": "ella",
+    "pronunciation": "EH-yah",
+    "native": "ella"
+  },
+  "us": {
+    "word": "nos",
+    "pronunciation": "nohs",
+    "native": "nos"
+  },
+  "them": {
+    "word": "ellos",
+    "pronunciation": "EH-yohs",
+    "native": "ellos"
+  },
+  "my": {
+    "word": "mi",
+    "pronunciation": "mee",
+    "native": "mi"
+  },
+  "your": {
+    "word": "tu",
+    "pronunciation": "too",
+    "native": "tu"
+  },
+  "his": {
+    "word": "su",
+    "pronunciation": "soo",
+    "native": "su"
+  },
+  "this": {
+    "word": "esto",
+    "pronunciation": "EHS-toh",
+    "native": "esto"
+  },
+  "that": {
+    "word": "eso",
+    "pronunciation": "EH-soh",
+    "native": "eso"
+  },
+  "in": {
+    "word": "en",
+    "pronunciation": "en",
+    "native": "en"
+  },
+  "on": {
+    "word": "sobre",
+    "pronunciation": "SOH-breh",
+    "native": "sobre"
+  },
+  "at": {
+    "word": "en",
+    "pronunciation": "en",
+    "native": "en"
+  },
+  "to": {
+    "word": "a",
+    "pronunciation": "ah",
+    "native": "a"
+  },
+  "from": {
+    "word": "de",
+    "pronunciation": "deh",
+    "native": "de"
+  },
+  "with": {
+    "word": "con",
+    "pronunciation": "kohn",
+    "native": "con"
+  },
+  "without": {
+    "word": "sin",
+    "pronunciation": "seen",
+    "native": "sin"
+  },
+  "for": {
+    "word": "para",
+    "pronunciation": "PAH-rah",
+    "native": "para"
+  },
+  "about": {
+    "word": "sobre",
+    "pronunciation": "SOH-breh",
+    "native": "sobre"
+  },
+  "between": {
+    "word": "entre",
+    "pronunciation": "EN-treh",
+    "native": "entre"
+  },
+  "before": {
+    "word": "antes",
+    "pronunciation": "AHN-tehs",
+    "native": "antes"
+  },
+  "after": {
+    "word": "después",
+    "pronunciation": "dehs-PWEHS",
+    "native": "después"
+  },
+  "during": {
+    "word": "durante",
+    "pronunciation": "doo-RAHN-teh",
+    "native": "durante"
+  },
+  "and": {
+    "word": "y",
+    "pronunciation": "ee",
+    "native": "y"
+  },
+  "but": {
+    "word": "pero",
+    "pronunciation": "PEH-roh",
+    "native": "pero"
+  },
+  "or": {
+    "word": "o",
+    "pronunciation": "oh",
+    "native": "o"
+  },
+  "because": {
+    "word": "porque",
+    "pronunciation": "POR-keh",
+    "native": "porque"
+  },
+  "if": {
+    "word": "si",
+    "pronunciation": "see",
+    "native": "si"
+  },
+  "than": {
+    "word": "que",
+    "pronunciation": "keh",
+    "native": "que"
+  },
+  "also": {
+    "word": "también",
+    "pronunciation": "tahm-bee-EN",
+    "native": "también"
+  }
+}
