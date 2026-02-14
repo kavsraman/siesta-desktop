@@ -101,6 +101,29 @@ async fn quick_translate(
         .ok_or_else(|| "No response text".to_string())
 }
 
+fn config_path() -> Result<std::path::PathBuf, String> {
+    let home = std::env::var("HOME").map_err(|_| "HOME not set".to_string())?;
+    Ok(std::path::PathBuf::from(home).join(".siesta").join("config.json"))
+}
+
+#[tauri::command]
+fn load_persisted_config() -> Result<String, String> {
+    let path = config_path()?;
+    if !path.exists() {
+        return Ok("{}".to_string());
+    }
+    std::fs::read_to_string(&path).map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+fn save_persisted_config(json: String) -> Result<(), String> {
+    let path = config_path()?;
+    if let Some(parent) = path.parent() {
+        std::fs::create_dir_all(parent).map_err(|e| e.to_string())?;
+    }
+    std::fs::write(&path, json).map_err(|e| e.to_string())
+}
+
 #[tauri::command]
 fn toggle_clipboard_monitor(app: tauri::AppHandle, enabled: bool) {
     if enabled {
@@ -234,6 +257,8 @@ pub fn run() {
             open_flashcard_window,
             start_word_timer,
             stop_word_timer,
+            load_persisted_config,
+            save_persisted_config,
         ])
         .run(tauri::generate_context!())
         .expect("error while running siesta");

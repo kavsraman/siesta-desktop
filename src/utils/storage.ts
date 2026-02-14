@@ -1,3 +1,5 @@
+import { invoke } from "@tauri-apps/api/core";
+
 export const LANGUAGES = ["Italian", "Spanish", "French", "Tamil", "German", "Hindi", "Mandarin"];
 
 export interface SiestaSettings {
@@ -80,27 +82,61 @@ export async function migrateGlobalDataToPerLanguage(): Promise<void> {
   localStorage.setItem(MIGRATION_KEY, "true");
 }
 
+// ─── Persisted config (~/.siesta/config.json) ───
+
+async function loadPersistedApiKey(): Promise<string> {
+  try {
+    const json = await invoke<string>("load_persisted_config");
+    const parsed = JSON.parse(json);
+    return parsed.apiKey || "";
+  } catch {
+    return "";
+  }
+}
+
+async function savePersistedApiKey(apiKey: string): Promise<void> {
+  try {
+    await invoke("save_persisted_config", {
+      json: JSON.stringify({ apiKey }),
+    });
+  } catch {}
+}
+
 // ─── Settings (global) ───
 
 export async function getSettings(): Promise<SiestaSettings> {
-  try {
-    const stored = localStorage.getItem(SETTINGS_KEY);
-    if (stored) {
-      const parsed = JSON.parse(stored);
-      return { ...parsed, darkMode: parsed.darkMode ?? false };
-    }
-  } catch {}
-  return {
+  const defaults: SiestaSettings = {
     apiKey: "",
     language: "Italian",
     notificationInterval: 60,
     clipboardEnabled: false,
     darkMode: false,
   };
+
+  try {
+    const stored = localStorage.getItem(SETTINGS_KEY);
+    if (stored) {
+      const parsed = JSON.parse(stored);
+      Object.assign(defaults, parsed, { darkMode: parsed.darkMode ?? false });
+    }
+  } catch {}
+
+  // Always prefer the API key from the persisted config file
+  const persistedKey = await loadPersistedApiKey();
+  if (persistedKey) {
+    defaults.apiKey = persistedKey;
+  }
+
+  return defaults;
 }
 
 export async function saveSettings(settings: SiestaSettings): Promise<void> {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+
+  // Persist the API key to ~/.siesta/config.json so it survives restarts
+  if (settings.apiKey) {
+    await savePersistedApiKey(settings.apiKey);
+  }
 }
 
 // ─── Vocabulary (per-language) ───
