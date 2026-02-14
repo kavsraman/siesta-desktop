@@ -1,3 +1,5 @@
+use std::process::{Child, Command};
+use std::sync::Mutex;
 use tauri::{
     menu::{Menu, MenuItem},
     tray::TrayIconBuilder,
@@ -6,6 +8,8 @@ use tauri::{
 
 mod clipboard;
 mod word_timer;
+
+static SYNC_SERVER: Mutex<Option<Child>> = Mutex::new(None);
 
 #[tauri::command]
 async fn translate_text(
@@ -101,9 +105,70 @@ async fn quick_translate(
         .ok_or_else(|| "No response text".to_string())
 }
 
-fn config_path() -> Result<std::path::PathBuf, String> {
+fn siesta_dir() -> Result<std::path::PathBuf, String> {
     let home = std::env::var("HOME").map_err(|_| "HOME not set".to_string())?;
-    Ok(std::path::PathBuf::from(home).join(".siesta").join("config.json"))
+    Ok(std::path::PathBuf::from(home).join(".siesta"))
+}
+
+fn config_path() -> Result<std::path::PathBuf, String> {
+    Ok(siesta_dir()?.join("config.json"))
+}
+
+fn vocab_path() -> Result<std::path::PathBuf, String> {
+    Ok(siesta_dir()?.join("vocabulary.json"))
+}
+
+#[tauri::command]
+fn load_shared_vocabulary(language: String) -> Result<String, String> {
+    let path = vocab_path()?;
+    if !path.exists() {
+        return Ok("{}".to_string());
+    }
+    let contents = std::fs::read_to_string(&path).map_err(|e| e.to_string())?;
+    let parsed: serde_json::Value =
+        serde_json::from_str(&contents).map_err(|e| e.to_string())?;
+    let lang_key = language.to_lowercase();
+    let words = parsed.get(&lang_key).cloned().unwrap_or(serde_json::json!({}));
+    Ok(words.to_string())
+}
+
+fn spawn_sync_server() {
+    let server_js = include_str!("../sync-server.js");
+
+    let dir = match siesta_dir() {
+        Ok(d) => d,
+        Err(_) => return,
+    };
+    let _ = std::fs::create_dir_all(&dir);
+    let script_path = dir.join("sync-server.js");
+    let _ = std::fs::write(&script_path, server_js);
+
+    // Check if port 7749 is already in use
+    if std::net::TcpStream::connect("127.0.0.1:7749").is_ok() {
+        return; // Server already running
+    }
+
+    match Command::new("node")
+        .arg(&script_path)
+        .stdout(std::process::Stdio::null())
+        .stderr(std::process::Stdio::null())
+        .spawn()
+    {
+        Ok(child) => {
+            let mut server = SYNC_SERVER.lock().unwrap();
+            *server = Some(child);
+        }
+        Err(_) => {} // Node not installed, skip silently
+    }
+}
+
+fn stop_sync_server() {
+    let mut server = SYNC_SERVER.lock().unwrap();
+    if let Some(ref mut child) = *server {
+        let _ = child.kill();
+        let _ = child.wait();
+    }
+    *server = None;
 }
 
 #[tauri::command]
@@ -201,6 +266,9 @@ pub fn run() {
         .plugin(tauri_plugin_notification::init())
         .plugin(tauri_plugin_store::Builder::default().build())
         .setup(|app| {
+            // Start the sync server for Chrome extension communication
+            spawn_sync_server();
+
             // Build tray menu
             let open_lookup = MenuItem::with_id(app, "open_lookup", "Open Lookup", true, None::<&str>)?;
             let toggle_clipboard = MenuItem::with_id(app, "toggle_clipboard", "Toggle Clipboard Monitor", true, None::<&str>)?;
@@ -232,6 +300,7 @@ pub fn run() {
                         let _ = app.emit("open-settings", ());
                     }
                     "quit" => {
+                        stop_sync_server();
                         app.exit(0);
                     }
                     _ => {}
@@ -259,6 +328,7 @@ pub fn run() {
             stop_word_timer,
             load_persisted_config,
             save_persisted_config,
+            load_shared_vocabulary,
         ])
         .run(tauri::generate_context!())
         .expect("error while running siesta");

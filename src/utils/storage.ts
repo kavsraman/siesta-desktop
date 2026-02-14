@@ -139,21 +139,79 @@ export async function saveSettings(settings: SiestaSettings): Promise<void> {
   }
 }
 
+// ─── Shared vocabulary (~/.siesta/vocabulary.json) ───
+
+interface SharedWord {
+  stage: "exposed" | "familiar" | "acquired";
+  seenCount: number;
+  lastSeen: number;
+  translation: string;
+  pronunciation: string;
+}
+
+async function loadSharedVocabulary(language: string): Promise<Record<string, SharedWord>> {
+  try {
+    const json = await invoke<string>("load_shared_vocabulary", { language });
+    return JSON.parse(json);
+  } catch {
+    return {};
+  }
+}
+
+const STAGE_ORDER: Record<string, number> = { exposed: 0, familiar: 1, acquired: 2 };
+
+function mergeStage(
+  a: "exposed" | "familiar" | "acquired",
+  b: "exposed" | "familiar" | "acquired"
+): "exposed" | "familiar" | "acquired" {
+  return (STAGE_ORDER[a] ?? 0) >= (STAGE_ORDER[b] ?? 0) ? a : b;
+}
+
 // ─── Vocabulary (per-language) ───
 
 export async function getVocabulary(language: string): Promise<VocabWord[]> {
+  // Load local vocabulary
+  let localWords: VocabWord[] = [];
   try {
     const stored = localStorage.getItem(langKey(VOCAB_KEY, language));
     if (stored) {
-      const words: VocabWord[] = JSON.parse(stored);
-      return words.map((w) => ({
+      localWords = JSON.parse(stored);
+      localWords = localWords.map((w) => ({
         ...w,
         favorited: w.favorited ?? false,
         addedAt: w.addedAt ?? new Date().toISOString(),
       }));
     }
   } catch {}
-  return [];
+
+  // Merge with shared vocabulary from Chrome extension
+  const shared = await loadSharedVocabulary(language);
+  const localMap = new Map(localWords.map((w) => [w.english, w]));
+
+  for (const [english, sharedEntry] of Object.entries(shared)) {
+    const existing = localMap.get(english);
+    if (existing) {
+      // Higher seenCount / later stage wins
+      existing.seenCount = Math.max(existing.seenCount, sharedEntry.seenCount || 0);
+      existing.stage = mergeStage(existing.stage, sharedEntry.stage);
+      if (sharedEntry.translation) existing.translation = sharedEntry.translation;
+      if (sharedEntry.pronunciation) existing.pronunciation = sharedEntry.pronunciation;
+    } else {
+      localMap.set(english, {
+        english,
+        translation: sharedEntry.translation || "",
+        pronunciation: sharedEntry.pronunciation || "",
+        stage: sharedEntry.stage || "exposed",
+        seenCount: sharedEntry.seenCount || 0,
+        favorited: false,
+        addedAt: sharedEntry.lastSeen
+          ? new Date(sharedEntry.lastSeen).toISOString()
+          : new Date().toISOString(),
+      });
+    }
+  }
+
+  return Array.from(localMap.values());
 }
 
 export async function saveVocabulary(words: VocabWord[], language: string): Promise<void> {

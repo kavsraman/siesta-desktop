@@ -8,6 +8,69 @@ static TIMER_RUNNING: AtomicBool = AtomicBool::new(false);
 static WORD_LIST: Mutex<Vec<(String, String, String)>> = Mutex::new(Vec::new());
 
 fn load_words_for_language(language: &str) -> Vec<(String, String, String)> {
+    // First, try to load from shared vocabulary (user's actual exposure history)
+    let shared = load_shared_vocab(language);
+    if !shared.is_empty() {
+        return shared;
+    }
+
+    // Fall back to embedded word list
+    load_embedded_words(language)
+}
+
+fn load_shared_vocab(language: &str) -> Vec<(String, String, String)> {
+    let home = match std::env::var("HOME") {
+        Ok(h) => h,
+        Err(_) => return Vec::new(),
+    };
+    let path = std::path::PathBuf::from(home)
+        .join(".siesta")
+        .join("vocabulary.json");
+    if !path.exists() {
+        return Vec::new();
+    }
+
+    let contents = match std::fs::read_to_string(&path) {
+        Ok(c) => c,
+        Err(_) => return Vec::new(),
+    };
+
+    let parsed: Value = match serde_json::from_str(&contents) {
+        Ok(v) => v,
+        Err(_) => return Vec::new(),
+    };
+
+    let lang_key = language.to_lowercase();
+    let lang_data = match parsed.get(&lang_key) {
+        Some(Value::Object(map)) => map,
+        _ => return Vec::new(),
+    };
+
+    // Collect words, prioritizing exposed/familiar (not yet acquired) for spaced repetition
+    let mut exposed_familiar: Vec<(String, String, String)> = Vec::new();
+    let mut acquired: Vec<(String, String, String)> = Vec::new();
+
+    for (english, entry) in lang_data {
+        let translation = entry["translation"].as_str().unwrap_or("").to_string();
+        let pronunciation = entry["pronunciation"].as_str().unwrap_or("").to_string();
+        if translation.is_empty() {
+            continue;
+        }
+        let stage = entry["stage"].as_str().unwrap_or("exposed");
+        if stage == "acquired" {
+            acquired.push((english.clone(), translation, pronunciation));
+        } else {
+            exposed_familiar.push((english.clone(), translation, pronunciation));
+        }
+    }
+
+    // Prioritize exposed/familiar words, then mix in acquired words
+    let mut result = exposed_familiar;
+    result.extend(acquired);
+    result
+}
+
+fn load_embedded_words(language: &str) -> Vec<(String, String, String)> {
     let json_str = match language.to_lowercase().as_str() {
         "italian" => include_str!("../words/italian.json"),
         "spanish" => include_str!("../words/spanish.json"),
