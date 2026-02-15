@@ -10,9 +10,11 @@ const NOTIFICATION_OPTIONS = [
 
 interface SettingsProps {
   onBack: () => void;
+  language: string;
+  onLanguageChange: (lang: string) => void;
 }
 
-function Settings({ onBack }: SettingsProps) {
+function Settings({ onBack, language, onLanguageChange }: SettingsProps) {
   const [settings, setSettings] = useState<SiestaSettings>({
     apiKey: "",
     language: "Italian",
@@ -45,6 +47,15 @@ function Settings({ onBack }: SettingsProps) {
           &larr; Back
         </button>
         <h2 className="settings-title">Settings</h2>
+        <select
+          className="topbar-lang-switcher"
+          value={language}
+          onChange={(e) => onLanguageChange(e.target.value)}
+        >
+          {LANGUAGES.map((l) => (
+            <option key={l} value={l}>{l}</option>
+          ))}
+        </select>
       </div>
 
       <div className="settings-section">

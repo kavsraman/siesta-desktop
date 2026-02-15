@@ -10,6 +10,7 @@ import WordHistory from "./components/WordHistory";
 import DailyQuiz from "./components/DailyQuiz";
 import SkillStars from "./components/SkillStars";
 import ActiveLanguages from "./components/ActiveLanguages";
+import Vocabulary from "./components/Vocabulary";
 import {
   getVocabulary,
   getSkillLevel,
@@ -27,7 +28,7 @@ import {
   LanguageSummary,
 } from "./utils/storage";
 
-type View = "home" | "lookup" | "flashcard" | "settings" | "word-history" | "quiz" | "favorites";
+type View = "home" | "lookup" | "flashcard" | "settings" | "word-history" | "quiz" | "favorites" | "vocabulary";
 
 function App() {
   const [view, setView] = useState<View>("home");
@@ -40,6 +41,7 @@ function App() {
   const [language, setLanguage] = useState("Italian");
   const [darkMode, setDarkMode] = useState(false);
   const [langSummaries, setLangSummaries] = useState<LanguageSummary[]>([]);
+  const [lookupQuery, setLookupQuery] = useState("");
 
   const refreshData = async (lang: string) => {
     const vocab = await getVocabulary(lang);
@@ -228,37 +230,57 @@ function App() {
           </header>
 
           <main className="app-main">
+            <div
+              className="home-lookup"
+              onClick={() => { setLookupQuery(""); setView("lookup"); }}
+            >
+              <svg className="home-lookup-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="10.5" y1="10.5" x2="14" y2="14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
+              <input
+                className="home-lookup-input"
+                type="text"
+                placeholder="Quick Lookup..."
+                value=""
+                onFocus={() => { setLookupQuery(""); setView("lookup"); }}
+                readOnly
+              />
+            </div>
+
             <LatestWord word={latestWord} onSeeMore={() => setView("word-history")} />
 
             <div className="tile-grid">
-              <button className="tile" onClick={() => setView("lookup")}>
+              <button className="tile" onClick={() => setView("vocabulary")}>
                 <div className="tile-icon">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="14" cy="14" r="9" stroke="currentColor" strokeWidth="2.2" />
-                    <line x1="20.5" y1="20.5" x2="27" y2="27" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+                    <path d="M6 6h8c2 0 2 2 2 2v18s0-2-2-2H6V6Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M26 6h-8c-2 0-2 2-2 2v18s0-2 2-2h8V6Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
-                <span className="tile-label">Quick Lookup</span>
-                <kbd className="tile-shortcut">&#8984;&#8679;O</kbd>
+                <span className="tile-label">Vocabulary</span>
+                {vocabCounts.total > 0 && (
+                  <span className="tile-badge">{vocabCounts.total}</span>
+                )}
               </button>
 
-              <button
-                className={`tile ${clipboardEnabled ? "tile-active" : ""}`}
-                onClick={() => setClipboardEnabled(!clipboardEnabled)}
-              >
+              <button className="tile" onClick={() => setView("favorites")}>
                 <div className="tile-icon">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <rect x="8" y="4" width="16" height="24" rx="2.5" stroke="currentColor" strokeWidth="2.2" />
-                    <rect x="12" y="2" width="8" height="4" rx="1.5" stroke="currentColor" strokeWidth="1.5" fill="var(--bg)" />
-                    <line x1="12" y1="13" x2="20" y2="13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    <line x1="12" y1="17" x2="18" y2="17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    <line x1="12" y1="21" x2="16" y2="21" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                    <path
+                      d="M16 27s-11.5-7.7-11.5-14.5a5.88 5.88 0 0 1 5.88-5.88A5.88 5.88 0 0 1 16 10.1a5.88 5.88 0 0 1 5.62-3.48 5.88 5.88 0 0 1 5.88 5.88C27.5 19.3 16 27 16 27Z"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      fill="none"
+                    />
                   </svg>
                 </div>
-                <span className="tile-label">Clipboard Monitor</span>
-                <span className={`tile-status ${clipboardEnabled ? "on" : ""}`}>
-                  {clipboardEnabled ? "On" : "Off"}
-                </span>
+                <span className="tile-label">Favorites</span>
+                {favorites.length > 0 && (
+                  <span className="tile-badge">{favorites.length}</span>
+                )}
               </button>
 
               <button className="tile" onClick={() => setView("flashcard")}>
@@ -282,37 +304,42 @@ function App() {
                 <span className="tile-label">Daily Quiz</span>
               </button>
 
-              <button className="tile" onClick={() => setView("favorites")}>
+              <button
+                className={`tile ${clipboardEnabled ? "tile-active" : ""}`}
+                onClick={() => setClipboardEnabled(!clipboardEnabled)}
+              >
                 <div className="tile-icon">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <path
-                      d="M16 27s-11.5-7.7-11.5-14.5a5.88 5.88 0 0 1 5.88-5.88A5.88 5.88 0 0 1 16 10.1a5.88 5.88 0 0 1 5.62-3.48 5.88 5.88 0 0 1 5.88 5.88C27.5 19.3 16 27 16 27Z"
-                      stroke="currentColor"
-                      strokeWidth="2.2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                    />
+                    <rect x="8" y="4" width="16" height="24" rx="2.5" stroke="currentColor" strokeWidth="2.2" />
+                    <rect x="12" y="2" width="8" height="4" rx="1.5" stroke="currentColor" strokeWidth="1.5" fill="var(--bg)" />
+                    <line x1="12" y1="13" x2="20" y2="13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                    <line x1="12" y1="17" x2="18" y2="17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                    <line x1="12" y1="21" x2="16" y2="21" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                   </svg>
                 </div>
-                <span className="tile-label">Favorites</span>
-                {favorites.length > 0 && (
-                  <span className="tile-badge">{favorites.length}</span>
-                )}
+                <span className="tile-label">Clipboard Monitor</span>
+                <span className={`tile-status ${clipboardEnabled ? "on" : ""}`}>
+                  {clipboardEnabled ? "On" : "Off"}
+                </span>
               </button>
 
               <button className="tile" onClick={() => setView("settings")}>
                 <div className="tile-icon">
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
                     <path
-                      d="M13.7 4h4.6l.6 3.2a8.4 8.4 0 0 1 2.1 1.2l3.1-1 2.3 4-2.5 2.1a8.5 8.5 0 0 1 0 2.5l2.5 2.1-2.3 4-3.1-1a8.4 8.4 0 0 1-2.1 1.2L18.3 28h-4.6l-.6-3.2a8.4 8.4 0 0 1-2.1-1.2l-3.1 1-2.3-4 2.5-2.1a8.5 8.5 0 0 1 0-2.5L5.6 14l2.3-4 3.1 1a8.4 8.4 0 0 1 2.1-1.2L13.7 4Z"
+                      d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
                       stroke="currentColor"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      fill="none"
                     />
-                    <circle cx="16" cy="16" r="3.5" stroke="currentColor" strokeWidth="2" />
+                    <path
+                      d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
                   </svg>
                 </div>
                 <span className="tile-label">Settings</span>
@@ -347,11 +374,12 @@ function App() {
         </>
       )}
 
-      {view === "lookup" && <Lookup onBack={goHome} />}
-      {view === "flashcard" && <Flashcard onBack={goHome} />}
-      {view === "settings" && <Settings onBack={goHome} />}
-      {view === "word-history" && <WordHistory onBack={goHome} />}
-      {view === "quiz" && <DailyQuiz onBack={goHome} />}
+      {view === "lookup" && <Lookup onBack={goHome} language={language} onLanguageChange={handleLanguageChange} initialQuery={lookupQuery} />}
+      {view === "vocabulary" && <Vocabulary onBack={goHome} language={language} onLanguageChange={handleLanguageChange} />}
+      {view === "flashcard" && <Flashcard onBack={goHome} language={language} onLanguageChange={handleLanguageChange} />}
+      {view === "settings" && <Settings onBack={goHome} language={language} onLanguageChange={handleLanguageChange} />}
+      {view === "word-history" && <WordHistory onBack={goHome} language={language} onLanguageChange={handleLanguageChange} />}
+      {view === "quiz" && <DailyQuiz onBack={goHome} language={language} onLanguageChange={handleLanguageChange} />}
       {view === "favorites" && (
         <div className="view-container">
           <div className="view-topbar">
@@ -362,7 +390,15 @@ function App() {
               Back
             </button>
             <span className="view-topbar-title">Favorites</span>
-            <span className="view-topbar-spacer" />
+            <select
+              className="topbar-lang-switcher"
+              value={language}
+              onChange={(e) => handleLanguageChange(e.target.value)}
+            >
+              {LANGUAGES.map((l) => (
+                <option key={l} value={l}>{l}</option>
+              ))}
+            </select>
           </div>
           <div className="favorites-list">
             {favorites.length === 0 ? (

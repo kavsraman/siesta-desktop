@@ -1,57 +1,87 @@
-import { useState, useEffect } from "react";
-import { getSettings, getVocabulary, updateWordStage, toggleFavorite, VocabWord } from "../utils/storage";
+import { useState, useEffect, useCallback, useRef } from "react";
+import { getVocabulary, updateWordStage, toggleFavorite, LANGUAGES, VocabWord } from "../utils/storage";
 
 interface FlashcardProps {
   onBack: () => void;
+  language: string;
+  onLanguageChange: (lang: string) => void;
 }
 
-function Flashcard({ onBack }: FlashcardProps) {
+function Flashcard({ onBack, language, onLanguageChange }: FlashcardProps) {
   const [words, setWords] = useState<VocabWord[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [dragX, setDragX] = useState(0);
   const [dragging, setDragging] = useState(false);
   const [startX, setStartX] = useState(0);
-  const [lang, setLang] = useState("");
+  const [hasDragged, setHasDragged] = useState(false);
+
+  const advance = useCallback(() => {
+    setCurrentIndex((i) => (i + 1) % words.length);
+    setFlipped(false);
+  }, [words.length]);
+
+  const handleKnow = useCallback(async () => {
+    if (!words[currentIndex] || !language) return;
+    await updateWordStage(words[currentIndex].english, "acquired", language);
+    advance();
+  }, [words, currentIndex, language, advance]);
+
+  const handleSkip = useCallback(() => {
+    advance();
+  }, [advance]);
+
+  const wordCountRef = useRef(0);
 
   useEffect(() => {
-    loadWords();
+    (async () => {
+      setCurrentIndex(0);
+      setFlipped(false);
+      const vocab = await getVocabulary(language);
+      setWords(vocab.length > 0 ? vocab : []);
+      wordCountRef.current = vocab.length;
+    })();
+  }, [language]);
 
+  // Auto-refresh: poll for new words every 5 seconds
+  useEffect(() => {
+    const interval = setInterval(async () => {
+      const vocab = await getVocabulary(language);
+      if (vocab.length !== wordCountRef.current) {
+        wordCountRef.current = vocab.length;
+        setWords(vocab.length > 0 ? vocab : []);
+      }
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [language]);
+
+  useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") onBack();
+      if (e.key === "ArrowRight") handleKnow();
+      if (e.key === "ArrowLeft") handleSkip();
+      if (e.key === " " || e.key === "ArrowUp" || e.key === "ArrowDown") {
+        e.preventDefault();
+        setFlipped((f) => !f);
+      }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [onBack]);
-
-  const loadWords = async () => {
-    const settings = await getSettings();
-    const language = settings.language;
-    setLang(language);
-    const vocab = await getVocabulary(language);
-    if (vocab.length > 0) {
-      setWords(vocab);
-    } else {
-      setWords([
-        { english: "hello", translation: "ciao", pronunciation: "chow", stage: "exposed", seenCount: 1, favorited: false, addedAt: new Date().toISOString() },
-        { english: "thank you", translation: "grazie", pronunciation: "GRAT-see-eh", stage: "exposed", seenCount: 1, favorited: false, addedAt: new Date().toISOString() },
-        { english: "good morning", translation: "buongiorno", pronunciation: "bwon-JOR-no", stage: "exposed", seenCount: 1, favorited: false, addedAt: new Date().toISOString() },
-        { english: "please", translation: "per favore", pronunciation: "pair fah-VOR-eh", stage: "exposed", seenCount: 1, favorited: false, addedAt: new Date().toISOString() },
-        { english: "goodbye", translation: "arrivederci", pronunciation: "ah-ree-veh-DAIR-chee", stage: "exposed", seenCount: 1, favorited: false, addedAt: new Date().toISOString() },
-      ]);
-    }
-  };
+  }, [onBack, handleKnow, handleSkip]);
 
   const currentWord = words[currentIndex];
 
   const handleMouseDown = (e: React.MouseEvent) => {
     setDragging(true);
+    setHasDragged(false);
     setStartX(e.clientX);
   };
 
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!dragging) return;
-    setDragX(e.clientX - startX);
+    const dx = e.clientX - startX;
+    setDragX(dx);
+    if (Math.abs(dx) > 5) setHasDragged(true);
   };
 
   const handleMouseUp = async () => {
@@ -59,19 +89,22 @@ function Flashcard({ onBack }: FlashcardProps) {
     setDragging(false);
 
     if (Math.abs(dragX) > 80) {
-      if (dragX > 0 && currentWord && lang) {
-        await updateWordStage(currentWord.english, "acquired", lang);
+      if (dragX > 0 && currentWord && language) {
+        await updateWordStage(currentWord.english, "acquired", language);
       }
-      setCurrentIndex((i) => (i + 1) % words.length);
-      setFlipped(false);
+      advance();
     }
     setDragX(0);
   };
 
+  const handleCardClick = () => {
+    if (!hasDragged) setFlipped(!flipped);
+  };
+
   const handleToggleFavorite = async () => {
-    if (!currentWord || !lang) return;
-    await toggleFavorite(currentWord.english, lang);
-    const updated = await getVocabulary(lang);
+    if (!currentWord || !language) return;
+    await toggleFavorite(currentWord.english, language);
+    const updated = await getVocabulary(language);
     if (updated.length > 0) {
       setWords(updated);
     }
@@ -86,7 +119,15 @@ function Flashcard({ onBack }: FlashcardProps) {
         Back
       </button>
       <span className="view-topbar-title">Flashcards</span>
-      <span className="view-topbar-spacer" />
+      <select
+        className="topbar-lang-switcher"
+        value={language}
+        onChange={(e) => onLanguageChange(e.target.value)}
+      >
+        {LANGUAGES.map((l) => (
+          <option key={l} value={l}>{l}</option>
+        ))}
+      </select>
     </div>
   );
 
@@ -116,7 +157,7 @@ function Flashcard({ onBack }: FlashcardProps) {
             transform: `translateX(${dragX}px) rotate(${dragX * 0.05}deg)`,
             background: swipeColor,
           }}
-          onClick={() => setFlipped(!flipped)}
+          onClick={handleCardClick}
           onMouseDown={handleMouseDown}
           onMouseMove={handleMouseMove}
           onMouseUp={handleMouseUp}
@@ -133,6 +174,21 @@ function Flashcard({ onBack }: FlashcardProps) {
               <span className="flashcard-pronunciation">{currentWord.pronunciation}</span>
             </div>
           )}
+        </div>
+
+        <div className="flashcard-buttons">
+          <button className="flashcard-btn flashcard-btn-skip" onClick={handleSkip}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M10 3L5 8l5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            Still Learning
+          </button>
+          <button className="flashcard-btn flashcard-btn-know" onClick={handleKnow}>
+            I Know This
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3 8.5l3.5 3.5L13 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
         </div>
 
         <div className="flashcard-actions">
@@ -158,8 +214,8 @@ function Flashcard({ onBack }: FlashcardProps) {
         </div>
 
         <div className="flashcard-swipe-hints">
-          <span className="swipe-left">&larr; still learning</span>
-          <span className="swipe-right">I know this &rarr;</span>
+          <span className="swipe-left">&larr; swipe or press left</span>
+          <span className="swipe-right">swipe or press right &rarr;</span>
         </div>
       </div>
     </div>

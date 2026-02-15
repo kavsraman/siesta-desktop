@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { getSettings, getVocabulary, getFavorites, saveQuizResult, VocabWord } from "../utils/storage";
+import { getSettings, getVocabulary, getFavorites, saveQuizResult, LANGUAGES, VocabWord } from "../utils/storage";
 
 interface QuizQuestion {
   word: VocabWord;
@@ -9,6 +9,8 @@ interface QuizQuestion {
 
 interface DailyQuizProps {
   onBack: () => void;
+  language: string;
+  onLanguageChange: (lang: string) => void;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -55,7 +57,7 @@ function buildQuiz(vocab: VocabWord[], favorites: VocabWord[]): QuizQuestion[] {
   });
 }
 
-function DailyQuiz({ onBack }: DailyQuizProps) {
+function DailyQuiz({ onBack, language, onLanguageChange }: DailyQuizProps) {
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentQ, setCurrentQ] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -118,7 +120,15 @@ function DailyQuiz({ onBack }: DailyQuizProps) {
         Back
       </button>
       <span className="view-topbar-title">Daily Quiz</span>
-      <span className="view-topbar-spacer" />
+      <select
+        className="topbar-lang-switcher"
+        value={language}
+        onChange={(e) => onLanguageChange(e.target.value)}
+      >
+        {LANGUAGES.map((l) => (
+          <option key={l} value={l}>{l}</option>
+        ))}
+      </select>
     </div>
   );
 

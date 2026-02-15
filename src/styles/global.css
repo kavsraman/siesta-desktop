@@ -56,14 +56,21 @@ body {
 
 /* ─── App Container ─── */
 .app-container {
-  padding: 32px 36px 24px;
+  padding: 0 24px 24px 24px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .app-header {
-  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  padding-top: 32px;
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+  padding-left: 56px;
 }
 
 .header-row {
@@ -73,9 +80,9 @@ body {
 }
 
 .header-left {
-  width: 80px;
   display: flex;
   align-items: center;
+  margin-left: -56px;
 }
 
 .header-center {
@@ -84,10 +91,8 @@ body {
 }
 
 .header-right {
-  width: 80px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 
 .app-title {
@@ -96,14 +101,16 @@ body {
   font-weight: 500;
   letter-spacing: -0.3px;
   color: var(--accent);
+  margin: 0;
+  line-height: 1;
 }
 
 .app-subtitle {
   font-size: 13px;
   color: var(--accent);
   opacity: 0.7;
-  margin-top: 3px;
   letter-spacing: 0.3px;
+  margin: 4px 0 0;
 }
 
 .app-main {
@@ -350,6 +357,300 @@ body {
   color: var(--text-light);
 }
 
+/* ─── Home Lookup Bar ─── */
+.home-lookup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 12px 16px;
+  cursor: text;
+  transition: border-color 150ms ease;
+}
+
+.home-lookup:hover {
+  border-color: var(--accent);
+}
+
+.home-lookup-icon {
+  color: var(--text-light);
+  flex-shrink: 0;
+}
+
+.home-lookup-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--text-muted);
+  outline: none;
+  cursor: text;
+}
+
+/* ─── Vocabulary View ─── */
+.vocabulary-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.vocabulary-filter-dropdown {
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 6px 10px;
+  cursor: pointer;
+  outline: none;
+  flex-shrink: 0;
+}
+
+.vocabulary-filter-dropdown:focus {
+  border-color: var(--accent);
+}
+
+.vocabulary-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 6px 12px;
+}
+
+.vocabulary-search-icon {
+  color: var(--text-light);
+  flex-shrink: 0;
+}
+
+.vocabulary-search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--text);
+  outline: none;
+}
+
+.vocabulary-search-input::placeholder {
+  color: var(--text-light);
+}
+
+.vocabulary-search-clear {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--text-light);
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.vocabulary-count {
+  padding: 8px 20px;
+  font-size: 12px;
+  color: var(--text-light);
+  border-bottom: 1px solid var(--border);
+}
+
+.vocabulary-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.vocabulary-empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+}
+
+.vocabulary-empty-hint {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-top: 6px;
+}
+
+.vocabulary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border);
+  gap: 12px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.vocabulary-item:hover {
+  background: var(--bg-hover);
+}
+
+.vocabulary-item-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.vocabulary-item-foreign {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.vocabulary-item-english {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.vocabulary-item-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.vocabulary-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.vocabulary-item-pronunciation {
+  font-size: 12px;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.vocabulary-item.expanded {
+  background: var(--bg-hover);
+  border-bottom-color: transparent;
+}
+
+.vocabulary-detail {
+  padding: 12px 20px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-hover);
+}
+
+.vocabulary-detail-loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-light);
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+.vocabulary-detail-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.vocabulary-detail-word {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.vocabulary-detail-pronunciation {
+  font-size: 14px;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.vocabulary-detail-section {
+  margin-top: 10px;
+}
+
+.vocabulary-detail-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+  margin: 0 0 4px;
+}
+
+.vocabulary-detail-example {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 3px 0;
+  padding-left: 10px;
+  border-left: 2px solid var(--border);
+}
+
+.vocabulary-detail-text {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.vocabulary-detail-hint {
+  font-size: 12px;
+  color: var(--text-light);
+  margin: 4px 0 0;
+  font-style: italic;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-light);
+  padding: 4px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s, background 0.15s;
+}
+
+.delete-btn:hover {
+  color: var(--danger);
+  background: rgba(204, 68, 85, 0.08);
+}
+
+.vocabulary-stage {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  min-width: 62px;
+  text-align: center;
+}
+
+.vocabulary-stage.exposed {
+  color: var(--accent);
+  background: rgba(124, 154, 142, 0.1);
+}
+
+.vocabulary-stage.familiar {
+  color: #b8860b;
+  background: rgba(184, 134, 11, 0.1);
+}
+
+.vocabulary-stage.acquired {
+  color: #2e8b57;
+  background: rgba(46, 139, 87, 0.1);
+}
+
 /* ─── Skill Stars ─── */
 .skill-stars {
   background: var(--bg-card);
@@ -457,6 +758,40 @@ body {
   font-size: 11px;
   color: var(--text-light);
   margin-top: 2px;
+}
+
+.word-history-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.add-vocab-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--accent);
+  padding: 4px;
+  border-radius: 6px;
+  transition: all var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-vocab-btn:hover:not(:disabled) {
+  background: var(--accent-light);
+  color: var(--accent-hover);
+}
+
+.add-vocab-btn.added {
+  color: var(--success);
+  cursor: default;
+}
+
+.add-vocab-btn:disabled {
+  opacity: 0.7;
 }
 
 .word-history-empty,
@@ -978,6 +1313,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   color: var(--text-muted);
+  flex: 1;
 }
 
 .view-topbar-spacer {
@@ -1110,6 +1446,25 @@ body {
 }
 
 /* ─── Flashcard ─── */
+.topbar-lang-switcher {
+  padding: 5px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: var(--font);
+  font-weight: 500;
+  background: var(--bg-card);
+  color: var(--text);
+  cursor: pointer;
+  outline: none;
+  transition: border-color var(--transition);
+}
+
+.topbar-lang-switcher:focus,
+.topbar-lang-switcher:hover {
+  border-color: var(--accent);
+}
+
 .flashcard-body {
   flex: 1;
   display: flex;
@@ -1163,6 +1518,50 @@ body {
 .flashcard-progress {
   font-size: 11px;
   color: var(--text-muted);
+}
+
+.flashcard-buttons {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.flashcard-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--font);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.flashcard-btn-skip {
+  background: var(--bg-card);
+  color: var(--text-muted);
+}
+
+.flashcard-btn-skip:hover {
+  border-color: var(--text-muted);
+  background: var(--bg);
+}
+
+.flashcard-btn-know {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.flashcard-btn-know:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
 }
 
 .flashcard-swipe-hints {
@@ -1223,6 +1622,7 @@ body {
 .settings-title {
   font-size: 18px;
   font-weight: 600;
+  flex: 1;
 }
 
 .settings-section {

@@ -142,11 +142,11 @@ export async function saveSettings(settings: SiestaSettings): Promise<void> {
 // ─── Shared vocabulary (~/.siesta/vocabulary.json) ───
 
 interface SharedWord {
-  stage: "exposed" | "familiar" | "acquired";
-  seenCount: number;
-  lastSeen: number;
   translation: string;
   pronunciation: string;
+  native: string;
+  addedAt: number;
+  stage: string;
 }
 
 async function loadSharedVocabulary(language: string): Promise<Record<string, SharedWord>> {
@@ -158,13 +158,10 @@ async function loadSharedVocabulary(language: string): Promise<Record<string, Sh
   }
 }
 
-const STAGE_ORDER: Record<string, number> = { exposed: 0, familiar: 1, acquired: 2 };
-
-function mergeStage(
-  a: "exposed" | "familiar" | "acquired",
-  b: "exposed" | "familiar" | "acquired"
-): "exposed" | "familiar" | "acquired" {
-  return (STAGE_ORDER[a] ?? 0) >= (STAGE_ORDER[b] ?? 0) ? a : b;
+function mapSharedStage(stage: string): "exposed" | "familiar" | "acquired" {
+  if (stage === "acquired" || stage === "known") return "acquired";
+  if (stage === "familiar") return "familiar";
+  return "exposed"; // "learning", "exposed", or anything else
 }
 
 // ─── Vocabulary (per-language) ───
@@ -184,34 +181,78 @@ export async function getVocabulary(language: string): Promise<VocabWord[]> {
     }
   } catch {}
 
-  // Merge with shared vocabulary from Chrome extension
+  // Merge with shared vocabulary from Chrome extension (~/.siesta/vocabulary.json)
+  // Keys in shared vocab are foreign words; translation = English meaning
   const shared = await loadSharedVocabulary(language);
-  const localMap = new Map(localWords.map((w) => [w.english, w]));
 
-  for (const [english, sharedEntry] of Object.entries(shared)) {
-    const existing = localMap.get(english);
+  // Build lookup maps — all keys lowercase for case-insensitive matching
+  const localByEnglish = new Map(localWords.map((w) => [w.english.toLowerCase(), w]));
+  const localByTranslation = new Map(
+    localWords
+      .filter((w) => w.translation)
+      .map((w) => [w.translation.toLowerCase(), w])
+  );
+
+  for (const [foreignWord, entry] of Object.entries(shared)) {
+    const englishWord = (entry.translation || foreignWord).toLowerCase().trim();
+    const nativeWord = (entry.native || foreignWord).toLowerCase().trim();
+
+    // Check by english key, by foreign word in translations, and by foreign word as english key
+    const existing =
+      localByEnglish.get(englishWord) ||
+      localByTranslation.get(nativeWord) ||
+      localByTranslation.get(foreignWord.toLowerCase().trim()) ||
+      localByEnglish.get(foreignWord.toLowerCase().trim());
+
     if (existing) {
-      // Higher seenCount / later stage wins
-      existing.seenCount = Math.max(existing.seenCount, sharedEntry.seenCount || 0);
-      existing.stage = mergeStage(existing.stage, sharedEntry.stage);
-      if (sharedEntry.translation) existing.translation = sharedEntry.translation;
-      if (sharedEntry.pronunciation) existing.pronunciation = sharedEntry.pronunciation;
+      if (!existing.translation && (entry.native || foreignWord)) existing.translation = entry.native || foreignWord;
+      if (!existing.pronunciation && entry.pronunciation) existing.pronunciation = entry.pronunciation;
     } else {
-      localMap.set(english, {
-        english,
-        translation: sharedEntry.translation || "",
-        pronunciation: sharedEntry.pronunciation || "",
-        stage: sharedEntry.stage || "exposed",
-        seenCount: sharedEntry.seenCount || 0,
+      const word: VocabWord = {
+        english: englishWord,
+        translation: entry.native || foreignWord,
+        pronunciation: entry.pronunciation || "",
+        stage: mapSharedStage(entry.stage),
+        seenCount: 1,
         favorited: false,
-        addedAt: sharedEntry.lastSeen
-          ? new Date(sharedEntry.lastSeen).toISOString()
+        addedAt: entry.addedAt
+          ? new Date(entry.addedAt).toISOString()
           : new Date().toISOString(),
-      });
+      };
+      localByEnglish.set(englishWord, word);
+      localByTranslation.set(nativeWord, word);
     }
   }
 
-  return Array.from(localMap.values());
+  // Final dedup: by english key AND by translation, keep highest seenCount / most recent
+  const deduped = new Map<string, VocabWord>();
+  const seenTranslations = new Set<string>();
+  for (const w of localByEnglish.values()) {
+    const engKey = w.english.toLowerCase();
+    const transKey = w.translation.toLowerCase();
+
+    // Skip if we already have this translation under a different english key
+    if (seenTranslations.has(transKey)) {
+      const existingByTrans = Array.from(deduped.values()).find(
+        (v) => v.translation.toLowerCase() === transKey
+      );
+      if (existingByTrans) {
+        if (w.seenCount > existingByTrans.seenCount || w.addedAt > existingByTrans.addedAt) {
+          deduped.delete(existingByTrans.english.toLowerCase());
+          deduped.set(engKey, w);
+        }
+        continue;
+      }
+    }
+
+    const existing = deduped.get(engKey);
+    if (!existing || w.seenCount > existing.seenCount || w.addedAt > existing.addedAt) {
+      deduped.set(engKey, w);
+    }
+    seenTranslations.add(transKey);
+  }
+
+  return Array.from(deduped.values());
 }
 
 export async function saveVocabulary(words: VocabWord[], language: string): Promise<void> {
@@ -245,6 +286,39 @@ export async function updateWordStage(
     word.stage = stage;
     await saveVocabulary(vocab, language);
   }
+}
+
+export async function deleteWord(english: string, language: string): Promise<void> {
+  // Remove from local storage
+  let localWords: VocabWord[] = [];
+  try {
+    const stored = localStorage.getItem(langKey(VOCAB_KEY, language));
+    if (stored) localWords = JSON.parse(stored);
+  } catch {}
+  localWords = localWords.filter((w) => w.english.toLowerCase() !== english.toLowerCase());
+  localStorage.setItem(langKey(VOCAB_KEY, language), JSON.stringify(localWords));
+
+  // Also add to hidden words so bundled/system words stay hidden
+  await hideWord(english, language);
+}
+
+const HIDDEN_KEY = "siesta-hidden-words";
+
+export async function hideWord(english: string, language: string): Promise<void> {
+  const hidden = getHiddenWords(language);
+  const key = english.toLowerCase();
+  if (!hidden.includes(key)) {
+    hidden.push(key);
+    localStorage.setItem(langKey(HIDDEN_KEY, language), JSON.stringify(hidden));
+  }
+}
+
+export function getHiddenWords(language: string): string[] {
+  try {
+    const stored = localStorage.getItem(langKey(HIDDEN_KEY, language));
+    if (stored) return JSON.parse(stored);
+  } catch {}
+  return [];
 }
 
 export async function toggleFavorite(english: string, language: string): Promise<boolean> {

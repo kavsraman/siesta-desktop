@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { invoke } from "@tauri-apps/api/core";
-import { getSettings, addWord, toggleFavorite, getVocabulary } from "../utils/storage";
+import { getSettings, addWord, toggleFavorite, getVocabulary, LANGUAGES } from "../utils/storage";
 
 interface TranslationResult {
   translation: string;
@@ -12,6 +12,9 @@ interface TranslationResult {
 
 interface LookupProps {
   onBack: () => void;
+  language: string;
+  onLanguageChange: (lang: string) => void;
+  initialQuery?: string;
 }
 
 function parseResponse(raw: string): TranslationResult {
@@ -47,18 +50,27 @@ function parseResponse(raw: string): TranslationResult {
   };
 }
 
-function Lookup({ onBack }: LookupProps) {
-  const [query, setQuery] = useState("");
+function Lookup({ onBack, language, onLanguageChange, initialQuery }: LookupProps) {
+  const [query, setQuery] = useState(initialQuery || "");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<TranslationResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [favorited, setFavorited] = useState(false);
-  const [lang, setLang] = useState("");
+  const [lang, setLang] = useState(language);
   const inputRef = useRef<HTMLInputElement>(null);
+  const didAutoSearch = useRef(false);
+
+  useEffect(() => { setLang(language); }, [language]);
 
   useEffect(() => {
     inputRef.current?.focus();
-    getSettings().then((s) => setLang(s.language));
+
+    // Auto-search if initialQuery was provided
+    if (initialQuery && !didAutoSearch.current) {
+      didAutoSearch.current = true;
+      const fakeEvent = { preventDefault: () => {} } as React.FormEvent;
+      handleSubmit(fakeEvent);
+    }
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") onBack();
@@ -87,19 +99,29 @@ function Lookup({ onBack }: LookupProps) {
       const language = settings.language;
       setLang(language);
 
-      if (!settings.apiKey) {
-        setError("Add your API key in Settings first");
-        setLoading(false);
-        return;
+      let parsed: TranslationResult;
+
+      if (settings.apiKey) {
+        const response = await invoke<string>("translate_text", {
+          text: query.trim(),
+          targetLanguage: language,
+          apiKey: settings.apiKey,
+        });
+        parsed = parseResponse(response);
+      } else {
+        const response = await invoke<string>("lookup_offline", {
+          text: query.trim(),
+          targetLanguage: language,
+        });
+        const data = JSON.parse(response);
+        parsed = {
+          translation: data.translation || "",
+          pronunciation: data.pronunciation || "",
+          examples: [],
+          mnemonic: "",
+        };
       }
 
-      const response = await invoke<string>("translate_text", {
-        text: query.trim(),
-        targetLanguage: language,
-        apiKey: settings.apiKey,
-      });
-
-      const parsed = parseResponse(response);
       setResult(parsed);
 
       await addWord({
@@ -133,7 +155,15 @@ function Lookup({ onBack }: LookupProps) {
           Back
         </button>
         <span className="view-topbar-title">Quick Lookup</span>
-        <span className="view-topbar-spacer" />
+        <select
+          className="topbar-lang-switcher"
+          value={language}
+          onChange={(e) => onLanguageChange(e.target.value)}
+        >
+          {LANGUAGES.map((l) => (
+            <option key={l} value={l}>{l}</option>
+          ))}
+        </select>
       </div>
 
       <form onSubmit={handleSubmit} className="lookup-form">

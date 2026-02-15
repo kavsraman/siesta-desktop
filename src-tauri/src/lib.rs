@@ -105,6 +105,51 @@ async fn quick_translate(
         .ok_or_else(|| "No response text".to_string())
 }
 
+#[tauri::command]
+fn lookup_offline(text: String, target_language: String) -> Result<String, String> {
+    let json_str = match target_language.to_lowercase().as_str() {
+        "italian" => include_str!("../words/italian.json"),
+        "spanish" => include_str!("../words/spanish.json"),
+        "french" => include_str!("../words/french.json"),
+        "german" => include_str!("../words/german.json"),
+        "tamil" => include_str!("../words/tamil.json"),
+        "hindi" => include_str!("../words/hindi.json"),
+        "mandarin" => include_str!("../words/mandarin.json"),
+        _ => include_str!("../words/italian.json"),
+    };
+
+    let parsed: serde_json::Value =
+        serde_json::from_str(json_str).map_err(|e| e.to_string())?;
+
+    let key = text.to_lowercase();
+    if let Some(entry) = parsed.get(&key) {
+        let translation = entry["word"].as_str().unwrap_or("");
+        let pronunciation = entry["pronunciation"].as_str().unwrap_or("");
+        Ok(serde_json::json!({
+            "translation": translation,
+            "pronunciation": pronunciation,
+        })
+        .to_string())
+    } else {
+        Err(format!("\"{}\" not found in dictionary. Add an API key in Settings for AI-powered lookups of any word.", text))
+    }
+}
+
+#[tauri::command]
+fn get_bundled_words(language: String) -> Result<String, String> {
+    let json_str = match language.to_lowercase().as_str() {
+        "italian" => include_str!("../words/italian.json"),
+        "spanish" => include_str!("../words/spanish.json"),
+        "french" => include_str!("../words/french.json"),
+        "german" => include_str!("../words/german.json"),
+        "tamil" => include_str!("../words/tamil.json"),
+        "hindi" => include_str!("../words/hindi.json"),
+        "mandarin" => include_str!("../words/mandarin.json"),
+        _ => include_str!("../words/italian.json"),
+    };
+    Ok(json_str.to_string())
+}
+
 fn siesta_dir() -> Result<std::path::PathBuf, String> {
     let home = std::env::var("HOME").map_err(|_| "HOME not set".to_string())?;
     Ok(std::path::PathBuf::from(home).join(".siesta"))
@@ -133,19 +178,20 @@ fn load_shared_vocabulary(language: String) -> Result<String, String> {
 }
 
 fn spawn_sync_server() {
-    let server_js = include_str!("../sync-server.js");
-
-    let dir = match siesta_dir() {
-        Ok(d) => d,
-        Err(_) => return,
-    };
-    let _ = std::fs::create_dir_all(&dir);
-    let script_path = dir.join("sync-server.js");
-    let _ = std::fs::write(&script_path, server_js);
-
     // Check if port 7749 is already in use
     if std::net::TcpStream::connect("127.0.0.1:7749").is_ok() {
         return; // Server already running
+    }
+
+    // Use the standalone sync server at ~/siesta/sync-server/server.js
+    let home = std::env::var("HOME").unwrap_or_default();
+    let script_path = std::path::PathBuf::from(&home)
+        .join("siesta")
+        .join("sync-server")
+        .join("server.js");
+
+    if !script_path.exists() {
+        return;
     }
 
     match Command::new("node")
@@ -321,6 +367,7 @@ pub fn run() {
         .invoke_handler(tauri::generate_handler![
             translate_text,
             quick_translate,
+            lookup_offline,
             toggle_clipboard_monitor,
             open_lookup_window,
             open_flashcard_window,
@@ -329,6 +376,7 @@ pub fn run() {
             load_persisted_config,
             save_persisted_config,
             load_shared_vocabulary,
+            get_bundled_words,
         ])
         .run(tauri::generate_context!())
         .expect("error while running siesta");
