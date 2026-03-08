@@ -50,17 +50,18 @@ fn load_shared_vocab(language: &str) -> Vec<(String, String, String)> {
     let mut exposed_familiar: Vec<(String, String, String)> = Vec::new();
     let mut acquired: Vec<(String, String, String)> = Vec::new();
 
-    for (english, entry) in lang_data {
-        let translation = entry["translation"].as_str().unwrap_or("").to_string();
+    // Shared vocab keys are foreign words, "translation" field is the English meaning
+    for (foreign_word, entry) in lang_data {
+        let english = entry["translation"].as_str().unwrap_or("").to_string();
         let pronunciation = entry["pronunciation"].as_str().unwrap_or("").to_string();
-        if translation.is_empty() {
+        if english.is_empty() {
             continue;
         }
         let stage = entry["stage"].as_str().unwrap_or("exposed");
         if stage == "acquired" {
-            acquired.push((english.clone(), translation, pronunciation));
+            acquired.push((english, foreign_word.clone(), pronunciation));
         } else {
-            exposed_familiar.push((english.clone(), translation, pronunciation));
+            exposed_familiar.push((english, foreign_word.clone(), pronunciation));
         }
     }
 
@@ -79,6 +80,7 @@ fn load_embedded_words(language: &str) -> Vec<(String, String, String)> {
         "tamil" => include_str!("../words/tamil.json"),
         "hindi" => include_str!("../words/hindi.json"),
         "mandarin" => include_str!("../words/mandarin.json"),
+        "korean" => include_str!("../words/korean.json"),
         _ => include_str!("../words/italian.json"),
     };
 
@@ -106,6 +108,7 @@ pub fn start_timer(
     interval_minutes: u64,
     initial_delay_secs: u64,
 ) {
+    let lang_for_thread = language.clone();
     if TIMER_RUNNING.load(Ordering::SeqCst) {
         stop_timer();
         // Small delay to let old thread exit
@@ -124,6 +127,7 @@ pub fn start_timer(
 
     TIMER_RUNNING.store(true, Ordering::SeqCst);
 
+    let lang = lang_for_thread;
     std::thread::spawn(move || {
         let interval = std::time::Duration::from_secs(interval_minutes * 60);
         let sleep_chunk = std::time::Duration::from_secs(1);
@@ -173,6 +177,7 @@ pub fn start_timer(
                 "english": word_data.0,
                 "translation": word_data.1,
                 "pronunciation": word_data.2,
+                "language": lang,
                 "deliveredAt": delivered_at,
             });
 

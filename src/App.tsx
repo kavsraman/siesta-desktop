@@ -21,6 +21,7 @@ import {
   getFavorites,
   toggleFavorite,
   migrateGlobalDataToPerLanguage,
+  clearCorruptedWordHistory,
   getAllLanguageSummaries,
   LANGUAGES,
   WordOfTheHour,
@@ -71,6 +72,7 @@ function App() {
   useEffect(() => {
     (async () => {
       await migrateGlobalDataToPerLanguage();
+      clearCorruptedWordHistory();
 
       const settings = await getSettings();
       const lang = settings.language;
@@ -111,14 +113,15 @@ function App() {
     });
 
     const unlistenNewWord = listen<WordOfTheHour>("new-word-of-hour", async (event) => {
-      const settings = await getSettings();
+      const payload = event.payload as any;
+      const wordLang = payload.language || (await getSettings()).language;
       const word: WordOfTheHour = {
-        english: (event.payload as any).english,
-        translation: (event.payload as any).translation,
-        pronunciation: (event.payload as any).pronunciation,
-        deliveredAt: new Date(Number((event.payload as any).deliveredAt) || Date.now()).toISOString(),
+        english: payload.english,
+        translation: payload.translation,
+        pronunciation: payload.pronunciation,
+        deliveredAt: new Date(Number(payload.deliveredAt) || Date.now()).toISOString(),
       };
-      await addWordOfTheHour(word, settings.language);
+      await addWordOfTheHour(word, wordLang);
       setLatestWord(word);
     });
 
@@ -140,12 +143,12 @@ function App() {
   const goHome = () => setView("home");
 
   const handleLanguageChange = async (newLang: string) => {
+    // Stop old timer first to prevent race condition with settings change
+    invoke("stop_word_timer").catch(() => {});
+
     setLanguage(newLang);
     const settings = await getSettings();
     await saveSettings({ ...settings, language: newLang });
-
-    // Restart word timer with new language
-    invoke("stop_word_timer").catch(() => {});
     if (settings.notificationInterval > 0) {
       const history = await getWordHistory(newLang);
       let initialDelaySecs = 0;

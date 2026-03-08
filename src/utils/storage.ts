@@ -48,6 +48,7 @@ const VOCAB_KEY = "siesta-vocabulary";
 const WOTH_KEY = "siesta-woth-history";
 const QUIZ_KEY = "siesta-quiz-results";
 const MIGRATION_KEY = "siesta-data-migrated-v1";
+const WOTH_CLEANUP_KEY = "siesta-woth-cleanup-v2";
 
 function langKey(base: string, language: string): string {
   return `${base}:${language.toLowerCase()}`;
@@ -80,6 +81,14 @@ export async function migrateGlobalDataToPerLanguage(): Promise<void> {
   }
 
   localStorage.setItem(MIGRATION_KEY, "true");
+}
+
+export function clearCorruptedWordHistory(): void {
+  if (localStorage.getItem(WOTH_CLEANUP_KEY) === "v2") return;
+  for (const lang of LANGUAGES) {
+    localStorage.removeItem(langKey(WOTH_KEY, lang));
+  }
+  localStorage.setItem(WOTH_CLEANUP_KEY, "v2");
 }
 
 // ─── Persisted config (~/.siesta/config.json) ───
