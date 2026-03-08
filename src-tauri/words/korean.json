@@ -1,0 +1,1342 @@
+{
+  "hello": {
+    "word": "annyeonghaseyo",
+    "pronunciation": "ahn-NYONG-hah-SAY-yo",
+    "native": "안녕하세요"
+  },
+  "goodbye": {
+    "word": "annyeonghi gaseyo",
+    "pronunciation": "ahn-NYONG-hee gah-SAY-yo",
+    "native": "안녕히 가세요"
+  },
+  "please": {
+    "word": "juseyo",
+    "pronunciation": "joo-SAY-yo",
+    "native": "주세요"
+  },
+  "thank you": {
+    "word": "gamsahamnida",
+    "pronunciation": "gahm-sah-HAHM-nee-dah",
+    "native": "감사합니다"
+  },
+  "excuse me": {
+    "word": "sillyehamnida",
+    "pronunciation": "shil-LAY-hahm-nee-dah",
+    "native": "실례합니다"
+  },
+  "sorry": {
+    "word": "joesonghamnida",
+    "pronunciation": "jweh-SONG-hahm-nee-dah",
+    "native": "죄송합니다"
+  },
+  "good morning": {
+    "word": "joeun achim",
+    "pronunciation": "JOH-eun AH-chim",
+    "native": "좋은 아침"
+  },
+  "good evening": {
+    "word": "joeun jeonyeok",
+    "pronunciation": "JOH-eun JON-yok",
+    "native": "좋은 저녁"
+  },
+  "good night": {
+    "word": "jaljayo",
+    "pronunciation": "jahl-JAH-yo",
+    "native": "잘자요"
+  },
+  "how are you": {
+    "word": "eotteoseyo",
+    "pronunciation": "OT-toh-SAY-yo",
+    "native": "어떠세요"
+  },
+  "welcome": {
+    "word": "hwanyeonghamnida",
+    "pronunciation": "hwahn-YONG-hahm-nee-dah",
+    "native": "환영합니다"
+  },
+  "yes": {
+    "word": "ne",
+    "pronunciation": "NEH",
+    "native": "네"
+  },
+  "no": {
+    "word": "aniyo",
+    "pronunciation": "ah-NEE-yo",
+    "native": "아니요"
+  },
+  "one": {
+    "word": "il",
+    "pronunciation": "EEL",
+    "native": "일"
+  },
+  "two": {
+    "word": "i",
+    "pronunciation": "EE",
+    "native": "이"
+  },
+  "three": {
+    "word": "sam",
+    "pronunciation": "SAHM",
+    "native": "삼"
+  },
+  "four": {
+    "word": "sa",
+    "pronunciation": "SAH",
+    "native": "사"
+  },
+  "five": {
+    "word": "o",
+    "pronunciation": "OH",
+    "native": "오"
+  },
+  "six": {
+    "word": "yuk",
+    "pronunciation": "YOOK",
+    "native": "육"
+  },
+  "seven": {
+    "word": "chil",
+    "pronunciation": "CHEEL",
+    "native": "칠"
+  },
+  "eight": {
+    "word": "pal",
+    "pronunciation": "PAHL",
+    "native": "팔"
+  },
+  "nine": {
+    "word": "gu",
+    "pronunciation": "GOO",
+    "native": "구"
+  },
+  "ten": {
+    "word": "sip",
+    "pronunciation": "SHIP",
+    "native": "십"
+  },
+  "eleven": {
+    "word": "sibil",
+    "pronunciation": "SHIB-eel",
+    "native": "십일"
+  },
+  "twelve": {
+    "word": "sibi",
+    "pronunciation": "SHIB-ee",
+    "native": "십이"
+  },
+  "thirteen": {
+    "word": "sipsam",
+    "pronunciation": "SHIP-sahm",
+    "native": "십삼"
+  },
+  "fourteen": {
+    "word": "sipsa",
+    "pronunciation": "SHIP-sah",
+    "native": "십사"
+  },
+  "fifteen": {
+    "word": "sibo",
+    "pronunciation": "SHIB-oh",
+    "native": "십오"
+  },
+  "sixteen": {
+    "word": "simnyuk",
+    "pronunciation": "SHIM-nyook",
+    "native": "십육"
+  },
+  "seventeen": {
+    "word": "sipchil",
+    "pronunciation": "SHIP-cheel",
+    "native": "십칠"
+  },
+  "eighteen": {
+    "word": "sippal",
+    "pronunciation": "SHIP-pahl",
+    "native": "십팔"
+  },
+  "nineteen": {
+    "word": "sipgu",
+    "pronunciation": "SHIP-goo",
+    "native": "십구"
+  },
+  "twenty": {
+    "word": "isip",
+    "pronunciation": "EE-ship",
+    "native": "이십"
+  },
+  "thirty": {
+    "word": "samsip",
+    "pronunciation": "SAHM-ship",
+    "native": "삼십"
+  },
+  "forty": {
+    "word": "sasip",
+    "pronunciation": "SAH-ship",
+    "native": "사십"
+  },
+  "fifty": {
+    "word": "osip",
+    "pronunciation": "OH-ship",
+    "native": "오십"
+  },
+  "sixty": {
+    "word": "yuksip",
+    "pronunciation": "YOOK-ship",
+    "native": "육십"
+  },
+  "seventy": {
+    "word": "chilsip",
+    "pronunciation": "CHEEL-ship",
+    "native": "칠십"
+  },
+  "eighty": {
+    "word": "palsip",
+    "pronunciation": "PAHL-ship",
+    "native": "팔십"
+  },
+  "ninety": {
+    "word": "gusip",
+    "pronunciation": "GOO-ship",
+    "native": "구십"
+  },
+  "hundred": {
+    "word": "baek",
+    "pronunciation": "BAEK",
+    "native": "백"
+  },
+  "monday": {
+    "word": "woryoil",
+    "pronunciation": "WOL-yo-eel",
+    "native": "월요일"
+  },
+  "tuesday": {
+    "word": "hwayoil",
+    "pronunciation": "HWAH-yo-eel",
+    "native": "화요일"
+  },
+  "wednesday": {
+    "word": "suyoil",
+    "pronunciation": "SOO-yo-eel",
+    "native": "수요일"
+  },
+  "thursday": {
+    "word": "mogyoil",
+    "pronunciation": "MOK-yo-eel",
+    "native": "목요일"
+  },
+  "friday": {
+    "word": "geumyoil",
+    "pronunciation": "GEUM-yo-eel",
+    "native": "금요일"
+  },
+  "saturday": {
+    "word": "toyoil",
+    "pronunciation": "TOH-yo-eel",
+    "native": "토요일"
+  },
+  "sunday": {
+    "word": "iryoil",
+    "pronunciation": "EER-yo-eel",
+    "native": "일요일"
+  },
+  "january": {
+    "word": "irwol",
+    "pronunciation": "EER-wol",
+    "native": "일월"
+  },
+  "february": {
+    "word": "iwol",
+    "pronunciation": "EE-wol",
+    "native": "이월"
+  },
+  "march": {
+    "word": "samwol",
+    "pronunciation": "SAHM-wol",
+    "native": "삼월"
+  },
+  "april": {
+    "word": "sawol",
+    "pronunciation": "SAH-wol",
+    "native": "사월"
+  },
+  "may": {
+    "word": "owol",
+    "pronunciation": "OH-wol",
+    "native": "오월"
+  },
+  "june": {
+    "word": "yuwol",
+    "pronunciation": "YOO-wol",
+    "native": "유월"
+  },
+  "july": {
+    "word": "chirwol",
+    "pronunciation": "CHEER-wol",
+    "native": "칠월"
+  },
+  "august": {
+    "word": "parwol",
+    "pronunciation": "PAHR-wol",
+    "native": "팔월"
+  },
+  "september": {
+    "word": "guwol",
+    "pronunciation": "GOO-wol",
+    "native": "구월"
+  },
+  "october": {
+    "word": "siwol",
+    "pronunciation": "SHEE-wol",
+    "native": "시월"
+  },
+  "november": {
+    "word": "sibirwol",
+    "pronunciation": "SHIB-eer-wol",
+    "native": "십일월"
+  },
+  "december": {
+    "word": "sibiwol",
+    "pronunciation": "SHIB-ee-wol",
+    "native": "십이월"
+  },
+  "today": {
+    "word": "oneul",
+    "pronunciation": "OH-neul",
+    "native": "오늘"
+  },
+  "tomorrow": {
+    "word": "naeil",
+    "pronunciation": "NAE-eel",
+    "native": "내일"
+  },
+  "yesterday": {
+    "word": "eoje",
+    "pronunciation": "OH-jeh",
+    "native": "어제"
+  },
+  "morning": {
+    "word": "achim",
+    "pronunciation": "AH-chim",
+    "native": "아침"
+  },
+  "afternoon": {
+    "word": "ohu",
+    "pronunciation": "OH-hoo",
+    "native": "오후"
+  },
+  "evening": {
+    "word": "jeonyeok",
+    "pronunciation": "JON-yok",
+    "native": "저녁"
+  },
+  "night": {
+    "word": "bam",
+    "pronunciation": "BAHM",
+    "native": "밤"
+  },
+  "now": {
+    "word": "jigeum",
+    "pronunciation": "JEE-geum",
+    "native": "지금"
+  },
+  "later": {
+    "word": "najunge",
+    "pronunciation": "nah-JOONG-eh",
+    "native": "나중에"
+  },
+  "soon": {
+    "word": "got",
+    "pronunciation": "GOHT",
+    "native": "곧"
+  },
+  "always": {
+    "word": "hangsang",
+    "pronunciation": "HAHNG-sahng",
+    "native": "항상"
+  },
+  "never": {
+    "word": "jeoldae",
+    "pronunciation": "JOL-dae",
+    "native": "절대"
+  },
+  "sometimes": {
+    "word": "gakkeum",
+    "pronunciation": "GAHK-keum",
+    "native": "가끔"
+  },
+  "early": {
+    "word": "iljjik",
+    "pronunciation": "EEL-jjik",
+    "native": "일찍"
+  },
+  "late": {
+    "word": "neutge",
+    "pronunciation": "NEUT-geh",
+    "native": "늦게"
+  },
+  "water": {
+    "word": "mul",
+    "pronunciation": "MOOL",
+    "native": "물"
+  },
+  "bread": {
+    "word": "ppang",
+    "pronunciation": "PPAHNG",
+    "native": "빵"
+  },
+  "wine": {
+    "word": "wain",
+    "pronunciation": "WAH-een",
+    "native": "와인"
+  },
+  "coffee": {
+    "word": "keopi",
+    "pronunciation": "KOH-pee",
+    "native": "커피"
+  },
+  "milk": {
+    "word": "uyu",
+    "pronunciation": "OO-yoo",
+    "native": "우유"
+  },
+  "cheese": {
+    "word": "chijeu",
+    "pronunciation": "CHEE-jeu",
+    "native": "치즈"
+  },
+  "meat": {
+    "word": "gogi",
+    "pronunciation": "GOH-gee",
+    "native": "고기"
+  },
+  "fish": {
+    "word": "saengseon",
+    "pronunciation": "SAENG-son",
+    "native": "생선"
+  },
+  "fruit": {
+    "word": "gwail",
+    "pronunciation": "GWAH-eel",
+    "native": "과일"
+  },
+  "rice": {
+    "word": "bap",
+    "pronunciation": "BAHP",
+    "native": "밥"
+  },
+  "chicken": {
+    "word": "dakgogi",
+    "pronunciation": "DAHK-goh-gee",
+    "native": "닭고기"
+  },
+  "egg": {
+    "word": "gyeran",
+    "pronunciation": "GYEH-rahn",
+    "native": "계란"
+  },
+  "salt": {
+    "word": "sogeum",
+    "pronunciation": "SOH-geum",
+    "native": "소금"
+  },
+  "sugar": {
+    "word": "seoltang",
+    "pronunciation": "SOL-tahng",
+    "native": "설탕"
+  },
+  "beer": {
+    "word": "maekju",
+    "pronunciation": "MAEK-joo",
+    "native": "맥주"
+  },
+  "tea": {
+    "word": "cha",
+    "pronunciation": "CHAH",
+    "native": "차"
+  },
+  "vegetable": {
+    "word": "chaeso",
+    "pronunciation": "CHAE-soh",
+    "native": "채소"
+  },
+  "soup": {
+    "word": "guk",
+    "pronunciation": "GOOK",
+    "native": "국"
+  },
+  "cake": {
+    "word": "keikeu",
+    "pronunciation": "KAY-keu",
+    "native": "케이크"
+  },
+  "butter": {
+    "word": "beoteo",
+    "pronunciation": "BOH-toh",
+    "native": "버터"
+  },
+  "left": {
+    "word": "oenjjok",
+    "pronunciation": "OEN-jjok",
+    "native": "왼쪽"
+  },
+  "right": {
+    "word": "oreunjjok",
+    "pronunciation": "oh-REUN-jjok",
+    "native": "오른쪽"
+  },
+  "north": {
+    "word": "buk",
+    "pronunciation": "BOOK",
+    "native": "북"
+  },
+  "south": {
+    "word": "nam",
+    "pronunciation": "NAHM",
+    "native": "남"
+  },
+  "east": {
+    "word": "dong",
+    "pronunciation": "DONG",
+    "native": "동"
+  },
+  "west": {
+    "word": "seo",
+    "pronunciation": "SOH",
+    "native": "서"
+  },
+  "map": {
+    "word": "jido",
+    "pronunciation": "JEE-doh",
+    "native": "지도"
+  },
+  "airport": {
+    "word": "gonghang",
+    "pronunciation": "GONG-hahng",
+    "native": "공항"
+  },
+  "hotel": {
+    "word": "hotel",
+    "pronunciation": "HOH-tel",
+    "native": "호텔"
+  },
+  "train": {
+    "word": "gicha",
+    "pronunciation": "GEE-chah",
+    "native": "기차"
+  },
+  "bus": {
+    "word": "beoseu",
+    "pronunciation": "BOH-seu",
+    "native": "버스"
+  },
+  "car": {
+    "word": "jadongcha",
+    "pronunciation": "jah-DONG-chah",
+    "native": "자동차"
+  },
+  "ticket": {
+    "word": "pyo",
+    "pronunciation": "PYOH",
+    "native": "표"
+  },
+  "station": {
+    "word": "yeok",
+    "pronunciation": "YOK",
+    "native": "역"
+  },
+  "restaurant": {
+    "word": "sikdang",
+    "pronunciation": "SHIK-dahng",
+    "native": "식당"
+  },
+  "bank": {
+    "word": "eunhaeng",
+    "pronunciation": "EUN-haeng",
+    "native": "은행"
+  },
+  "hospital": {
+    "word": "byeongwon",
+    "pronunciation": "BYONG-won",
+    "native": "병원"
+  },
+  "pharmacy": {
+    "word": "yakguk",
+    "pronunciation": "YAHK-gook",
+    "native": "약국"
+  },
+  "beach": {
+    "word": "haebyeon",
+    "pronunciation": "HAE-byon",
+    "native": "해변"
+  },
+  "museum": {
+    "word": "bangmulgwan",
+    "pronunciation": "bahng-MOOL-gwahn",
+    "native": "박물관"
+  },
+  "be": {
+    "word": "ida",
+    "pronunciation": "EE-dah",
+    "native": "이다"
+  },
+  "have": {
+    "word": "itda",
+    "pronunciation": "EET-dah",
+    "native": "있다"
+  },
+  "go": {
+    "word": "gada",
+    "pronunciation": "GAH-dah",
+    "native": "가다"
+  },
+  "come": {
+    "word": "oda",
+    "pronunciation": "OH-dah",
+    "native": "오다"
+  },
+  "eat": {
+    "word": "meokda",
+    "pronunciation": "MOK-dah",
+    "native": "먹다"
+  },
+  "drink": {
+    "word": "masida",
+    "pronunciation": "mah-SHEE-dah",
+    "native": "마시다"
+  },
+  "want": {
+    "word": "weonhada",
+    "pronunciation": "WON-hah-dah",
+    "native": "원하다"
+  },
+  "need": {
+    "word": "piryohada",
+    "pronunciation": "pee-RYOH-hah-dah",
+    "native": "필요하다"
+  },
+  "can": {
+    "word": "hal su itda",
+    "pronunciation": "hahl soo EET-dah",
+    "native": "할 수 있다"
+  },
+  "do": {
+    "word": "hada",
+    "pronunciation": "HAH-dah",
+    "native": "하다"
+  },
+  "make": {
+    "word": "mandeulda",
+    "pronunciation": "mahn-DEUL-dah",
+    "native": "만들다"
+  },
+  "see": {
+    "word": "boda",
+    "pronunciation": "BOH-dah",
+    "native": "보다"
+  },
+  "look": {
+    "word": "baraboda",
+    "pronunciation": "bah-rah-BOH-dah",
+    "native": "바라보다"
+  },
+  "know": {
+    "word": "alda",
+    "pronunciation": "AHL-dah",
+    "native": "알다"
+  },
+  "think": {
+    "word": "saenggakada",
+    "pronunciation": "saeng-GAH-kah-dah",
+    "native": "생각하다"
+  },
+  "say": {
+    "word": "malhada",
+    "pronunciation": "MAHL-hah-dah",
+    "native": "말하다"
+  },
+  "tell": {
+    "word": "allyeojuda",
+    "pronunciation": "ahl-LYOH-joo-dah",
+    "native": "알려주다"
+  },
+  "speak": {
+    "word": "malhada",
+    "pronunciation": "MAHL-hah-dah",
+    "native": "말하다"
+  },
+  "give": {
+    "word": "juda",
+    "pronunciation": "JOO-dah",
+    "native": "주다"
+  },
+  "take": {
+    "word": "gajida",
+    "pronunciation": "gah-JEE-dah",
+    "native": "가지다"
+  },
+  "find": {
+    "word": "chatda",
+    "pronunciation": "CHAHT-dah",
+    "native": "찾다"
+  },
+  "put": {
+    "word": "nota",
+    "pronunciation": "NOH-tah",
+    "native": "놓다"
+  },
+  "read": {
+    "word": "ikda",
+    "pronunciation": "EEK-dah",
+    "native": "읽다"
+  },
+  "write": {
+    "word": "sseuda",
+    "pronunciation": "SSEU-dah",
+    "native": "쓰다"
+  },
+  "buy": {
+    "word": "sada",
+    "pronunciation": "SAH-dah",
+    "native": "사다"
+  },
+  "sell": {
+    "word": "palda",
+    "pronunciation": "PAHL-dah",
+    "native": "팔다"
+  },
+  "open": {
+    "word": "yeolda",
+    "pronunciation": "YOL-dah",
+    "native": "열다"
+  },
+  "close": {
+    "word": "datda",
+    "pronunciation": "DAHT-dah",
+    "native": "닫다"
+  },
+  "start": {
+    "word": "sijakhada",
+    "pronunciation": "shee-JAH-kah-dah",
+    "native": "시작하다"
+  },
+  "stop": {
+    "word": "meomchuda",
+    "pronunciation": "MOM-choo-dah",
+    "native": "멈추다"
+  },
+  "sleep": {
+    "word": "jada",
+    "pronunciation": "JAH-dah",
+    "native": "자다"
+  },
+  "wake": {
+    "word": "ireonada",
+    "pronunciation": "ee-ROH-nah-dah",
+    "native": "일어나다"
+  },
+  "run": {
+    "word": "dallida",
+    "pronunciation": "DAHL-lee-dah",
+    "native": "달리다"
+  },
+  "walk": {
+    "word": "geotda",
+    "pronunciation": "GOT-dah",
+    "native": "걷다"
+  },
+  "wait": {
+    "word": "gidarida",
+    "pronunciation": "gee-dah-REE-dah",
+    "native": "기다리다"
+  },
+  "help": {
+    "word": "dopda",
+    "pronunciation": "DOHP-dah",
+    "native": "돕다"
+  },
+  "learn": {
+    "word": "baeuda",
+    "pronunciation": "BAE-oo-dah",
+    "native": "배우다"
+  },
+  "teach": {
+    "word": "garechida",
+    "pronunciation": "gah-REH-chee-dah",
+    "native": "가르치다"
+  },
+  "like": {
+    "word": "joahada",
+    "pronunciation": "joh-AH-hah-dah",
+    "native": "좋아하다"
+  },
+  "love": {
+    "word": "saranghada",
+    "pronunciation": "sah-RAHNG-hah-dah",
+    "native": "사랑하다"
+  },
+  "good": {
+    "word": "joeun",
+    "pronunciation": "JOH-eun",
+    "native": "좋은"
+  },
+  "bad": {
+    "word": "nappeun",
+    "pronunciation": "NAH-ppeun",
+    "native": "나쁜"
+  },
+  "big": {
+    "word": "keun",
+    "pronunciation": "KEUN",
+    "native": "큰"
+  },
+  "small": {
+    "word": "jageun",
+    "pronunciation": "JAH-geun",
+    "native": "작은"
+  },
+  "new": {
+    "word": "saeroun",
+    "pronunciation": "SAE-roh-oon",
+    "native": "새로운"
+  },
+  "old": {
+    "word": "oraedoen",
+    "pronunciation": "oh-RAE-dwen",
+    "native": "오래된"
+  },
+  "beautiful": {
+    "word": "areumdaun",
+    "pronunciation": "ah-REUM-dah-oon",
+    "native": "아름다운"
+  },
+  "ugly": {
+    "word": "mosssaengin",
+    "pronunciation": "moht-SAENG-geen",
+    "native": "못생긴"
+  },
+  "hot": {
+    "word": "deoun",
+    "pronunciation": "DOH-oon",
+    "native": "더운"
+  },
+  "cold": {
+    "word": "chagaun",
+    "pronunciation": "CHAH-gah-oon",
+    "native": "차가운"
+  },
+  "fast": {
+    "word": "ppareun",
+    "pronunciation": "PPAH-reun",
+    "native": "빠른"
+  },
+  "slow": {
+    "word": "neurin",
+    "pronunciation": "NEU-reen",
+    "native": "느린"
+  },
+  "easy": {
+    "word": "swiun",
+    "pronunciation": "SHWEE-oon",
+    "native": "쉬운"
+  },
+  "hard": {
+    "word": "eoryeoun",
+    "pronunciation": "OH-ryoh-oon",
+    "native": "어려운"
+  },
+  "happy": {
+    "word": "haengbokhan",
+    "pronunciation": "HAENG-boh-kahn",
+    "native": "행복한"
+  },
+  "sad": {
+    "word": "seulpeun",
+    "pronunciation": "SEUL-peun",
+    "native": "슬픈"
+  },
+  "rich": {
+    "word": "bujahan",
+    "pronunciation": "BOO-jah-hahn",
+    "native": "부자한"
+  },
+  "poor": {
+    "word": "gananhan",
+    "pronunciation": "gah-NAHN-hahn",
+    "native": "가난한"
+  },
+  "young": {
+    "word": "jeolmeun",
+    "pronunciation": "JOL-meun",
+    "native": "젊은"
+  },
+  "long": {
+    "word": "gin",
+    "pronunciation": "GEEN",
+    "native": "긴"
+  },
+  "short": {
+    "word": "jjalbeun",
+    "pronunciation": "JJAHL-beun",
+    "native": "짧은"
+  },
+  "tall": {
+    "word": "keun",
+    "pronunciation": "KEUN",
+    "native": "큰"
+  },
+  "full": {
+    "word": "gadeuk chan",
+    "pronunciation": "gah-DEUK chahn",
+    "native": "가득 찬"
+  },
+  "empty": {
+    "word": "bin",
+    "pronunciation": "BEEN",
+    "native": "빈"
+  },
+  "clean": {
+    "word": "kkaekkeuthan",
+    "pronunciation": "KKAE-kkeu-tahn",
+    "native": "깨끗한"
+  },
+  "dirty": {
+    "word": "deoreoun",
+    "pronunciation": "DOH-roh-oon",
+    "native": "더러운"
+  },
+  "quiet": {
+    "word": "joyonghan",
+    "pronunciation": "joh-YONG-hahn",
+    "native": "조용한"
+  },
+  "loud": {
+    "word": "sikkeuroun",
+    "pronunciation": "SHIK-keu-roh-oon",
+    "native": "시끄러운"
+  },
+  "dark": {
+    "word": "eoduwun",
+    "pronunciation": "OH-doo-oon",
+    "native": "어두운"
+  },
+  "light": {
+    "word": "balgeun",
+    "pronunciation": "BAHL-geun",
+    "native": "밝은"
+  },
+  "house": {
+    "word": "jip",
+    "pronunciation": "JEEP",
+    "native": "집"
+  },
+  "food": {
+    "word": "eumsik",
+    "pronunciation": "EUM-shik",
+    "native": "음식"
+  },
+  "person": {
+    "word": "saram",
+    "pronunciation": "SAH-rahm",
+    "native": "사람"
+  },
+  "city": {
+    "word": "dosi",
+    "pronunciation": "DOH-shee",
+    "native": "도시"
+  },
+  "street": {
+    "word": "geori",
+    "pronunciation": "GOH-ree",
+    "native": "거리"
+  },
+  "man": {
+    "word": "namja",
+    "pronunciation": "NAHM-jah",
+    "native": "남자"
+  },
+  "woman": {
+    "word": "yeoja",
+    "pronunciation": "YOH-jah",
+    "native": "여자"
+  },
+  "child": {
+    "word": "ai",
+    "pronunciation": "AH-ee",
+    "native": "아이"
+  },
+  "book": {
+    "word": "chaek",
+    "pronunciation": "CHAEK",
+    "native": "책"
+  },
+  "music": {
+    "word": "eumak",
+    "pronunciation": "EU-mahk",
+    "native": "음악"
+  },
+  "world": {
+    "word": "sesang",
+    "pronunciation": "SEH-sahng",
+    "native": "세상"
+  },
+  "life": {
+    "word": "salm",
+    "pronunciation": "SAHLM",
+    "native": "삶"
+  },
+  "friend": {
+    "word": "chingu",
+    "pronunciation": "CHEEN-goo",
+    "native": "친구"
+  },
+  "family": {
+    "word": "gajok",
+    "pronunciation": "GAH-johk",
+    "native": "가족"
+  },
+  "money": {
+    "word": "don",
+    "pronunciation": "DOHN",
+    "native": "돈"
+  },
+  "work": {
+    "word": "il",
+    "pronunciation": "EEL",
+    "native": "일"
+  },
+  "time": {
+    "word": "sigan",
+    "pronunciation": "SHEE-gahn",
+    "native": "시간"
+  },
+  "day": {
+    "word": "nal",
+    "pronunciation": "NAHL",
+    "native": "날"
+  },
+  "year": {
+    "word": "nyeon",
+    "pronunciation": "NYON",
+    "native": "년"
+  },
+  "school": {
+    "word": "hakgyo",
+    "pronunciation": "HAHK-gyoh",
+    "native": "학교"
+  },
+  "door": {
+    "word": "mun",
+    "pronunciation": "MOON",
+    "native": "문"
+  },
+  "window": {
+    "word": "changmun",
+    "pronunciation": "CHAHNG-moon",
+    "native": "창문"
+  },
+  "table": {
+    "word": "takja",
+    "pronunciation": "TAHK-jah",
+    "native": "탁자"
+  },
+  "phone": {
+    "word": "jeonhwa",
+    "pronunciation": "JON-hwah",
+    "native": "전화"
+  },
+  "name": {
+    "word": "ireum",
+    "pronunciation": "EE-reum",
+    "native": "이름"
+  },
+  "number": {
+    "word": "beonho",
+    "pronunciation": "BON-hoh",
+    "native": "번호"
+  },
+  "country": {
+    "word": "nara",
+    "pronunciation": "NAH-rah",
+    "native": "나라"
+  },
+  "language": {
+    "word": "eoneo",
+    "pronunciation": "OH-noh",
+    "native": "언어"
+  },
+  "way": {
+    "word": "gil",
+    "pronunciation": "GEEL",
+    "native": "길"
+  },
+  "thing": {
+    "word": "geot",
+    "pronunciation": "GOT",
+    "native": "것"
+  },
+  "place": {
+    "word": "jangso",
+    "pronunciation": "JAHNG-soh",
+    "native": "장소"
+  },
+  "hand": {
+    "word": "son",
+    "pronunciation": "SOHN",
+    "native": "손"
+  },
+  "head": {
+    "word": "meori",
+    "pronunciation": "MOH-ree",
+    "native": "머리"
+  },
+  "eye": {
+    "word": "nun",
+    "pronunciation": "NOON",
+    "native": "눈"
+  },
+  "word": {
+    "word": "daneo",
+    "pronunciation": "DAH-noh",
+    "native": "단어"
+  },
+  "story": {
+    "word": "iyagi",
+    "pronunciation": "ee-YAH-gee",
+    "native": "이야기"
+  },
+  "problem": {
+    "word": "munje",
+    "pronunciation": "MOON-jeh",
+    "native": "문제"
+  },
+  "who": {
+    "word": "nugu",
+    "pronunciation": "NOO-goo",
+    "native": "누구"
+  },
+  "what": {
+    "word": "mwo",
+    "pronunciation": "MWOH",
+    "native": "뭐"
+  },
+  "where": {
+    "word": "eodi",
+    "pronunciation": "OH-dee",
+    "native": "어디"
+  },
+  "when": {
+    "word": "eonje",
+    "pronunciation": "ON-jeh",
+    "native": "언제"
+  },
+  "why": {
+    "word": "wae",
+    "pronunciation": "WAE",
+    "native": "왜"
+  },
+  "how": {
+    "word": "eotteoke",
+    "pronunciation": "OT-toh-keh",
+    "native": "어떻게"
+  },
+  "which": {
+    "word": "eotteon",
+    "pronunciation": "OT-ton",
+    "native": "어떤"
+  },
+  "how much": {
+    "word": "eolma",
+    "pronunciation": "OL-mah",
+    "native": "얼마"
+  },
+  "how many": {
+    "word": "myeot gae",
+    "pronunciation": "MYOT gae",
+    "native": "몇 개"
+  },
+  "I": {
+    "word": "na",
+    "pronunciation": "NAH",
+    "native": "나"
+  },
+  "you": {
+    "word": "dangsin",
+    "pronunciation": "DAHNG-shin",
+    "native": "당신"
+  },
+  "he": {
+    "word": "geu",
+    "pronunciation": "GEU",
+    "native": "그"
+  },
+  "she": {
+    "word": "geunyeo",
+    "pronunciation": "GEU-nyoh",
+    "native": "그녀"
+  },
+  "it": {
+    "word": "geugeot",
+    "pronunciation": "GEU-got",
+    "native": "그것"
+  },
+  "we": {
+    "word": "uri",
+    "pronunciation": "OO-ree",
+    "native": "우리"
+  },
+  "they": {
+    "word": "geudeul",
+    "pronunciation": "GEU-deul",
+    "native": "그들"
+  },
+  "me": {
+    "word": "nareul",
+    "pronunciation": "NAH-reul",
+    "native": "나를"
+  },
+  "him": {
+    "word": "geureul",
+    "pronunciation": "GEU-reul",
+    "native": "그를"
+  },
+  "her": {
+    "word": "geunyeoreul",
+    "pronunciation": "GEU-nyoh-reul",
+    "native": "그녀를"
+  },
+  "us": {
+    "word": "urireul",
+    "pronunciation": "OO-ree-reul",
+    "native": "우리를"
+  },
+  "them": {
+    "word": "geudeureul",
+    "pronunciation": "GEU-deu-reul",
+    "native": "그들을"
+  },
+  "my": {
+    "word": "naui",
+    "pronunciation": "NAH-eui",
+    "native": "나의"
+  },
+  "your": {
+    "word": "dangsinui",
+    "pronunciation": "DAHNG-shin-eui",
+    "native": "당신의"
+  },
+  "his": {
+    "word": "geuui",
+    "pronunciation": "GEU-eui",
+    "native": "그의"
+  },
+  "this": {
+    "word": "igeo",
+    "pronunciation": "EE-goh",
+    "native": "이것"
+  },
+  "that": {
+    "word": "geugeo",
+    "pronunciation": "GEU-goh",
+    "native": "그것"
+  },
+  "in": {
+    "word": "ane",
+    "pronunciation": "AH-neh",
+    "native": "안에"
+  },
+  "on": {
+    "word": "wie",
+    "pronunciation": "WEE-eh",
+    "native": "위에"
+  },
+  "at": {
+    "word": "e",
+    "pronunciation": "EH",
+    "native": "에"
+  },
+  "to": {
+    "word": "euro",
+    "pronunciation": "EU-roh",
+    "native": "으로"
+  },
+  "from": {
+    "word": "eseo",
+    "pronunciation": "EH-soh",
+    "native": "에서"
+  },
+  "with": {
+    "word": "gwa",
+    "pronunciation": "GWAH",
+    "native": "과"
+  },
+  "without": {
+    "word": "eobsi",
+    "pronunciation": "OB-shee",
+    "native": "없이"
+  },
+  "for": {
+    "word": "wihae",
+    "pronunciation": "WEE-hae",
+    "native": "위해"
+  },
+  "about": {
+    "word": "daehae",
+    "pronunciation": "DAE-hae",
+    "native": "대해"
+  },
+  "between": {
+    "word": "sai",
+    "pronunciation": "SAH-ee",
+    "native": "사이"
+  },
+  "before": {
+    "word": "jeone",
+    "pronunciation": "JON-eh",
+    "native": "전에"
+  },
+  "after": {
+    "word": "hue",
+    "pronunciation": "HOO-eh",
+    "native": "후에"
+  },
+  "during": {
+    "word": "dongan",
+    "pronunciation": "DONG-ahn",
+    "native": "동안"
+  },
+  "and": {
+    "word": "geurigo",
+    "pronunciation": "GEU-ree-goh",
+    "native": "그리고"
+  },
+  "but": {
+    "word": "hajiman",
+    "pronunciation": "hah-JEE-mahn",
+    "native": "하지만"
+  },
+  "or": {
+    "word": "ttoneun",
+    "pronunciation": "TTOH-neun",
+    "native": "또는"
+  },
+  "because": {
+    "word": "waenya hamyeon",
+    "pronunciation": "WAE-nyah hah-MYOHN",
+    "native": "왜냐하면"
+  },
+  "if": {
+    "word": "mannyak",
+    "pronunciation": "MAHN-nyahk",
+    "native": "만약"
+  },
+  "than": {
+    "word": "boda",
+    "pronunciation": "BOH-dah",
+    "native": "보다"
+  },
+  "also": {
+    "word": "ttohan",
+    "pronunciation": "TTOH-hahn",
+    "native": "또한"
+  }
+}

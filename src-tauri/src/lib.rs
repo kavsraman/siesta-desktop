@@ -115,6 +115,7 @@ fn lookup_offline(text: String, target_language: String) -> Result<String, Strin
         "tamil" => include_str!("../words/tamil.json"),
         "hindi" => include_str!("../words/hindi.json"),
         "mandarin" => include_str!("../words/mandarin.json"),
+        "korean" => include_str!("../words/korean.json"),
         _ => include_str!("../words/italian.json"),
     };
 
@@ -145,6 +146,7 @@ fn get_bundled_words(language: String) -> Result<String, String> {
         "tamil" => include_str!("../words/tamil.json"),
         "hindi" => include_str!("../words/hindi.json"),
         "mandarin" => include_str!("../words/mandarin.json"),
+        "korean" => include_str!("../words/korean.json"),
         _ => include_str!("../words/italian.json"),
     };
     Ok(json_str.to_string())

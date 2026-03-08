@@ -1,6 +1,6 @@
 import { invoke } from "@tauri-apps/api/core";
 
-export const LANGUAGES = ["Italian", "Spanish", "French", "Tamil", "German", "Hindi", "Mandarin"];
+export const LANGUAGES = ["Italian", "Spanish", "French", "Tamil", "German", "Hindi", "Mandarin", "Korean"];
 
 export interface SiestaSettings {
   apiKey: string;
