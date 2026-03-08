@@ -12,6 +12,7 @@ interface DisplayWord {
   english: string;
   translation: string;
   pronunciation: string;
+  native?: string;
   stage: string;
   favorited: boolean;
   source: "user" | "system";
@@ -95,6 +96,7 @@ function Vocabulary({ onBack, language, onLanguageChange }: VocabularyProps) {
             english,
             translation: entry.word,
             pronunciation: entry.pronunciation || "",
+            native: entry.native,
             stage: "exposed",
             favorited: false,
             source: "system",
@@ -289,7 +291,11 @@ function Vocabulary({ onBack, language, onLanguageChange }: VocabularyProps) {
                 onClick={() => handleWordClick(word)}
               >
                 <div className="vocabulary-item-main">
-                  <span className="vocabulary-item-foreign">{word.translation}</span>
+                  <span className="vocabulary-item-foreign">
+                    {word.native && word.native !== word.translation
+                      ? `${word.translation} / ${word.native}`
+                      : word.translation}
+                  </span>
                   <span className="vocabulary-item-english">{word.english}</span>
                 </div>
                 <div className="vocabulary-item-right">
